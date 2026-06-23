@@ -1,0 +1,103 @@
+{
+  "circuitos": [
+    {
+      "id": "abu-dhabi",
+      "nome": "Abu Dhabi",
+      "foto": "imagens/circuitos/abu-dhabi.jpg",
+      "maior_vencedor": "Cloviz",
+      "vitorias_maior_vencedor": 2,
+      "historico": [
+        { "temporada": 26, "vencedor": "Cloviz", "volta_rapida": "Magiolo", "pole": "Leo Costa" },
+        { "temporada": 25, "vencedor": "Cloviz", "volta_rapida": "Hansell", "pole": "Cloviz" }
+      ]
+    },
+    {
+      "id": "arabia",
+      "nome": "Arabia Saudita",
+      "foto": "imagens/circuitos/arabia.jpg",
+      "maior_vencedor": "Magiolo",
+      "vitorias_maior_vencedor": 2,
+      "historico": [
+        { "temporada": 27, "vencedor": "Leo Costa", "volta_rapida": "Hansell", "pole": "Leo Costa" },
+        { "temporada": 26, "vencedor": "Magiolo",   "volta_rapida": "Lavacar", "pole": "Magiolo" }
+      ]
+    },
+    {
+      "id": "austin",
+      "nome": "Austin",
+      "foto": "imagens/circuitos/austin.jpg",
+      "maior_vencedor": "Adilson",
+      "vitorias_maior_vencedor": 2,
+      "historico": [
+        { "temporada": 27, "vencedor": "Daniel Sylva", "volta_rapida": "Leo Costa", "pole": "Hansell" },
+        { "temporada": 26, "vencedor": "Adilson",      "volta_rapida": "Adilson",   "pole": "Adilson" }
+      ]
+    },
+    {
+      "id": "australia",
+      "nome": "Australia",
+      "foto": "imagens/circuitos/australia.jpg",
+      "maior_vencedor": "Medrano",
+      "vitorias_maior_vencedor": 2,
+      "historico": [
+        { "temporada": 27, "vencedor": "Rafael Lavacar", "volta_rapida": "Leo Costa", "pole": "Magiolo" },
+        { "temporada": 26, "vencedor": "Medrano",        "volta_rapida": "Medrano",   "pole": "Medrano" }
+      ]
+    },
+    {
+      "id": "austria",
+      "nome": "Austria",
+      "foto": "imagens/circuitos/austria.jpg",
+      "maior_vencedor": "Cambui",
+      "vitorias_maior_vencedor": 2,
+      "historico": [
+        { "temporada": 27, "vencedor": "Marco Magiolo", "volta_rapida": "Lavacar", "pole": "Lavacar" },
+        { "temporada": 26, "vencedor": "Cambui",        "volta_rapida": "Cambui",  "pole": "Cambui" }
+      ]
+    },
+    {
+      "id": "azerbaijan",
+      "nome": "Azerbaijan",
+      "foto": "imagens/circuitos/azerbaijan.jpg",
+      "maior_vencedor": "Hansell",
+      "vitorias_maior_vencedor": 2,
+      "historico": [
+        { "temporada": 27, "vencedor": "Felipe Hansell", "volta_rapida": "Tozzi",   "pole": "Tozzi" },
+        { "temporada": 26, "vencedor": "Hansell",        "volta_rapida": "Hansell", "pole": "Hansell" }
+      ]
+    },
+    {
+      "id": "bahrain",
+      "nome": "Bahrain",
+      "foto": "imagens/circuitos/bahrain.jpg",
+      "maior_vencedor": "Cambui",
+      "vitorias_maior_vencedor": 2,
+      "historico": [
+        { "temporada": 27, "vencedor": "Leo Costa", "volta_rapida": "Sylva",  "pole": "Leo Costa" },
+        { "temporada": 26, "vencedor": "Cambui",    "volta_rapida": "Cambui", "pole": "Emerson" }
+      ]
+    },
+    {
+      "id": "belgium",
+      "nome": "Belgium",
+      "foto": "imagens/circuitos/belgium.jpg",
+      "maior_vencedor": "Cloviz",
+      "vitorias_maior_vencedor": 3,
+      "historico": [
+        { "temporada": 27, "vencedor": "Wilsinho Tozzi", "volta_rapida": "Magiolo", "pole": "Leo Costa" },
+        { "temporada": 26, "vencedor": "Cloviz",         "volta_rapida": "Cloviz",  "pole": "Cloviz" }
+      ]
+    },
+    {
+      "id": "monaco",
+      "nome": "Monaco",
+      "foto": "imagens/circuitos/monaco.jpg",
+      "maior_vencedor": "Leo Costa",
+      "vitorias_maior_vencedor": 3,
+      "historico": [
+        { "temporada": 27, "vencedor": "Rafael Lavacar", "volta_rapida": "Hansell",  "pole": "Lavacar" },
+        { "temporada": 26, "vencedor": "Leo Costa",      "volta_rapida": "Leo Costa","pole": "Leo Costa" }
+      ]
+    }
+  ]
+}

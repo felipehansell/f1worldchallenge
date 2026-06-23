@@ -1,0 +1,147 @@
+{
+  "historico": [
+    {
+      "posicao": "1st",
+      "piloto": "Marco Magiolo",
+      "titulos": 5,
+      "vitorias": 27,
+      "vitorias_sprint": 0,
+      "segundos": 22,
+      "terceiros": 24,
+      "podiums": 73,
+      "ppr": 24
+    },
+    {
+      "posicao": "2nd",
+      "piloto": "Leo Costa",
+      "titulos": 3,
+      "vitorias": 26,
+      "vitorias_sprint": 1,
+      "segundos": 4,
+      "terceiros": 2,
+      "podiums": 33,
+      "ppr": 84
+    },
+    {
+      "posicao": "3rd",
+      "piloto": "Emerson Santana",
+      "titulos": 3,
+      "vitorias": 6,
+      "vitorias_sprint": 0,
+      "segundos": 14,
+      "terceiros": 14,
+      "podiums": 34,
+      "ppr": 21
+    },
+    {
+      "posicao": "4th",
+      "piloto": "Cloviz",
+      "titulos": 2,
+      "vitorias": 21,
+      "vitorias_sprint": 0,
+      "segundos": 23,
+      "terceiros": 12,
+      "podiums": 56,
+      "ppr": 35
+    },
+    {
+      "posicao": "5th",
+      "piloto": "Jesper Gronk",
+      "titulos": 2,
+      "vitorias": 14,
+      "vitorias_sprint": 1,
+      "segundos": 11,
+      "terceiros": 13,
+      "podiums": 39,
+      "ppr": 50
+    },
+    {
+      "posicao": "6th",
+      "piloto": "Gabriel",
+      "titulos": 2,
+      "vitorias": 12,
+      "vitorias_sprint": 0,
+      "segundos": 3,
+      "terceiros": 6,
+      "podiums": 21,
+      "ppr": 65
+    },
+    {
+      "posicao": "7th",
+      "piloto": "Gustavo Cambui",
+      "titulos": 1,
+      "vitorias": 20,
+      "vitorias_sprint": 0,
+      "segundos": 13,
+      "terceiros": 4,
+      "podiums": 37,
+      "ppr": 26
+    },
+    {
+      "posicao": "8th",
+      "piloto": "Kaio Mendes",
+      "titulos": 1,
+      "vitorias": 12,
+      "vitorias_sprint": 1,
+      "segundos": 18,
+      "terceiros": 10,
+      "podiums": 41,
+      "ppr": 37
+    },
+    {
+      "posicao": "9th",
+      "piloto": "Felipe Hansell",
+      "titulos": 1,
+      "vitorias": 9,
+      "vitorias_sprint": 3,
+      "segundos": 22,
+      "terceiros": 15,
+      "podiums": 49,
+      "ppr": 39
+    },
+    {
+      "posicao": "10th",
+      "piloto": "Bruninho",
+      "titulos": 1,
+      "vitorias": 9,
+      "vitorias_sprint": 2,
+      "segundos": 7,
+      "terceiros": 13,
+      "podiums": 31,
+      "ppr": 41
+    },
+    {
+      "posicao": "11th",
+      "piloto": "Gabriel Rope",
+      "titulos": 1,
+      "vitorias": 9,
+      "vitorias_sprint": 0,
+      "segundos": 2,
+      "terceiros": 1,
+      "podiums": 12,
+      "ppr": 37
+    },
+    {
+      "posicao": "12th",
+      "piloto": "Rafael Lavacar",
+      "titulos": 1,
+      "vitorias": 8,
+      "vitorias_sprint": 4,
+      "segundos": 10,
+      "terceiros": 12,
+      "podiums": 34,
+      "ppr": 40
+    },
+    {
+      "posicao": "13th",
+      "piloto": "Wilsinho Tozzi",
+      "titulos": 1,
+      "vitorias": 7,
+      "vitorias_sprint": 0,
+      "segundos": 13,
+      "terceiros": 21,
+      "podiums": 41,
+      "ppr": 27
+    }
+  ]
+}

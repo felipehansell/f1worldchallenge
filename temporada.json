@@ -1,0 +1,192 @@
+{
+  "liga": "F1 World Challenge",
+  "temporada": 27,
+  "jogo": "F1 25",
+  "ultima_atualizacao": "22/06/2025",
+  "ultima_corrida": "Mônaco",
+  "proxima_corrida": "México",
+  "rodada_atual": 10,
+  "total_rodadas": 22,
+
+  "divisoes": [
+    {
+      "id": "A",
+      "nome": "Divisão A",
+      "emoji": "🥇",
+      "pilotos": [
+        {
+          "posicao": 1,
+          "nome": "Leo Costa",
+          "foto": "imagens/pilotos/leo-costa.jpg",
+          "pontos": 109,
+          "penalizacoes": 0,
+          "resultados": [
+            { "circuito": "Italia",   "posicao": 1, "pontos": 15 },
+            { "circuito": "Bahrain",  "posicao": 1, "pontos": 15 },
+            { "circuito": "Arabia",   "posicao": 1, "pontos": 15 },
+            { "circuito": "Monaco",   "posicao": 2, "pontos": 18 }
+          ]
+        },
+        {
+          "posicao": 2,
+          "nome": "Felipe Hansell",
+          "foto": "imagens/pilotos/felipe-hansell.jpg",
+          "pontos": 67,
+          "penalizacoes": 0,
+          "resultados": [
+            { "circuito": "Italia",   "posicao": 3, "pontos": 8 },
+            { "circuito": "Bahrain",  "posicao": 2, "pontos": 10 },
+            { "circuito": "Arabia",   "posicao": 4, "pontos": 6 },
+            { "circuito": "Monaco",   "posicao": 3, "pontos": 15 }
+          ]
+        },
+        {
+          "posicao": 3,
+          "nome": "Rafael Lavacar",
+          "foto": "imagens/pilotos/rafael-lavacar.jpg",
+          "pontos": 65,
+          "penalizacoes": 0,
+          "resultados": [
+            { "circuito": "Italia",   "posicao": 4, "pontos": 6 },
+            { "circuito": "Bahrain",  "posicao": 9, "pontos": 1 },
+            { "circuito": "Arabia",   "posicao": 5, "pontos": 5 },
+            { "circuito": "Monaco",   "posicao": 1, "pontos": 25 }
+          ]
+        },
+        {
+          "posicao": 4,
+          "nome": "Marco Magiolo",
+          "foto": "imagens/pilotos/marco-magiolo.jpg",
+          "pontos": 54,
+          "penalizacoes": 0,
+          "resultados": [
+            { "circuito": "Italia",   "posicao": 5, "pontos": 5 },
+            { "circuito": "Bahrain",  "posicao": 7, "pontos": 3 },
+            { "circuito": "Arabia",   "posicao": 6, "pontos": 4 },
+            { "circuito": "Monaco",   "posicao": 4, "pontos": 12 }
+          ]
+        },
+        {
+          "posicao": 5,
+          "nome": "Hebert Felipe",
+          "foto": "imagens/pilotos/hebert-felipe.jpg",
+          "pontos": 42,
+          "penalizacoes": 0,
+          "resultados": [
+            { "circuito": "Italia",   "posicao": 6, "pontos": 4 },
+            { "circuito": "Bahrain",  "posicao": 3, "pontos": 8 },
+            { "circuito": "Arabia",   "posicao": 8, "pontos": 2 },
+            { "circuito": "Monaco",   "posicao": 6, "pontos": 8 }
+          ]
+        },
+        {
+          "posicao": 6,
+          "nome": "Wilsinho Tozzi",
+          "foto": "imagens/pilotos/wilsinho-tozzi.jpg",
+          "pontos": 40,
+          "penalizacoes": 0,
+          "resultados": [
+            { "circuito": "Italia",   "posicao": 7, "pontos": 3 },
+            { "circuito": "Bahrain",  "posicao": 5, "pontos": 5 },
+            { "circuito": "Arabia",   "posicao": 7, "pontos": 3 },
+            { "circuito": "Monaco",   "posicao": 5, "pontos": 10 }
+          ]
+        },
+        {
+          "posicao": 7,
+          "nome": "Daniel Sylva",
+          "foto": "imagens/pilotos/daniel-sylva.jpg",
+          "pontos": 26,
+          "penalizacoes": -15,
+          "resultados": [
+            { "circuito": "Italia",   "posicao": 2, "pontos": 10 },
+            { "circuito": "Bahrain",  "posicao": 4, "pontos": 6 },
+            { "circuito": "Arabia",   "posicao": 2, "pontos": 10 },
+            { "circuito": "Monaco",   "posicao": 7, "pontos": 6 }
+          ]
+        },
+        {
+          "posicao": 8,
+          "nome": "Herlon Passos",
+          "foto": "imagens/pilotos/herlon-passos.jpg",
+          "pontos": 21,
+          "penalizacoes": -10,
+          "resultados": [
+            { "circuito": "Italia",   "posicao": 8, "pontos": 2 },
+            { "circuito": "Bahrain",  "posicao": 6, "pontos": 4 },
+            { "circuito": "Arabia",   "posicao": 9, "pontos": 1 },
+            { "circuito": "Monaco",   "posicao": 8, "pontos": 4 }
+          ]
+        },
+        {
+          "posicao": 9,
+          "nome": "Daniel Vianna",
+          "foto": "imagens/pilotos/daniel-vianna.jpg",
+          "pontos": 16,
+          "penalizacoes": 0,
+          "resultados": [
+            { "circuito": "Italia",   "posicao": "DNF", "pontos": 0 },
+            { "circuito": "Bahrain",  "posicao": 8, "pontos": 2 },
+            { "circuito": "Arabia",   "posicao": 3, "pontos": 8 },
+            { "circuito": "Monaco",   "posicao": 9, "pontos": 2 }
+          ]
+        },
+        {
+          "posicao": 10,
+          "nome": "Paulo Jupa",
+          "foto": "imagens/pilotos/paulo-jupa.jpg",
+          "pontos": 6,
+          "penalizacoes": 0,
+          "resultados": [
+            { "circuito": "Italia",   "posicao": "NP", "pontos": 0 },
+            { "circuito": "Bahrain",  "posicao": "NP", "pontos": 0 },
+            { "circuito": "Arabia",   "posicao": "NP", "pontos": 0 },
+            { "circuito": "Monaco",   "posicao": 10, "pontos": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "nome": "Divisão B",
+      "emoji": "🥈",
+      "pilotos": []
+    },
+    {
+      "id": "C",
+      "nome": "Divisão C",
+      "emoji": "🥉",
+      "pilotos": []
+    }
+  ],
+
+  "duplas": [
+    { "posicao": 1, "dupla": "Lucas / Carlos Eduardo", "pontos": 182 },
+    { "posicao": 2, "dupla": "Leo Costa / Daniel Sylva", "pontos": 150 },
+    { "posicao": 3, "dupla": "Lavacar / Magiolo", "pontos": 119 },
+    { "posicao": 4, "dupla": "Hansell / Tozzi", "pontos": 107 },
+    { "posicao": 5, "dupla": "Campola / Flyer", "pontos": 75 },
+    { "posicao": 6, "dupla": "Cambui / F. Foppa", "pontos": 56 },
+    { "posicao": 7, "dupla": "Paulo Jupa / Hebert", "pontos": 48 },
+    { "posicao": 8, "dupla": "Daniel Vianna / Herlon", "pontos": 47 },
+    { "posicao": 9, "dupla": "Adriano BH / Albuquerque", "pontos": 42 },
+    { "posicao": 10, "dupla": "Denis / Junior Z", "pontos": 31 },
+    { "posicao": 11, "dupla": "RESERVE DRIVERS", "pontos": 80 }
+  ],
+
+  "calendario": [
+    { "rodada": 1,  "circuito": "Italia",          "status": "realizada", "vencedor": "Leo Costa" },
+    { "rodada": 2,  "circuito": "Bahrain",         "status": "realizada", "vencedor": "Leo Costa" },
+    { "rodada": 3,  "circuito": "Arabia Saudita",  "status": "realizada", "vencedor": "Leo Costa" },
+    { "rodada": 4,  "circuito": "Australia",       "status": "realizada", "vencedor": "Rafael Lavacar" },
+    { "rodada": 5,  "circuito": "Azerbaijan",      "status": "realizada", "vencedor": "Felipe Hansell" },
+    { "rodada": 6,  "circuito": "Austria",         "status": "realizada", "vencedor": "Marco Magiolo" },
+    { "rodada": 7,  "circuito": "Belgium",         "status": "realizada", "vencedor": "Wilsinho Tozzi" },
+    { "rodada": 8,  "circuito": "Austin",          "status": "realizada", "vencedor": "Daniel Sylva" },
+    { "rodada": 9,  "circuito": "Abu Dhabi",       "status": "realizada", "vencedor": "Hebert Felipe" },
+    { "rodada": 10, "circuito": "Monaco",          "status": "realizada", "vencedor": "Rafael Lavacar" },
+    { "rodada": 11, "circuito": "Mexico",          "status": "proxima",   "vencedor": null },
+    { "rodada": 12, "circuito": "Brazil",          "status": "futura",    "vencedor": null },
+    { "rodada": 13, "circuito": "Las Vegas",       "status": "futura",    "vencedor": null }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "aviso": "A partir da temporada XXV, essa tabela é acumulativa e zerada apenas quando trocarmos para o próximo jogo: F126.",
+  "email_recursos": "worldchallengeleague@gmail.com",
+  "punicoes": [
+    {
+      "piloto": "Adriano BH",
+      "ocorrencias": [
+        {
+          "corrida": "Monaco",
+          "temporada": 27,
+          "tipo": "Colisão",
+          "descricao": "Colisão com piloto adversário na volta 8.",
+          "penalidade": "Drive through",
+          "pontos": -10
+        }
+      ]
+    },
+    {
+      "piloto": "Daniel Sylva",
+      "ocorrencias": [
+        {
+          "corrida": "Italia",
+          "temporada": 27,
+          "tipo": "Ultrapassagem irregular",
+          "descricao": "Ultrapassagem fora dos limites da pista no setor 2.",
+          "penalidade": "+5s no resultado",
+          "pontos": -5
+        },
+        {
+          "corrida": "Bahrain",
+          "temporada": 27,
+          "tipo": "Bandeira amarela",
+          "descricao": "Não respeitou bandeira amarela no setor 3.",
+          "penalidade": "+10s no resultado",
+          "pontos": -10
+        }
+      ]
+    },
+    {
+      "piloto": "Herlon Passos",
+      "ocorrencias": [
+        {
+          "corrida": "Arabia Saudita",
+          "temporada": 27,
+          "tipo": "Pit lane",
+          "descricao": "Velocidade acima do limite no pit lane.",
+          "penalidade": "Drive through",
+          "pontos": -10
+        }
+      ]
+    },
+    {
+      "piloto": "Albuquerque",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "Alex Camel",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "Cambui",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "Campola",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "Claudio GBS",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "Denis",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "Deverson",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "Emerson",
+      "ocorrencias": []
+    }
+  ]
+}
