@@ -3,172 +3,188 @@
   "email_recursos": "worldchallengeleague@gmail.com",
   "punicoes": [
     {
-      "piloto": "ADRIANO BH",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "ALBUQUERQUE",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "ALEX CAMEL",
-      "ocorrencias": []
-    },
-    {
       "piloto": "Adriano BH",
-      "ocorrencias": []
+      "total_incidentes": 2,
+      "ocorrencias": [
+        {
+          "data": "24/09/2025",
+          "incidente": "AV no GP do Bahrain, acidente com Mathss",
+          "penalidade": "Advertência verbal"
+        },
+        {
+          "data": "15/01/2026",
+          "incidente": "AV no GP da Espanha, acidente com Zezinho",
+          "penalidade": "Advertência verbal"
+        }
+      ]
     },
     {
       "piloto": "Alex Camel",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "CAMBUI",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "CAMPOLA",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "CLAUDIO GBS",
-      "ocorrencias": []
+      "total_incidentes": 1,
+      "ocorrencias": [
+        {
+          "data": "04/02/2026",
+          "incidente": "(-5pts) GP Do Azerbaijan, acidente com Leo Costa",
+          "penalidade": "-5 pontos"
+        }
+      ]
     },
     {
       "piloto": "Cambui",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "DENIS",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "DEVERSON",
-      "ocorrencias": []
+      "total_incidentes": 3,
+      "ocorrencias": [
+        {
+          "data": "17/10/2025",
+          "incidente": "(-5pts) GP dos EUA, acidente com Hebert",
+          "penalidade": "-5 pontos"
+        },
+        {
+          "data": "08/04/2026",
+          "incidente": "(-5pts) GP do Bahrain, acidente com Adriano BH",
+          "penalidade": "-5 pontos"
+        },
+        {
+          "data": "22/04/2026",
+          "incidente": "(-6pts) GP do Bahrain, acidente com Hebert",
+          "penalidade": "-6 pontos"
+        }
+      ]
     },
     {
       "piloto": "Daniel Sylva",
-      "ocorrencias": []
+      "total_incidentes": 3,
+      "ocorrencias": [
+        {
+          "data": "07/10/2025",
+          "incidente": "(-5pts) GP do Bahrain, acidente com Mathss",
+          "penalidade": "-5 pontos"
+        },
+        {
+          "data": "11/03/2026",
+          "incidente": "(-10pts) GP da China, acidente com Hebert",
+          "penalidade": "- 10 pontos"
+        },
+        {
+          "data": "01/04/2026",
+          "incidente": "(-15pts) GP da Italia, acidente com Hansell",
+          "penalidade": "- 15 pontos"
+        }
+      ]
     },
     {
       "piloto": "Denis",
-      "ocorrencias": []
+      "total_incidentes": 1,
+      "ocorrencias": [
+        {
+          "data": "05/06/26",
+          "incidente": "(-5pts) GP Dos EUA, acidente com Guilherme",
+          "penalidade": "-5 pontos"
+        }
+      ]
     },
     {
       "piloto": "Deverson",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "EMERSON",
-      "ocorrencias": []
+      "total_incidentes": 1,
+      "ocorrencias": [
+        {
+          "data": "19/11/2025",
+          "incidente": "(-5pts) GP de Las Vegas, acidente com Hansell",
+          "penalidade": "-5 pontos"
+        }
+      ]
     },
     {
       "piloto": "Emerson",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "FLYER",
-      "ocorrencias": []
+      "total_incidentes": 1,
+      "ocorrencias": [
+        {
+          "data": "11/02/2026",
+          "incidente": "(-10pts) GP da Belgica, carro errado",
+          "penalidade": "- 10 pontos"
+        }
+      ]
     },
     {
       "piloto": "Flyer",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "GABROPE",
-      "ocorrencias": []
+      "total_incidentes": 1,
+      "ocorrencias": [
+        {
+          "data": "21/01/2026",
+          "incidente": "(-10 pts) GP da Austria, Carro errado",
+          "penalidade": "- 10 pontos"
+        }
+      ]
     },
     {
       "piloto": "GabRope",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "HANSELL",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "HEBERT",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "HERLON",
-      "ocorrencias": []
+      "total_incidentes": 2,
+      "ocorrencias": [
+        {
+          "data": "14/01/2026",
+          "incidente": "(-5pts) GP da Espanha. Atrapalha Alex Camel no SC",
+          "penalidade": "-5 pontos"
+        },
+        {
+          "data": "18/02/2026",
+          "incidente": "(-3pts) Gp da Hungria, direcao perigosa AV + 1 agravante",
+          "penalidade": "-3 pontos"
+        }
+      ]
     },
     {
       "piloto": "Hebert",
-      "ocorrencias": []
+      "total_incidentes": 1,
+      "ocorrencias": [
+        {
+          "data": "03/04/26",
+          "incidente": "AV no GP da Australia, acidente com Magiolo",
+          "penalidade": "Advertência verbal"
+        }
+      ]
     },
     {
       "piloto": "Herlon",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "JEAN OSS",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "JOAO PEDRO",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "JUNIOR Z",
-      "ocorrencias": []
+      "total_incidentes": 1,
+      "ocorrencias": [
+        {
+          "data": "18/2/26",
+          "incidente": "(-5pts) GP da Hungria, acidente com Hebert",
+          "penalidade": "-5 pontos"
+        }
+      ]
     },
     {
       "piloto": "Junior Z",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "LAVACAR",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "LEO COSTA",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "MAGIOLO",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "MATHSS",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "MIKAEL OSS",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "NETO",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "PABLO",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "PAULO JUPA",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "TIAGO ANDRE",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "TOZZI",
-      "ocorrencias": []
+      "total_incidentes": 1,
+      "ocorrencias": [
+        {
+          "data": "",
+          "incidente": "(-3pts) GP da Arabia, acidente com Tozzi",
+          "penalidade": "-3 pontos"
+        }
+      ]
     },
     {
       "piloto": "Tiago Andre",
-      "ocorrencias": []
+      "total_incidentes": 1,
+      "ocorrencias": [
+        {
+          "data": "11/02/2026",
+          "incidente": "AV no GP da Belgica, acidente com Hansell",
+          "penalidade": "Advertência verbal"
+        }
+      ]
     },
     {
       "piloto": "Tozzi",
-      "ocorrencias": []
-    },
-    {
-      "piloto": "ZEZINHO",
-      "ocorrencias": []
+      "total_incidentes": 1,
+      "ocorrencias": [
+        {
+          "data": "18/2/26",
+          "incidente": "(-5pts) GP De Abu Dhabi, acidente com Hansell",
+          "penalidade": "-5 pontos"
+        }
+      ]
     }
   ]
 }

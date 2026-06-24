@@ -3,9 +3,6 @@
   "temporada": 27,
   "jogo": "F1 25",
   "ultima_atualizacao": "24/06/2026",
-  "ultima_corrida": "MONACO",
-  "proxima_corrida": "",
-  "rodada_atual": 10,
   "total_rodadas": 22,
   "divisoes": [
     {
@@ -18,590 +15,70 @@
           "nome": "Leo Costa",
           "foto": "imagens/pilotos/leo-costa.jpg",
           "pontos": 94,
-          "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY",
-              "posicao": 1,
-              "pontos": 15
-            },
-            {
-              "circuito": "BAHRAIN",
-              "posicao": 1,
-              "pontos": 15
-            },
-            {
-              "circuito": "ARABIA",
-              "posicao": 1,
-              "pontos": 15
-            },
-            {
-              "circuito": "SINGAPORE",
-              "posicao": 6,
-              "pontos": 4
-            },
-            {
-              "circuito": "MIAMI",
-              "posicao": 1,
-              "pontos": 15
-            },
-            {
-              "circuito": "USA",
-              "posicao": 1,
-              "pontos": 15
-            },
-            {
-              "circuito": "MEXICO",
-              "posicao": 0,
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA",
-              "posicao": 1,
-              "pontos": 15
-            },
-            {
-              "circuito": "BRAZIL",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MONACO",
-              "posicao": 0,
-              "pontos": 0
-            }
-          ]
+          "penalizacoes": 0
         },
         {
           "posicao": 2,
           "nome": "Rafael Lavacar",
           "foto": "imagens/pilotos/rafael-lavacar.jpg",
           "pontos": 60,
-          "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY",
-              "posicao": 4,
-              "pontos": 6
-            },
-            {
-              "circuito": "BAHRAIN",
-              "posicao": 9,
-              "pontos": 1
-            },
-            {
-              "circuito": "ARABIA",
-              "posicao": 5,
-              "pontos": 5
-            },
-            {
-              "circuito": "SINGAPORE",
-              "posicao": 1,
-              "pontos": 15
-            },
-            {
-              "circuito": "MIAMI",
-              "posicao": 3,
-              "pontos": 8
-            },
-            {
-              "circuito": "USA",
-              "posicao": 2,
-              "pontos": 10
-            },
-            {
-              "circuito": "MEXICO",
-              "posicao": 0,
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BRAZIL",
-              "posicao": 1,
-              "pontos": 15
-            },
-            {
-              "circuito": "MONACO",
-              "posicao": 0,
-              "pontos": 0
-            }
-          ]
+          "penalizacoes": 0
         },
         {
           "posicao": 3,
           "nome": "Felipe Hansell",
           "foto": "imagens/pilotos/felipe-hansell.jpg",
           "pontos": 57,
-          "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY",
-              "posicao": 3,
-              "pontos": 8
-            },
-            {
-              "circuito": "BAHRAIN",
-              "posicao": 2,
-              "pontos": 10
-            },
-            {
-              "circuito": "ARABIA",
-              "posicao": 4,
-              "pontos": 6
-            },
-            {
-              "circuito": "SINGAPORE",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MIAMI",
-              "posicao": 2,
-              "pontos": 10
-            },
-            {
-              "circuito": "USA",
-              "posicao": 3,
-              "pontos": 8
-            },
-            {
-              "circuito": "MEXICO",
-              "posicao": 0,
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA",
-              "posicao": 5,
-              "pontos": 5
-            },
-            {
-              "circuito": "BRAZIL",
-              "posicao": 2,
-              "pontos": 10
-            },
-            {
-              "circuito": "MONACO",
-              "posicao": 0,
-              "pontos": 0
-            }
-          ]
+          "penalizacoes": 0
         },
         {
           "posicao": 4,
           "nome": "Marco Magiolo",
           "foto": "imagens/pilotos/marco-magiolo.jpg",
           "pontos": 46,
-          "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY",
-              "posicao": 5,
-              "pontos": 5
-            },
-            {
-              "circuito": "BAHRAIN",
-              "posicao": 7,
-              "pontos": 3
-            },
-            {
-              "circuito": "ARABIA",
-              "posicao": 6,
-              "pontos": 4
-            },
-            {
-              "circuito": "SINGAPORE",
-              "posicao": 2,
-              "pontos": 10
-            },
-            {
-              "circuito": "MIAMI",
-              "posicao": 6,
-              "pontos": 4
-            },
-            {
-              "circuito": "USA",
-              "posicao": 6,
-              "pontos": 4
-            },
-            {
-              "circuito": "MEXICO",
-              "posicao": 0,
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA",
-              "posicao": 3,
-              "pontos": 8
-            },
-            {
-              "circuito": "BRAZIL",
-              "posicao": 3,
-              "pontos": 8
-            },
-            {
-              "circuito": "MONACO",
-              "posicao": 0,
-              "pontos": 0
-            }
-          ]
+          "penalizacoes": 0
         },
         {
           "posicao": 5,
           "nome": "Hebert Felipe",
           "foto": "imagens/pilotos/hebert-felipe.jpg",
           "pontos": 36,
-          "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY",
-              "posicao": 6,
-              "pontos": 4
-            },
-            {
-              "circuito": "BAHRAIN",
-              "posicao": 3,
-              "pontos": 8
-            },
-            {
-              "circuito": "ARABIA",
-              "posicao": 8,
-              "pontos": 2
-            },
-            {
-              "circuito": "SINGAPORE",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MIAMI",
-              "posicao": 8,
-              "pontos": 2
-            },
-            {
-              "circuito": "USA",
-              "posicao": 5,
-              "pontos": 5
-            },
-            {
-              "circuito": "MEXICO",
-              "posicao": 0,
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA",
-              "posicao": 2,
-              "pontos": 10
-            },
-            {
-              "circuito": "BRAZIL",
-              "posicao": 5,
-              "pontos": 5
-            },
-            {
-              "circuito": "MONACO",
-              "posicao": 0,
-              "pontos": 0
-            }
-          ]
+          "penalizacoes": 0
         },
         {
           "posicao": 6,
           "nome": "Wilsinho Tozzi",
           "foto": "imagens/pilotos/wilsinho-tozzi.jpg",
           "pontos": 36,
-          "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY",
-              "posicao": 7,
-              "pontos": 3
-            },
-            {
-              "circuito": "BAHRAIN",
-              "posicao": 5,
-              "pontos": 5
-            },
-            {
-              "circuito": "ARABIA",
-              "posicao": 7,
-              "pontos": 3
-            },
-            {
-              "circuito": "SINGAPORE",
-              "posicao": 4,
-              "pontos": 6
-            },
-            {
-              "circuito": "MIAMI",
-              "posicao": 7,
-              "pontos": 3
-            },
-            {
-              "circuito": "USA",
-              "posicao": 4,
-              "pontos": 6
-            },
-            {
-              "circuito": "MEXICO",
-              "posicao": 0,
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA",
-              "posicao": 6,
-              "pontos": 4
-            },
-            {
-              "circuito": "BRAZIL",
-              "posicao": 4,
-              "pontos": 6
-            },
-            {
-              "circuito": "MONACO",
-              "posicao": 0,
-              "pontos": 0
-            }
-          ]
+          "penalizacoes": 0
         },
         {
           "posicao": 7,
           "nome": "Herlon Passos",
           "foto": "imagens/pilotos/herlon-passos.jpg",
           "pontos": 28,
-          "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY",
-              "posicao": 8,
-              "pontos": 2
-            },
-            {
-              "circuito": "BAHRAIN",
-              "posicao": 6,
-              "pontos": 4
-            },
-            {
-              "circuito": "ARABIA",
-              "posicao": 9,
-              "pontos": 1
-            },
-            {
-              "circuito": "SINGAPORE",
-              "posicao": 3,
-              "pontos": 8
-            },
-            {
-              "circuito": "MIAMI",
-              "posicao": 4,
-              "pontos": 6
-            },
-            {
-              "circuito": "USA",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MEXICO",
-              "posicao": 0,
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA",
-              "posicao": 7,
-              "pontos": 3
-            },
-            {
-              "circuito": "BRAZIL",
-              "posicao": 6,
-              "pontos": 4
-            },
-            {
-              "circuito": "MONACO",
-              "posicao": 0,
-              "pontos": 0
-            }
-          ]
+          "penalizacoes": 0
         },
         {
           "posicao": 8,
           "nome": "Daniel Sylva",
           "foto": "imagens/pilotos/daniel-sylva.jpg",
           "pontos": 26,
-          "penalizacoes": -15,
-          "resultados": [
-            {
-              "circuito": "ITALY",
-              "posicao": 2,
-              "pontos": 10
-            },
-            {
-              "circuito": "BAHRAIN",
-              "posicao": 4,
-              "pontos": 6
-            },
-            {
-              "circuito": "ARABIA",
-              "posicao": 2,
-              "pontos": 10
-            },
-            {
-              "circuito": "SINGAPORE",
-              "posicao": 5,
-              "pontos": 5
-            },
-            {
-              "circuito": "MIAMI",
-              "posicao": 5,
-              "pontos": 5
-            },
-            {
-              "circuito": "USA",
-              "posicao": 7,
-              "pontos": 3
-            },
-            {
-              "circuito": "MEXICO",
-              "posicao": 0,
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BRAZIL",
-              "posicao": 8,
-              "pontos": 2
-            },
-            {
-              "circuito": "MONACO",
-              "posicao": 0,
-              "pontos": 0
-            }
-          ]
+          "penalizacoes": -15
         },
         {
           "posicao": 9,
           "nome": "Daniel Vianna",
           "foto": "imagens/pilotos/daniel-vianna.jpg",
           "pontos": 16,
-          "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BAHRAIN",
-              "posicao": 8,
-              "pontos": 2
-            },
-            {
-              "circuito": "ARABIA",
-              "posicao": 3,
-              "pontos": 8
-            },
-            {
-              "circuito": "SINGAPORE",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MIAMI",
-              "posicao": 9,
-              "pontos": 1
-            },
-            {
-              "circuito": "USA",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MEXICO",
-              "posicao": 0,
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA",
-              "posicao": 8,
-              "pontos": 2
-            },
-            {
-              "circuito": "BRAZIL",
-              "posicao": 7,
-              "pontos": 3
-            },
-            {
-              "circuito": "MONACO",
-              "posicao": 0,
-              "pontos": 0
-            }
-          ]
+          "penalizacoes": 0
         },
         {
           "posicao": 10,
           "nome": "Paulo Jupa",
           "foto": "imagens/pilotos/paulo-jupa.jpg",
           "pontos": 6,
-          "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BAHRAIN",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "ARABIA",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "SINGAPORE",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MIAMI",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "USA",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MEXICO",
-              "posicao": 0,
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA",
-              "posicao": 4,
-              "pontos": 6
-            },
-            {
-              "circuito": "BRAZIL",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MONACO",
-              "posicao": 0,
-              "pontos": 0
-            }
-          ]
+          "penalizacoes": 0
         }
       ]
     },
@@ -615,144 +92,126 @@
           "nome": "Carlos Eduardo",
           "foto": "imagens/pilotos/carlos-eduardo.jpg",
           "pontos": 113,
-          "penalizacoes": 0,
-          "resultados": []
+          "penalizacoes": 0
         },
         {
           "posicao": 2,
           "nome": "Fernando Foppa",
           "foto": "imagens/pilotos/fernando-foppa.jpg",
           "pontos": 40,
-          "penalizacoes": -8,
-          "resultados": []
+          "penalizacoes": -8
         },
         {
           "posicao": 3,
           "nome": "Tiago Campola",
           "foto": "imagens/pilotos/tiago-campola.jpg",
           "pontos": 39,
-          "penalizacoes": 0,
-          "resultados": []
+          "penalizacoes": 0
         },
         {
           "posicao": 4,
           "nome": "Adriano BH",
           "foto": "imagens/pilotos/adriano-bh.jpg",
           "pontos": 36,
-          "penalizacoes": 0,
-          "resultados": []
+          "penalizacoes": 0
         },
         {
           "posicao": 5,
           "nome": "Josh Flyer",
           "foto": "imagens/pilotos/josh-flyer.jpg",
           "pontos": 20,
-          "penalizacoes": 0,
-          "resultados": []
+          "penalizacoes": 0
         },
         {
           "posicao": 6,
           "nome": "Rafael Antunes",
           "foto": "imagens/pilotos/rafael-antunes.jpg",
           "pontos": 16,
-          "penalizacoes": -10,
-          "resultados": []
+          "penalizacoes": -10
         },
         {
           "posicao": 7,
           "nome": "Junior Zamper",
           "foto": "imagens/pilotos/junior-zamper.jpg",
           "pontos": 11,
-          "penalizacoes": -3,
-          "resultados": []
+          "penalizacoes": -3
         },
         {
           "posicao": 8,
           "nome": "Guilherme Meireles",
           "foto": "imagens/pilotos/guilherme-meireles.jpg",
           "pontos": 10,
-          "penalizacoes": -4,
-          "resultados": []
+          "penalizacoes": -4
         },
         {
           "posicao": 9,
           "nome": "Lucas Medeiros",
           "foto": "imagens/pilotos/lucas-medeiros.jpg",
           "pontos": 9,
-          "penalizacoes": -4,
-          "resultados": []
+          "penalizacoes": -4
         },
         {
           "posicao": 10,
           "nome": "Gabriel Rope",
           "foto": "imagens/pilotos/gabriel-rope.jpg",
           "pontos": 8,
-          "penalizacoes": 0,
-          "resultados": []
+          "penalizacoes": 0
         },
         {
           "posicao": 11,
           "nome": "Marco Albuquerque",
           "foto": "imagens/pilotos/marco-albuquerque.jpg",
           "pontos": 6,
-          "penalizacoes": 0,
-          "resultados": []
+          "penalizacoes": 0
         },
         {
           "posicao": 12,
           "nome": "Eduardo Quintas",
           "foto": "imagens/pilotos/eduardo-quintas.jpg",
           "pontos": 5,
-          "penalizacoes": 0,
-          "resultados": []
+          "penalizacoes": 0
         },
         {
           "posicao": 13,
           "nome": "Denis Campos",
           "foto": "imagens/pilotos/denis-campos.jpg",
           "pontos": 4,
-          "penalizacoes": -17,
-          "resultados": []
+          "penalizacoes": -17
         },
         {
           "posicao": 14,
           "nome": "Gustavo Cambui",
           "foto": "imagens/pilotos/gustavo-cambui.jpg",
           "pontos": 2,
-          "penalizacoes": -16,
-          "resultados": []
+          "penalizacoes": -16
         },
         {
           "posicao": 15,
           "nome": "Alex Brisant",
           "foto": "imagens/pilotos/alex-brisant.jpg",
           "pontos": 1,
-          "penalizacoes": 0,
-          "resultados": []
+          "penalizacoes": 0
         },
         {
           "posicao": 16,
           "nome": "Paulo Jupa",
           "foto": "imagens/pilotos/paulo-jupa.jpg",
           "pontos": 0,
-          "penalizacoes": -49,
-          "resultados": []
+          "penalizacoes": -49
         },
         {
           "posicao": 17,
           "nome": "Matheus Mathss",
           "foto": "imagens/pilotos/matheus-mathss.jpg",
           "pontos": 0,
-          "penalizacoes": 0,
-          "resultados": []
+          "penalizacoes": 0
         },
         {
           "posicao": 18,
           "nome": "Emerson Santana",
           "foto": "imagens/pilotos/emerson-santana.jpg",
           "pontos": 0,
-          "penalizacoes": 0,
-          "resultados": []
+          "penalizacoes": 0
         }
       ]
     },
@@ -766,83 +225,221 @@
           "nome": "Teste",
           "foto": "imagens/pilotos/teste.jpg",
           "pontos": 10,
-          "penalizacoes": 0,
-          "resultados": []
+          "penalizacoes": 0
         },
         {
           "posicao": 2,
           "nome": "Teste B",
           "foto": "imagens/pilotos/teste-b.jpg",
           "pontos": 5,
-          "penalizacoes": 0,
-          "resultados": []
+          "penalizacoes": 0
         },
         {
           "posicao": 3,
           "nome": "Teste C",
           "foto": "imagens/pilotos/teste-c.jpg",
           "pontos": 3,
-          "penalizacoes": 0,
-          "resultados": []
+          "penalizacoes": 0
         }
       ]
     }
   ],
-  "duplas": [
+  "duplas_ab": [
     {
       "posicao": 1,
       "dupla": "Lucas / Carlos Eduardo",
-      "pontos": 167
+      "pontos": 167,
+      "penalizacoes": 0
     },
     {
       "posicao": 2,
       "dupla": "Leo Costa / Daniel Sylva",
-      "pontos": 135
+      "pontos": 135,
+      "penalizacoes": 0
     },
     {
       "posicao": 3,
       "dupla": "Lavacar / Magiolo",
-      "pontos": 106
+      "pontos": 106,
+      "penalizacoes": 0
     },
     {
       "posicao": 4,
       "dupla": "Hansell / Tozzi",
-      "pontos": 93
+      "pontos": 93,
+      "penalizacoes": 0
     },
     {
       "posicao": 5,
       "dupla": "Campola / Flyer",
-      "pontos": 59
+      "pontos": 59,
+      "penalizacoes": 0
     },
     {
       "posicao": 6,
       "dupla": "Cambui / F. Foppa",
-      "pontos": 48
+      "pontos": 48,
+      "penalizacoes": 0
     },
     {
       "posicao": 7,
       "dupla": "Daniel Vianna / Herlon",
-      "pontos": 44
+      "pontos": 44,
+      "penalizacoes": 0
     },
     {
       "posicao": 8,
       "dupla": "Paulo Jupa / Hebert",
-      "pontos": 42
+      "pontos": 42,
+      "penalizacoes": 0
     },
     {
       "posicao": 9,
       "dupla": "Adriano BH / Albuquerque",
-      "pontos": 42
+      "pontos": 42,
+      "penalizacoes": 0
     },
     {
       "posicao": 10,
       "dupla": "Denis / Junior Z",
-      "pontos": 31
+      "pontos": 31,
+      "penalizacoes": 0
     },
     {
       "posicao": 11,
       "dupla": "RESERVE DRIVERS",
-      "pontos": 80
+      "pontos": 80,
+      "penalizacoes": 0
+    }
+  ],
+  "duplas_c": [
+    {
+      "posicao": 1,
+      "dupla": "Lucas / Carlos Eduardo",
+      "pontos": 167,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 2,
+      "dupla": "Leo Costa / Daniel Sylva",
+      "pontos": 135,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 3,
+      "dupla": "Lavacar / Magiolo",
+      "pontos": 106,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 4,
+      "dupla": "Hansell / Tozzi",
+      "pontos": 93,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 5,
+      "dupla": "Campola / Flyer",
+      "pontos": 59,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 6,
+      "dupla": "Cambui / F. Foppa",
+      "pontos": 48,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 7,
+      "dupla": "Daniel Vianna / Herlon",
+      "pontos": 44,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 8,
+      "dupla": "Paulo Jupa / Hebert",
+      "pontos": 42,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 9,
+      "dupla": "Adriano BH / Albuquerque",
+      "pontos": 42,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 10,
+      "dupla": "Denis / Junior Z",
+      "pontos": 31,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 11,
+      "dupla": "RESERVE DRIVERS",
+      "pontos": 80,
+      "penalizacoes": 0
+    }
+  ],
+  "construtores": [
+    {
+      "posicao": 1,
+      "nome": "FERRARI",
+      "pontos": 134,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 2,
+      "nome": "MCLAREN",
+      "pontos": 106,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 3,
+      "nome": "RB",
+      "pontos": 95,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 4,
+      "nome": "MERCEDES",
+      "pontos": 91,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 5,
+      "nome": "ALPINE",
+      "pontos": 84,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 6,
+      "nome": "HAAS",
+      "pontos": 81,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 7,
+      "nome": "WILLIAMS",
+      "pontos": 76,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 8,
+      "nome": "RED BULL",
+      "pontos": 74,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 9,
+      "nome": "SAUBER",
+      "pontos": 57,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 10,
+      "nome": "ASTON MARTIN",
+      "pontos": 49,
+      "penalizacoes": 0
     }
   ]
 }

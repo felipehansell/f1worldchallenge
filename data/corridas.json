@@ -1,0 +1,447 @@
+{
+  "corridas": [
+    {
+      "circuito": "ABU DHABI",
+      "foto": "imagens/circuitos/abu-dhabi.jpg",
+      "p1": "Cloviz - 2",
+      "vencedores": [
+        "Cloviz - 2",
+        "Magiolo - 2",
+        "Leo Costa - 1",
+        "Deverson - 1",
+        "Alex Camel - 1",
+        "Gronk - 1",
+        "Kaio - 1",
+        "Lucas - 1",
+        "Juninho - 1",
+        "Netto - 1"
+      ]
+    },
+    {
+      "circuito": "ARABIA",
+      "foto": "imagens/circuitos/arabia.jpg",
+      "p1": "Magiolo - 2",
+      "vencedores": [
+        "Magiolo - 2",
+        "Leo Costa - 2",
+        "Nicolas Silva - 1",
+        "Cloviz -1",
+        "Cambui - 1",
+        "Medrano - 1",
+        "Carlos Eduardo (B) 1"
+      ]
+    },
+    {
+      "circuito": "AUSTIN",
+      "foto": "imagens/circuitos/austin.jpg",
+      "p1": "Adilson - 2",
+      "vencedores": [
+        "Adilson - 2",
+        "Leo Costa - 2",
+        "Hansell - 1",
+        "Tozzi - 1",
+        "Bruninho - 1",
+        "Victor - 1",
+        "Medrano - 1",
+        "Emerson - 1",
+        "Cambui - 1",
+        "Cruz - 1",
+        "Gabriel -1",
+        "Max Weber -1",
+        "Minion - 1",
+        "Carlos Eduardo (B) 1"
+      ]
+    },
+    {
+      "circuito": "AUSTRALIA",
+      "foto": "imagens/circuitos/australia.jpg",
+      "p1": "Medrano - 2",
+      "vencedores": [
+        "Medrano - 2",
+        "Magiolo - 2",
+        "GabRope -2",
+        "Leo Costa - 1",
+        "Zezinho -1",
+        "Nicolas Silva -1",
+        "Bruninho -1",
+        "Emerson -1",
+        "Max Weber - 1",
+        "Lucas - 1"
+      ]
+    },
+    {
+      "circuito": "AUSTRIA",
+      "foto": "imagens/circuitos/austria.jpg",
+      "p1": "Cambui - 2",
+      "vencedores": [
+        "Cambui - 2",
+        "Gronk -2",
+        "Leo Costa - 1",
+        "Airton -1",
+        "Bruninho - 1",
+        "Siverly -1",
+        "Kleber -1",
+        "Gabriel -1",
+        "Cloviz - 1",
+        "Maths -1"
+      ]
+    },
+    {
+      "circuito": "AZERBAIJAN",
+      "foto": "imagens/circuitos/azerbaijan.jpg",
+      "p1": "Hansell -2",
+      "vencedores": [
+        "Hansell -2",
+        "Leo Costa - 1",
+        "Gronk -1",
+        "Kaio -1",
+        "Denis -1",
+        "Cloviz - 1",
+        "Cambui - 1",
+        "Malone -1",
+        "Lucas - 1",
+        "GabRope - 1"
+      ]
+    },
+    {
+      "circuito": "BAHRAIN",
+      "foto": "imagens/circuitos/bahrain.jpg",
+      "p1": "Cambui -2",
+      "vencedores": [
+        "Cambui -2",
+        "Leo Costa - 2",
+        "Tozzi - 1",
+        "Gronk - 1",
+        "Siverly - 1",
+        "Magiolo - 1",
+        "Malone - 1",
+        "Adilson - 1",
+        "Kaio - 1",
+        "Maths - 1",
+        "Pablo Sousa - 1",
+        "Lucas - 1",
+        "Carlos Eduardo (B) 1"
+      ]
+    },
+    {
+      "circuito": "BELGIUM",
+      "foto": "imagens/circuitos/belgium.jpg",
+      "p1": "Cloviz -3",
+      "vencedores": [
+        "Cloviz -3",
+        "Lavacar - 2",
+        "Lucas - 2",
+        "Leo Costa - 2",
+        "Alex Camel -1",
+        "Medrano - 1",
+        "Magiolo - 1",
+        "Cambui - 1",
+        "Tonin - 1",
+        "Daniel - 1",
+        "Gabriel - 1",
+        "GabRope - 1"
+      ]
+    },
+    {
+      "circuito": "BRAZIL",
+      "foto": "imagens/circuitos/brazil.jpg",
+      "p1": "Lucas - 3",
+      "vencedores": [
+        "Lucas - 3",
+        "Cambui -3",
+        "Lavacar - 2",
+        "Alex Camel - 1",
+        "Hansell - 1",
+        "Cloviz - 1",
+        "Magiolo - 1",
+        "Netto - 1",
+        "Gabriel - 1",
+        "Juninho - 1",
+        "Borges - 1",
+        "Carlos Eduardo (B) 1"
+      ]
+    },
+    {
+      "circuito": "BRITISH",
+      "foto": "imagens/circuitos/british.jpg",
+      "p1": "Leo Costa - 1",
+      "vencedores": [
+        "Leo Costa - 1",
+        "Paulo Jupa - 1",
+        "Alex Camel -1",
+        "Airton -1",
+        "Hansell - 1",
+        "Denis -1",
+        "PyroManiac - 1",
+        "Malone - 1",
+        "Cloviz - 1",
+        "Lucas - 1",
+        "Pappoutz - 1"
+      ]
+    },
+    {
+      "circuito": "CANADA",
+      "foto": "imagens/circuitos/canada.jpg",
+      "p1": "Magiolo - 3",
+      "vencedores": [
+        "Magiolo - 3",
+        "Leo Costa - 1",
+        "Hansell - 1",
+        "A Prado - 1",
+        "Kaio -1",
+        "Claudio - 1",
+        "Denis - 1",
+        "Adilson - 1",
+        "Max Weber -1",
+        "GabRope -1",
+        "Maths -1",
+        "Carlos Eduardo (B) 1"
+      ]
+    },
+    {
+      "circuito": "CHINA",
+      "foto": "imagens/circuitos/china.jpg",
+      "p1": "Leo Costa -2",
+      "vencedores": [
+        "Leo Costa -2",
+        "Gronk - 1",
+        "Alex Camel - 1",
+        "Lavacar - 1",
+        "Kaio - 1",
+        "Tonin - 1",
+        "Magiolo - 1",
+        "Daniel - 1",
+        "Adilson - 1",
+        "GabRope - 1",
+        "Borges - 1"
+      ]
+    },
+    {
+      "circuito": "FRANCE",
+      "foto": "imagens/circuitos/france.jpg",
+      "p1": "Magiolo - 2",
+      "vencedores": [
+        "Magiolo - 2",
+        "Denis - 1",
+        "PyroManiac - 1",
+        "Lucas - 1",
+        "Cloviz - 1",
+        "Gabriel - 1",
+        "Nando - 1",
+        "GabRope - 1"
+      ]
+    },
+    {
+      "circuito": "HUNGARY",
+      "foto": "imagens/circuitos/hungary.jpg",
+      "p1": "Magiolo - 2",
+      "vencedores": [
+        "Magiolo - 2",
+        "Lucas - 2",
+        "Hansell - 1",
+        "Lavacar - 1",
+        "Gronk -1",
+        "Bruninho - 1",
+        "Cambui - 1",
+        "Emerson -1",
+        "Pappoutz -1",
+        "Gabriel -1",
+        "Adilson - 1"
+      ]
+    },
+    {
+      "circuito": "IMOLA",
+      "foto": "imagens/circuitos/imola.jpg",
+      "p1": "Claudio - 3",
+      "vencedores": [
+        "Claudio - 3",
+        "Bruninho - 1",
+        "Denis - 1",
+        "Cambui - 1",
+        "Pappoutz - 1"
+      ]
+    },
+    {
+      "circuito": "ITALY",
+      "foto": "imagens/circuitos/italy.jpg",
+      "p1": "Medrano - 2",
+      "vencedores": [
+        "Medrano - 2",
+        "Cloviz - 2",
+        "Leo Costa - 2",
+        "Gronk - 1",
+        "Prado - 1",
+        "Bruninho - 1",
+        "Roberto - 1",
+        "Lucas - 1",
+        "Adilson - 1",
+        "Gabriel - 1",
+        "Pappoutz - 1",
+        "Borges - 1",
+        "Jupa (B) 1"
+      ]
+    },
+    {
+      "circuito": "JAPAN",
+      "foto": "imagens/circuitos/japan.jpg",
+      "p1": "Gronk - 2",
+      "vencedores": [
+        "Gronk - 2",
+        "Alex Camel - 1",
+        "Zezinho - 1",
+        "Magiolo - 1",
+        "Kaio - 1",
+        "Siverly - 1",
+        "Campola - 1",
+        "PyroManiac - 1",
+        "Daniel - 1",
+        "Max Weber - 1",
+        "PH Silva - 1",
+        "Cloviz - 1",
+        "Lucas - 1"
+      ]
+    },
+    {
+      "circuito": "LAS VEGAS",
+      "foto": "imagens/circuitos/las-vegas.jpg",
+      "p1": "Tozzi - 2",
+      "vencedores": [
+        "Tozzi - 2",
+        "Gronk -2",
+        "Leo Costa - 1",
+        "Kaio - 1"
+      ]
+    },
+    {
+      "circuito": "MEXICO",
+      "foto": "imagens/circuitos/mexico.jpg",
+      "p1": "Magiolo - 2",
+      "vencedores": [
+        "Magiolo - 2",
+        "Leo Costa - 1",
+        "Zezinho - 1",
+        "Siverly - 1",
+        "Kelvin - 1",
+        "Tozzi - 1",
+        "Daniel - 1",
+        "PyroManiac - 1",
+        "PH Silva - 1",
+        "Max Weber - 1",
+        "Kaio - 1"
+      ]
+    },
+    {
+      "circuito": "MIAMI",
+      "foto": "imagens/circuitos/miami.jpg",
+      "p1": "Cloviz - 2",
+      "vencedores": [
+        "Cloviz - 2",
+        "Leo Costa - 2",
+        "Lavacar - 1",
+        "Airton -1",
+        "Joao Vicente - 1",
+        "Kaio -1",
+        "Tozzi - 1",
+        "Carlos Eduardo (B) 1"
+      ]
+    },
+    {
+      "circuito": "MONACO",
+      "foto": "imagens/circuitos/monaco.jpg",
+      "p1": "Cambui - 2",
+      "vencedores": [
+        "Cambui - 2",
+        "Hansell - 2",
+        "Joao Vicente - 1",
+        "Denis - 1",
+        "Malone - 1",
+        "Magiolo - 1",
+        "Max Weber - 1",
+        "Kaio - 1"
+      ]
+    },
+    {
+      "circuito": "NETHERLANDS",
+      "foto": "imagens/circuitos/netherlands.jpg",
+      "p1": "Cambui -3",
+      "vencedores": [
+        "Cambui -3",
+        "Pappoutz - 2",
+        "Carlos Eduardo - 1",
+        "Gronk - 1",
+        "Magiolo - 1",
+        "Alex - 1",
+        "Kleber - 1",
+        "Cruz - 1",
+        "Gabriel - 1",
+        "GabRope - 1"
+      ]
+    },
+    {
+      "circuito": "PORTUGAL",
+      "foto": "imagens/circuitos/portugal.jpg",
+      "p1": "Nicolas Silva - 1",
+      "vencedores": [
+        "Nicolas Silva - 1",
+        "Bruninho -1",
+        "Claudio - 1",
+        "Kaio - 1",
+        "Denis - 1",
+        "Tozzi - 1",
+        "Emerson - 1",
+        "Malone - 1"
+      ]
+    },
+    {
+      "circuito": "QATAR",
+      "foto": "imagens/circuitos/qatar.jpg",
+      "p1": "Zezinho - 1",
+      "vencedores": [
+        "Zezinho - 1",
+        "Leo Costa -1",
+        "Gronk - 1",
+        "Siverly - 1",
+        "Cloviz - 1"
+      ]
+    },
+    {
+      "circuito": "SINGAPORE",
+      "foto": "imagens/circuitos/singapore.jpg",
+      "p1": "Gabriel - 2",
+      "vencedores": [
+        "Gabriel - 2",
+        "Lavacar - 1",
+        "Leo Costa - 1",
+        "Airton -1",
+        "Bruninho - 1",
+        "Bross -1",
+        "Cambui - 1",
+        "Magiolo - 1",
+        "Emerson - 1",
+        "Daniel - 1",
+        "Cloviz  - 1",
+        "Max Weber - 1",
+        "Minion - 1",
+        "Carlos Eduardo (B) 1"
+      ]
+    },
+    {
+      "circuito": "SPAIN",
+      "foto": "imagens/circuitos/spain.jpg",
+      "p1": "Leo Costa - 1",
+      "vencedores": [
+        "Leo Costa - 1",
+        "Cambui - 1",
+        "Airton -1",
+        "Magiolo - 1",
+        "Roberto - 1",
+        "Ewers - 1",
+        "Emerson - 1",
+        "Gabriel - 1",
+        "Cloviz - 1",
+        "GabRope - 1",
+        "Tonin - 1"
+      ]
+    }
+  ]
+}
