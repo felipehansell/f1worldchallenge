@@ -197,6 +197,7 @@ def main():
     print("Sincronizando dados do Google Sheets...")
     div_a = parse_classificacao("Classificação A", "A", "Divisão A", "🥇")
     div_b = parse_classificacao("Classificação B", "B", "Divisão B", "🥈")
+    div_c = parse_classificacao("Classificação C", "C", "Divisão C", "🥉")
 
     temporada = {
         "liga": "F1 World Challenge",
