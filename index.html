@@ -29,7 +29,6 @@ main { max-width: 1100px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
 .section { display: none; }
 .section.active { display: block; }
 
-/* HERO */
 .hero { background: var(--black); border-radius: var(--rl); padding: 1.5rem; margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; }
 .hero h1 { font-size: 22px; font-weight: 700; color: white; margin-bottom: 4px; }
 .hero p { font-size: 13px; color: rgba(255,255,255,0.5); }
@@ -37,13 +36,11 @@ main { max-width: 1100px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
 .hero-stat-val { font-size: 28px; font-weight: 700; color: var(--red); line-height: 1; }
 .hero-stat-label { font-size: 11px; color: rgba(255,255,255,0.4); text-transform: uppercase; letter-spacing: 0.5px; margin-top: 2px; }
 
-/* TABS */
 .div-tabs { display: flex; gap: 6px; margin-bottom: 1rem; overflow-x: auto; scrollbar-width: none; }
 .div-tabs::-webkit-scrollbar { display: none; }
 .div-tab { padding: 7px 16px; font-size: 13px; font-weight: 500; border: 1.5px solid var(--g200); border-radius: 20px; cursor: pointer; background: white; color: var(--g600); font-family: var(--font); white-space: nowrap; transition: all 0.15s; }
 .div-tab.active { background: var(--red); color: white; border-color: var(--red); }
 
-/* TABLE CARD */
 .table-card { background: white; border-radius: var(--rl); overflow: hidden; border: 1px solid var(--g200); margin-bottom: 1.5rem; }
 .table-header { padding: 14px 16px; border-bottom: 1px solid var(--g200); display: flex; align-items: center; justify-content: space-between; }
 .table-title { font-size: 15px; font-weight: 600; }
@@ -66,14 +63,11 @@ tr:hover td { background: #fafafa; }
 .pen-neg { color: #c0392b; font-weight: 500; }
 .pen-zero { color: var(--g400); }
 
-/* SEARCH */
 .search-bar { width: 100%; padding: 10px 14px; border: 1.5px solid var(--g200); border-radius: var(--r); font-size: 14px; font-family: var(--font); margin-bottom: 1rem; outline: none; transition: border-color 0.15s; }
 .search-bar:focus { border-color: var(--red); }
 
-/* ALERT */
 .alert-box { background: #fff5f5; border: 1px solid #ffc0c0; border-radius: var(--r); padding: 12px 16px; font-size: 13px; color: #c0392b; margin-bottom: 1rem; line-height: 1.5; }
 
-/* ACCORDION */
 .accordion { background: white; border: 1px solid var(--g200); border-radius: var(--rl); margin-bottom: 8px; overflow: hidden; }
 .acc-header { padding: 14px 16px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; font-weight: 500; font-size: 14px; user-select: none; transition: background 0.1s; }
 .acc-header:hover { background: var(--g100); }
@@ -92,7 +86,6 @@ tr:hover td { background: #fafafa; }
 .pen-desc { color: var(--g600); line-height: 1.5; margin-bottom: 3px; }
 .pen-result { font-weight: 600; color: #c0392b; font-size: 12px; }
 
-/* CORRIDAS GRID */
 .corridas-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
 .corrida-card { background: white; border-radius: var(--rl); overflow: hidden; border: 1px solid var(--g200); cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; }
 .corrida-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
@@ -103,7 +96,6 @@ tr:hover td { background: #fafafa; }
 .corrida-winner { font-size: 12px; color: var(--g600); }
 .corrida-winner strong { color: var(--black); }
 
-/* HISTÓRICO CARDS */
 .historico-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
 .hist-card { background: white; border-radius: var(--rl); border: 1px solid var(--g200); padding: 16px; cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; }
 .hist-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
@@ -112,7 +104,6 @@ tr:hover td { background: #fafafa; }
 .hist-titles { font-size: 28px; font-weight: 700; color: var(--red); line-height: 1; }
 .hist-titles-label { font-size: 11px; color: var(--g400); margin-top: 2px; }
 
-/* DETAIL VIEW */
 .detail-view { display: none; }
 .detail-view.active { display: block; }
 .back-btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; background: white; border: 1px solid var(--g200); border-radius: var(--r); font-size: 13px; font-weight: 500; cursor: pointer; margin-bottom: 1rem; font-family: var(--font); transition: background 0.15s; }
@@ -135,7 +126,16 @@ tr:hover td { background: #fafafa; }
 .updated { font-size: 11px; color: var(--g400); }
 footer { text-align: center; padding: 2rem; font-size: 12px; color: var(--g400); border-top: 1px solid var(--g200); margin-top: 2rem; }
 
-@media (max-width: 600px) {
+.mobile-nav { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: var(--black); border-top: 1px solid rgba(255,255,255,0.1); z-index: 200; justify-content: space-around; padding: 6px 0 env(safe-area-inset-bottom, 6px); }
+.mn-btn { display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 4px 6px; background: none; border: none; cursor: pointer; font-family: var(--font); flex: 1; }
+.mn-icon { font-size: 20px; line-height: 1; }
+.mn-label { font-size: 9px; color: rgba(255,255,255,0.45); white-space: nowrap; }
+.mn-btn.active .mn-label { color: var(--red); }
+
+@media (max-width: 768px) {
+  .mobile-nav { display: flex; }
+  header nav { display: none; }
+  main { padding-bottom: 80px; }
   .hero { padding: 1rem; }
   .hero h1 { font-size: 18px; }
   .hero-stats { gap: 1rem; }
@@ -149,7 +149,7 @@ footer { text-align: center; padding: 2rem; font-size: 12px; color: var(--g400);
 <header>
   <div class="header-inner">
     <div class="logo-area" onclick="setTab('home')">
-      <img src="logo.jpg" alt="F1WC" style="height:36px; width:auto; max-width:120px; object-fit:contain;" onerror="this.style.display='none'">
+      <div class="logo-placeholder">F1WC</div>
       <span class="logo-name">F1 World Challenge</span>
     </div>
     <nav>
@@ -167,7 +167,6 @@ footer { text-align: center; padding: 2rem; font-size: 12px; color: var(--g400);
 <main>
   <div id="loading" class="loading">Carregando dados da liga...</div>
 
-  <!-- HOME -->
   <div id="section-home" class="section">
     <div class="hero">
       <div>
@@ -188,13 +187,11 @@ footer { text-align: center; padding: 2rem; font-size: 12px; color: var(--g400);
     <div id="home-content"></div>
   </div>
 
-  <!-- CLASSIFICAÇÃO -->
   <div id="section-classificacao" class="section">
     <div class="div-tabs" id="class-tabs"></div>
     <div id="class-content"></div>
   </div>
 
-  <!-- DUPLAS -->
   <div id="section-duplas" class="section">
     <div class="div-tabs">
       <button class="div-tab active" onclick="setDuplas(this,'ab')">Divisão A e B</button>
@@ -203,7 +200,6 @@ footer { text-align: center; padding: 2rem; font-size: 12px; color: var(--g400);
     <div id="duplas-content"></div>
   </div>
 
-  <!-- CONSTRUTORES -->
   <div id="section-construtores" class="section">
     <div class="table-card">
       <div class="table-header"><span class="table-title">Construtores A e B</span></div>
@@ -216,7 +212,6 @@ footer { text-align: center; padding: 2rem; font-size: 12px; color: var(--g400);
     </div>
   </div>
 
-  <!-- CORRIDAS -->
   <div id="section-corridas" class="section">
     <div id="corridas-list-view">
       <h2 style="font-size:20px;font-weight:700;margin-bottom:1rem;">Corridas</h2>
@@ -232,14 +227,12 @@ footer { text-align: center; padding: 2rem; font-size: 12px; color: var(--g400);
     </div>
   </div>
 
-  <!-- PUNIÇÕES -->
   <div id="section-punicoes" class="section">
     <div id="alert-pun"></div>
     <input type="search" class="search-bar" placeholder="Procurar piloto..." oninput="filtrarPunicoes(this.value)">
     <div id="punicoes-list"></div>
   </div>
 
-  <!-- HISTÓRICO -->
   <div id="section-historico" class="section">
     <div id="historico-list-view">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;flex-wrap:wrap;gap:8px;">
@@ -259,11 +252,20 @@ footer { text-align: center; padding: 2rem; font-size: 12px; color: var(--g400);
   </div>
 </main>
 
-<footer class="desktop-footer">F1 World Challenge · Temporada 27 · <span id="footer-date"></span></footer>  <nav class="mobile-footer">   <button class="mf-btn active" onclick="setTab('home')">     <span class="mf-icon">🏠</span>     <span class="mf-label">Início</span>   </button>   <button class="mf-btn" onclick="setTab('classificacao')">     <span class="mf-icon">🏆</span>     <span class="mf-label">Classificação</span>   </button>   <button class="mf-btn" onclick="setTab('duplas')">     <span class="mf-icon">👥</span>     <span class="mf-label">Duplas</span>   </button>   <button class="mf-btn" onclick="setTab('corridas')">     <span class="mf-icon">🏁</span>     <span class="mf-label">Corridas</span>   </button>   <button class="mf-btn" onclick="setTab('punicoes')">     <span class="mf-icon">⚠️</span>     <span class="mf-label">Punições</span>   </button>   <button class="mf-btn" onclick="setTab('historico')">     <span class="mf-icon">📊</span>     <span class="mf-label">Histórico</span>   </button> </nav>
+<footer>F1 World Challenge · Temporada 27 · <span id="footer-date"></span></footer>
+
+<nav class="mobile-nav">
+  <button class="mn-btn active" onclick="setTab('home')"><span class="mn-icon">🏠</span><span class="mn-label">Início</span></button>
+  <button class="mn-btn" onclick="setTab('classificacao')"><span class="mn-icon">🏆</span><span class="mn-label">Classificação</span></button>
+  <button class="mn-btn" onclick="setTab('duplas')"><span class="mn-icon">👥</span><span class="mn-label">Duplas</span></button>
+  <button class="mn-btn" onclick="setTab('construtores')"><span class="mn-icon">🚗</span><span class="mn-label">Construtores</span></button>
+  <button class="mn-btn" onclick="setTab('corridas')"><span class="mn-icon">🏁</span><span class="mn-label">Corridas</span></button>
+  <button class="mn-btn" onclick="setTab('punicoes')"><span class="mn-icon">⚠️</span><span class="mn-label">Punições</span></button>
+  <button class="mn-btn" onclick="setTab('historico')"><span class="mn-icon">📊</span><span class="mn-label">Histórico</span></button>
+</nav>
 
 <script>
 let DATA = {}, PUN = {}, COR = {}, HIST = {};
-let divAtual = 0;
 let duplasAtual = 'ab';
 
 async function loadJSON(p) {
@@ -305,51 +307,24 @@ function renderHome() {
   document.getElementById('hero-pilotos').textContent = divA.pilotos.length;
   document.getElementById('hero-corridas').textContent = COR.corridas ? COR.corridas.length : '—';
   document.getElementById('hero-sub').textContent = `Atualizado em ${DATA.ultima_atualizacao || '—'} · ${DATA.jogo || ''}`;
-
   const top5 = divA.pilotos.slice(0, 5);
-  let html = `<div class="table-card">
-    <div class="table-header"><span class="table-title">🥇 Divisão A — Top 5</span><span class="updated">${DATA.ultima_atualizacao}</span></div>
-    <div class="table-scroll"><table>
-      <thead><tr><th>Pos</th><th>Piloto</th><th>Pen.</th><th>Pontos</th></tr></thead>
-      <tbody>`;
-  top5.forEach(p => {
-    html += `<tr>
-      <td>${posBadge(p.posicao)}</td>
-      <td>${pilotCell(p)}</td>
-      <td class="${p.penalizacoes < 0 ? 'pen-neg' : 'pen-zero'}">${p.penalizacoes || 0}</td>
-      <td class="pts-cell">${p.pontos}</td>
-    </tr>`;
-  });
+  let html = `<div class="table-card"><div class="table-header"><span class="table-title">🥇 Divisão A — Top 5</span><span class="updated">${DATA.ultima_atualizacao}</span></div><div class="table-scroll"><table><thead><tr><th>Pos</th><th>Piloto</th><th>Pen.</th><th>Pontos</th></tr></thead><tbody>`;
+  top5.forEach(p => { html += `<tr><td>${posBadge(p.posicao)}</td><td>${pilotCell(p)}</td><td class="${p.penalizacoes < 0 ? 'pen-neg' : 'pen-zero'}">${p.penalizacoes || 0}</td><td class="pts-cell">${p.pontos}</td></tr>`; });
   html += `</tbody></table></div></div>`;
   document.getElementById('home-content').innerHTML = html;
 }
 
 function renderClassTabs() {
-  const tabs = document.getElementById('class-tabs');
-  tabs.innerHTML = DATA.divisoes.map((d, i) =>
+  document.getElementById('class-tabs').innerHTML = DATA.divisoes.map((d, i) =>
     `<button class="div-tab ${i===0?'active':''}" onclick="renderClass(${i}); document.querySelectorAll('#class-tabs .div-tab').forEach(b=>b.classList.remove('active')); this.classList.add('active')">${d.emoji} ${d.nome}</button>`
   ).join('');
 }
 
 function renderClass(idx) {
   const div = DATA.divisoes[idx];
-  if (!div.pilotos || div.pilotos.length === 0) {
-    document.getElementById('class-content').innerHTML = '<div class="loading">Sem dados ainda.</div>';
-    return;
-  }
-  let html = `<div class="table-card">
-    <div class="table-header"><span class="table-title">${div.emoji} ${div.nome}</span><span class="updated">Atualizado em ${DATA.ultima_atualizacao}</span></div>
-    <div class="table-scroll"><table>
-      <thead><tr><th>Pos</th><th>Piloto</th><th>Pen.</th><th>Pontos</th></tr></thead>
-      <tbody>`;
-  div.pilotos.forEach(p => {
-    html += `<tr>
-      <td>${posBadge(p.posicao)}</td>
-      <td>${pilotCell(p)}</td>
-      <td class="${p.penalizacoes < 0 ? 'pen-neg' : 'pen-zero'}">${p.penalizacoes || 0}</td>
-      <td class="pts-cell">${p.pontos}</td>
-    </tr>`;
-  });
+  if (!div.pilotos || div.pilotos.length === 0) { document.getElementById('class-content').innerHTML = '<div class="loading">Sem dados ainda.</div>'; return; }
+  let html = `<div class="table-card"><div class="table-header"><span class="table-title">${div.emoji} ${div.nome}</span><span class="updated">Atualizado em ${DATA.ultima_atualizacao}</span></div><div class="table-scroll"><table><thead><tr><th>Pos</th><th>Piloto</th><th>Pen.</th><th>Pontos</th></tr></thead><tbody>`;
+  div.pilotos.forEach(p => { html += `<tr><td>${posBadge(p.posicao)}</td><td>${pilotCell(p)}</td><td class="${p.penalizacoes < 0 ? 'pen-neg' : 'pen-zero'}">${p.penalizacoes || 0}</td><td class="pts-cell">${p.pontos}</td></tr>`; });
   html += `</tbody></table></div></div>`;
   document.getElementById('class-content').innerHTML = html;
 }
@@ -357,23 +332,9 @@ function renderClass(idx) {
 function renderDuplas(tipo) {
   duplasAtual = tipo;
   const lista = tipo === 'ab' ? DATA.duplas_ab : DATA.duplas_c;
-  if (!lista || lista.length === 0) {
-    document.getElementById('duplas-content').innerHTML = '<div class="loading">Sem dados ainda.</div>';
-    return;
-  }
-  let html = `<div class="table-card">
-    <div class="table-header"><span class="table-title">Duplas ${tipo === 'ab' ? 'A e B' : 'C'}</span></div>
-    <div class="table-scroll"><table>
-      <thead><tr><th>Pos</th><th>Dupla</th><th>Pen.</th><th>Pontos</th></tr></thead>
-      <tbody>`;
-  lista.forEach(d => {
-    html += `<tr>
-      <td>${posBadge(d.posicao)}</td>
-      <td style="font-weight:500">${d.dupla}</td>
-      <td class="${d.penalizacoes < 0 ? 'pen-neg' : 'pen-zero'}">${d.penalizacoes || 0}</td>
-      <td class="pts-cell">${d.pontos}</td>
-    </tr>`;
-  });
+  if (!lista || lista.length === 0) { document.getElementById('duplas-content').innerHTML = '<div class="loading">Sem dados ainda.</div>'; return; }
+  let html = `<div class="table-card"><div class="table-header"><span class="table-title">Duplas ${tipo === 'ab' ? 'A e B' : 'C'}</span></div><div class="table-scroll"><table><thead><tr><th>Pos</th><th>Dupla</th><th>Pen.</th><th>Pontos</th></tr></thead><tbody>`;
+  lista.forEach(d => { html += `<tr><td>${posBadge(d.posicao)}</td><td style="font-weight:500">${d.dupla}</td><td class="${d.penalizacoes < 0 ? 'pen-neg' : 'pen-zero'}">${d.penalizacoes || 0}</td><td class="pts-cell">${d.pontos}</td></tr>`; });
   html += `</tbody></table></div></div>`;
   document.getElementById('duplas-content').innerHTML = html;
 }
@@ -385,23 +346,14 @@ function setDuplas(btn, tipo) {
 }
 
 function renderConstrutores() {
-  const lista = DATA.construtores || [];
-  const tbody = document.getElementById('const-tbody');
-  tbody.innerHTML = lista.map(c => `
-    <tr>
-      <td>${posBadge(c.posicao)}</td>
-      <td style="font-weight:500">${c.nome}</td>
-      <td class="${c.penalizacoes < 0 ? 'pen-neg' : 'pen-zero'}">${c.penalizacoes || 0}</td>
-      <td class="pts-cell">${c.pontos}</td>
-    </tr>`).join('');
+  document.getElementById('const-tbody').innerHTML = (DATA.construtores || []).map(c =>
+    `<tr><td>${posBadge(c.posicao)}</td><td style="font-weight:500">${c.nome}</td><td class="${c.penalizacoes < 0 ? 'pen-neg' : 'pen-zero'}">${c.penalizacoes || 0}</td><td class="pts-cell">${c.pontos}</td></tr>`
+  ).join('');
 }
 
 function renderCorridas() {
   const grid = document.getElementById('corridas-grid');
-  if (!COR.corridas || COR.corridas.length === 0) {
-    grid.innerHTML = '<div class="loading">Sem dados ainda.</div>';
-    return;
-  }
+  if (!COR.corridas || COR.corridas.length === 0) { grid.innerHTML = '<div class="loading">Sem dados ainda.</div>'; return; }
   grid.innerHTML = COR.corridas.map((c, i) => `
     <div class="corrida-card" onclick="abrirCorrida(${i})">
       ${c.foto ? `<img class="corrida-img" src="${c.foto}" alt="${c.circuito}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">` : ''}
@@ -416,12 +368,9 @@ function renderCorridas() {
 function abrirCorrida(idx) {
   const c = COR.corridas[idx];
   document.getElementById('corrida-detail-nome').textContent = c.circuito;
-  const ul = document.getElementById('corrida-vencedores');
-  ul.innerHTML = c.vencedores.map((v, i) => `
-    <li>
-      <div class="v-pos ${i===0?'p1':''}">${i+1}</div>
-      <span>${v}</span>
-    </li>`).join('');
+  document.getElementById('corrida-vencedores').innerHTML = c.vencedores.map((v, i) =>
+    `<li><div class="v-pos ${i===0?'p1':''}">${i+1}</div><span>${v}</span></li>`
+  ).join('');
   document.getElementById('corridas-list-view').style.display = 'none';
   document.getElementById('corrida-detail-view').classList.add('active');
 }
@@ -432,14 +381,8 @@ function voltarCorridas() {
 }
 
 function renderPunicoes() {
-  if (PUN.aviso) {
-    document.getElementById('alert-pun').innerHTML = `<div class="alert-box">${PUN.aviso}</div>`;
-  }
-  renderPunicoesLista(PUN.punicoes || []);
-}
-
-function renderPunicoesLista(lista) {
-  document.getElementById('punicoes-list').innerHTML = lista.map((p, i) => `
+  if (PUN.aviso) document.getElementById('alert-pun').innerHTML = `<div class="alert-box">${PUN.aviso}</div>`;
+  document.getElementById('punicoes-list').innerHTML = (PUN.punicoes || []).map((p, i) => `
     <div class="accordion" data-piloto="${p.piloto.toLowerCase()}">
       <div class="acc-header" onclick="toggleAcc(this)">
         <span>${p.piloto}</span>
@@ -471,8 +414,7 @@ function filtrarPunicoes(q) {
 }
 
 function renderHistorico() {
-  const grid = document.getElementById('historico-grid');
-  grid.innerHTML = (HIST.historico || []).map((h, i) => `
+  document.getElementById('historico-grid').innerHTML = (HIST.historico || []).map((h, i) => `
     <div class="hist-card" data-piloto="${h.piloto.toLowerCase()}" onclick="abrirHistorico(${i})">
       <div class="hist-pos">${h.posicao}</div>
       <div class="hist-name">${h.piloto}</div>
@@ -486,23 +428,11 @@ function abrirHistorico(idx) {
   document.getElementById('hist-detail-nome').textContent = h.piloto;
   document.getElementById('hist-detail-pos').textContent = `Posição histórica: ${h.posicao}`;
   document.getElementById('hist-detail-stats').innerHTML = [
-    ['Títulos', h.titulos],
-    ['Vitórias', h.vitorias],
-    ['Vic. Sprint', h.vic_sprint],
-    ['Vic. Div B', h.vic_div_b],
-    ['2º lugares', h.segundos],
-    ['3º lugares', h.terceiros],
-    ['Pódios', h.podiums],
-    ['% Pódios', h.ppr + '%'],
-    ['Poles', h.poles],
-    ['Corridas', h.corridas],
-    ['DNF', h.dnf],
-    ['% DNF', h.dnf_pct + '%']
-  ].map(([label, val]) => `
-    <div class="detail-stat">
-      <div class="detail-stat-label">${label}</div>
-      <div class="detail-stat-val">${val}</div>
-    </div>`).join('');
+    ['Títulos', h.titulos], ['Vitórias', h.vitorias], ['Vic. Sprint', h.vic_sprint],
+    ['Vic. Div B', h.vic_div_b], ['2º lugares', h.segundos], ['3º lugares', h.terceiros],
+    ['Pódios', h.podiums], ['% Pódios', h.ppr + '%'], ['Poles', h.poles],
+    ['Corridas', h.corridas], ['DNF', h.dnf], ['% DNF', h.dnf_pct + '%']
+  ].map(([label, val]) => `<div class="detail-stat"><div class="detail-stat-label">${label}</div><div class="detail-stat-val">${val}</div></div>`).join('');
   document.getElementById('historico-list-view').style.display = 'none';
   document.getElementById('historico-detail-view').classList.add('active');
 }
@@ -525,20 +455,21 @@ function posBadge(pos) {
 
 function pilotCell(p) {
   const ini = p.nome.split(' ').map(n => n[0]).join('').slice(0,2).toUpperCase();
-  return `<div class="pilot-cell">
-    <div class="avatar">${p.foto ? `<img src="${p.foto}" alt="${p.nome}" onerror="this.parentElement.textContent='${ini}'">` : ini}</div>
-    <span style="font-weight:500">${p.nome}</span>
-  </div>`;
+  return `<div class="pilot-cell"><div class="avatar">${p.foto ? `<img src="${p.foto}" alt="${p.nome}" onerror="this.parentElement.textContent='${ini}'">` : ini}</div><span style="font-weight:500">${p.nome}</span></div>`;
 }
 
 function setTab(id) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.mn-btn').forEach(b => b.classList.remove('active'));
   const el = document.getElementById('section-' + id);
   if (el) el.classList.add('active');
+  const map = { home:'início', classificacao:'classif', duplas:'dupla', construtores:'constru', corridas:'corrida', punicoes:'puni', historico:'hist' };
   document.querySelectorAll('.nav-btn').forEach(b => {
-    const map = { home:'início', classificacao:'classif', duplas:'dupla', construtores:'constru', corridas:'corrida', punicoes:'puni', historico:'hist' };
     if (b.textContent.toLowerCase().includes(map[id] || id)) b.classList.add('active');
+  });
+  document.querySelectorAll('.mn-btn').forEach(b => {
+    if (b.getAttribute('onclick') && b.getAttribute('onclick').includes(id)) b.classList.add('active');
   });
   window.scrollTo(0, 0);
 }
