@@ -16,14 +16,30 @@ body { font-family: var(--font); background: var(--g100); color: var(--black); }
 
 header { background: var(--black); position: sticky; top: 0; z-index: 100; }
 .header-inner { max-width: 1100px; margin: 0 auto; padding: 0 1rem; display: flex; align-items: center; gap: 1rem; height: 56px; }
-.logo-area { display: flex; align-items: center; gap: 10px; text-decoration: none; cursor: pointer; }
-.logo-placeholder { height: 32px; width: 32px; background: var(--red); border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; color: white; }
+.logo-area { display: flex; align-items: center; gap: 10px; cursor: pointer; }
 .logo-name { font-size: 14px; font-weight: 600; color: white; }
+.hamburger { display: none; background: none; border: none; cursor: pointer; padding: 8px; color: white; font-size: 22px; margin-right: 4px; }
 nav { display: flex; gap: 2px; margin-left: auto; overflow-x: auto; scrollbar-width: none; }
 nav::-webkit-scrollbar { display: none; }
 .nav-btn { padding: 8px 12px; font-size: 13px; color: rgba(255,255,255,0.6); background: none; border: none; cursor: pointer; border-radius: var(--r); white-space: nowrap; font-family: var(--font); transition: all 0.15s; }
 .nav-btn:hover { color: white; background: rgba(255,255,255,0.08); }
 .nav-btn.active { color: white; background: var(--red); }
+
+/* DRAWER */
+.drawer-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 300; }
+.drawer-overlay.open { display: block; }
+.drawer { position: fixed; top: 0; left: -280px; width: 280px; height: 100%; background: white; z-index: 400; transition: left 0.25s ease; box-shadow: 4px 0 20px rgba(0,0,0,0.15); display: flex; flex-direction: column; }
+.drawer.open { left: 0; }
+.drawer-header { background: var(--black); padding: 16px; display: flex; align-items: center; justify-content: space-between; min-height: 56px; }
+.drawer-logo { display: flex; align-items: center; gap: 10px; }
+.drawer-logo-name { font-size: 14px; font-weight: 600; color: white; }
+.drawer-close { background: none; border: none; color: white; font-size: 22px; cursor: pointer; padding: 4px; }
+.drawer-items { padding: 1rem 0; flex: 1; }
+.drawer-item { display: flex; align-items: center; gap: 14px; padding: 14px 20px; font-size: 15px; cursor: pointer; color: var(--black); transition: background 0.1s; border: none; background: none; width: 100%; font-family: var(--font); text-align: left; }
+.drawer-item:hover { background: var(--g100); }
+.drawer-item.active { color: var(--red); font-weight: 500; }
+.drawer-icon { font-size: 20px; width: 24px; text-align: center; }
+.drawer-footer { padding: 16px 20px; border-top: 1px solid var(--g200); font-size: 11px; color: var(--g400); }
 
 main { max-width: 1100px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
 .section { display: none; }
@@ -126,14 +142,16 @@ tr:hover td { background: #fafafa; }
 .updated { font-size: 11px; color: var(--g400); }
 footer { text-align: center; padding: 2rem; font-size: 12px; color: var(--g400); border-top: 1px solid var(--g200); margin-top: 2rem; }
 
-.mobile-nav { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: var(--black); border-top: 1px solid rgba(255,255,255,0.1); z-index: 200; justify-content: space-around; padding: 6px 0 env(safe-area-inset-bottom, 6px); }
-.mn-btn { display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 4px 6px; background: none; border: none; cursor: pointer; font-family: var(--font); flex: 1; }
-.mn-icon { font-size: 20px; line-height: 1; }
-.mn-label { font-size: 9px; color: rgba(255,255,255,0.45); white-space: nowrap; }
-.mn-btn.active .mn-label { color: var(--red); }
+/* MOBILE FOOTER NAV */
+.mobile-nav { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: white; border-top: 1px solid var(--g200); z-index: 200; justify-content: space-around; padding: 8px 0 env(safe-area-inset-bottom, 8px); }
+.mn-btn { display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 4px 8px; background: none; border: none; cursor: pointer; font-family: var(--font); flex: 1; color: var(--g400); transition: color 0.15s; }
+.mn-btn.active { color: var(--red); }
+.mn-icon { font-size: 22px; line-height: 1; }
+.mn-label { font-size: 10px; font-weight: 500; white-space: nowrap; }
 
 @media (max-width: 768px) {
   .mobile-nav { display: flex; }
+  .hamburger { display: block; }
   header nav { display: none; }
   main { padding-bottom: 80px; }
   .hero { padding: 1rem; }
@@ -146,10 +164,34 @@ footer { text-align: center; padding: 2rem; font-size: 12px; color: var(--g400);
 </head>
 <body>
 
+<div class="drawer-overlay" id="drawer-overlay" onclick="fecharDrawer()"></div>
+<div class="drawer" id="drawer">
+  <div class="drawer-header">
+    <div class="drawer-logo">
+      <img src="logo.jpg" alt="F1WC" style="height:32px;width:auto;max-width:100px;object-fit:contain;" onerror="this.style.display='none'">
+      <span class="drawer-logo-name">F1 World Challenge</span>
+    </div>
+    <button class="drawer-close" onclick="fecharDrawer()">✕</button>
+  </div>
+  <div class="drawer-items">
+    <button class="drawer-item" id="drawer-historico" onclick="setTab('historico');fecharDrawer()">
+      <span class="drawer-icon">📊</span> Histórico
+    </button>
+    <button class="drawer-item" id="drawer-corridas" onclick="setTab('corridas');fecharDrawer()">
+      <span class="drawer-icon">🏁</span> Corridas
+    </button>
+    <button class="drawer-item" id="drawer-construtores" onclick="setTab('construtores');fecharDrawer()">
+      <span class="drawer-icon">🚗</span> Construtores
+    </button>
+  </div>
+  <div class="drawer-footer">F1 World Challenge · Temporada 27</div>
+</div>
+
 <header>
   <div class="header-inner">
+    <button class="hamburger" onclick="abrirDrawer()">☰</button>
     <div class="logo-area" onclick="setTab('home')">
-      <div class="logo-placeholder">F1WC</div>
+      <img src="logo.jpg" alt="F1WC" style="height:32px;width:auto;max-width:120px;object-fit:contain;" onerror="this.style.display='none'">
       <span class="logo-name">F1 World Challenge</span>
     </div>
     <nav>
@@ -255,13 +297,18 @@ footer { text-align: center; padding: 2rem; font-size: 12px; color: var(--g400);
 <footer>F1 World Challenge · Temporada 27 · <span id="footer-date"></span></footer>
 
 <nav class="mobile-nav">
-  <button class="mn-btn active" onclick="setTab('home')"><span class="mn-icon">🏠</span><span class="mn-label">Início</span></button>
-  <button class="mn-btn" onclick="setTab('classificacao')"><span class="mn-icon">🏆</span><span class="mn-label">Classificação</span></button>
-  <button class="mn-btn" onclick="setTab('duplas')"><span class="mn-icon">👥</span><span class="mn-label">Duplas</span></button>
-  <button class="mn-btn" onclick="setTab('construtores')"><span class="mn-icon">🚗</span><span class="mn-label">Construtores</span></button>
-  <button class="mn-btn" onclick="setTab('corridas')"><span class="mn-icon">🏁</span><span class="mn-label">Corridas</span></button>
-  <button class="mn-btn" onclick="setTab('punicoes')"><span class="mn-icon">⚠️</span><span class="mn-label">Punições</span></button>
-  <button class="mn-btn" onclick="setTab('historico')"><span class="mn-icon">📊</span><span class="mn-label">Histórico</span></button>
+  <button class="mn-btn active" onclick="setTab('home')">
+    <span class="mn-icon">🏠</span><span class="mn-label">Início</span>
+  </button>
+  <button class="mn-btn" onclick="setTab('classificacao')">
+    <span class="mn-icon">🏆</span><span class="mn-label">Classificação</span>
+  </button>
+  <button class="mn-btn" onclick="setTab('duplas')">
+    <span class="mn-icon">👥</span><span class="mn-label">Duplas</span>
+  </button>
+  <button class="mn-btn" onclick="setTab('punicoes')">
+    <span class="mn-icon">⚠️</span><span class="mn-label">Punições</span>
+  </button>
 </nav>
 
 <script>
@@ -382,7 +429,7 @@ function voltarCorridas() {
 
 function renderPunicoes() {
   if (PUN.aviso) document.getElementById('alert-pun').innerHTML = `<div class="alert-box">${PUN.aviso}</div>`;
-  document.getElementById('punicoes-list').innerHTML = (PUN.punicoes || []).map((p, i) => `
+  document.getElementById('punicoes-list').innerHTML = (PUN.punicoes || []).map(p => `
     <div class="accordion" data-piloto="${p.piloto.toLowerCase()}">
       <div class="acc-header" onclick="toggleAcc(this)">
         <span>${p.piloto}</span>
@@ -458,10 +505,23 @@ function pilotCell(p) {
   return `<div class="pilot-cell"><div class="avatar">${p.foto ? `<img src="${p.foto}" alt="${p.nome}" onerror="this.parentElement.textContent='${ini}'">` : ini}</div><span style="font-weight:500">${p.nome}</span></div>`;
 }
 
+function abrirDrawer() {
+  document.getElementById('drawer').classList.add('open');
+  document.getElementById('drawer-overlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function fecharDrawer() {
+  document.getElementById('drawer').classList.remove('open');
+  document.getElementById('drawer-overlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
 function setTab(id) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
   document.querySelectorAll('.mn-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.drawer-item').forEach(b => b.classList.remove('active'));
   const el = document.getElementById('section-' + id);
   if (el) el.classList.add('active');
   const map = { home:'início', classificacao:'classif', duplas:'dupla', construtores:'constru', corridas:'corrida', punicoes:'puni', historico:'hist' };
@@ -469,8 +529,10 @@ function setTab(id) {
     if (b.textContent.toLowerCase().includes(map[id] || id)) b.classList.add('active');
   });
   document.querySelectorAll('.mn-btn').forEach(b => {
-    if (b.getAttribute('onclick') && b.getAttribute('onclick').includes(id)) b.classList.add('active');
+    if (b.getAttribute('onclick') && b.getAttribute('onclick').includes(`'${id}'`)) b.classList.add('active');
   });
+  const drawerItem = document.getElementById('drawer-' + id);
+  if (drawerItem) drawerItem.classList.add('active');
   window.scrollTo(0, 0);
 }
 
