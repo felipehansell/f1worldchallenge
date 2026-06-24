@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>F1 World Challenge</title>
+<style>
+:root {
+  --red: #e10600; --black: #15151e; --white: #fff;
+  --g100: #f5f5f5; --g200: #e8e8e8; --g400: #aaa; --g600: #666;
+  --gold: #FFD700; --silver: #C0C0C0; --bronze: #CD7F32;
+  --font: 'Inter', system-ui, sans-serif; --r: 8px; --rl: 12px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font); background: var(--g100); color: var(--black); }
+
+header { background: var(--black); position: sticky; top: 0; z-index: 100; }
+.header-inner { max-width: 1100px; margin: 0 auto; padding: 0 1rem; display: flex; align-items: center; gap: 1rem; height: 56px; }
+.logo-area { display: flex; align-items: center; gap: 10px; text-decoration: none; cursor: pointer; }
+.logo-placeholder { height: 32px; width: 32px; background: var(--red); border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; color: white; }
+.logo-name { font-size: 14px; font-weight: 600; color: white; }
+nav { display: flex; gap: 2px; margin-left: auto; overflow-x: auto; scrollbar-width: none; }
+nav::-webkit-scrollbar { display: none; }
+.nav-btn { padding: 8px 12px; font-size: 13px; color: rgba(255,255,255,0.6); background: none; border: none; cursor: pointer; border-radius: var(--r); white-space: nowrap; font-family: var(--font); transition: all 0.15s; }
+.nav-btn:hover { color: white; background: rgba(255,255,255,0.08); }
+.nav-btn.active { color: white; background: var(--red); }
+
+main { max-width: 1100px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+.section { display: none; }
+.section.active { display: block; }
+
+/* HERO */
+.hero { background: var(--black); border-radius: var(--rl); padding: 1.5rem; margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; }
+.hero h1 { font-size: 22px; font-weight: 700; color: white; margin-bottom: 4px; }
+.hero p { font-size: 13px; color: rgba(255,255,255,0.5); }
+.hero-stats { display: flex; gap: 1.5rem; }
+.hero-stat-val { font-size: 28px; font-weight: 700; color: var(--red); line-height: 1; }
+.hero-stat-label { font-size: 11px; color: rgba(255,255,255,0.4); text-transform: uppercase; letter-spacing: 0.5px; margin-top: 2px; }
+
+/* TABS */
+.div-tabs { display: flex; gap: 6px; margin-bottom: 1rem; overflow-x: auto; scrollbar-width: none; }
+.div-tabs::-webkit-scrollbar { display: none; }
+.div-tab { padding: 7px 16px; font-size: 13px; font-weight: 500; border: 1.5px solid var(--g200); border-radius: 20px; cursor: pointer; background: white; color: var(--g600); font-family: var(--font); white-space: nowrap; transition: all 0.15s; }
+.div-tab.active { background: var(--red); color: white; border-color: var(--red); }
+
+/* TABLE CARD */
+.table-card { background: white; border-radius: var(--rl); overflow: hidden; border: 1px solid var(--g200); margin-bottom: 1.5rem; }
+.table-header { padding: 14px 16px; border-bottom: 1px solid var(--g200); display: flex; align-items: center; justify-content: space-between; }
+.table-title { font-size: 15px; font-weight: 600; }
+.table-scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+thead { background: var(--g100); }
+th { padding: 9px 12px; text-align: left; font-size: 11px; font-weight: 600; color: var(--g600); text-transform: uppercase; letter-spacing: 0.5px; white-space: nowrap; }
+td { padding: 10px 12px; border-top: 1px solid var(--g100); white-space: nowrap; }
+tr:hover td { background: #fafafa; }
+
+.pos-badge { width: 26px; height: 26px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; }
+.pos-1 { background: var(--gold); color: #5a4100; }
+.pos-2 { background: var(--silver); color: #333; }
+.pos-3 { background: var(--bronze); color: #3d2200; }
+.pos-n { background: var(--g100); color: var(--g600); }
+.pilot-cell { display: flex; align-items: center; gap: 10px; }
+.avatar { width: 32px; height: 32px; border-radius: 50%; background: var(--g200); display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 600; color: var(--g600); overflow: hidden; flex-shrink: 0; }
+.avatar img { width: 100%; height: 100%; object-fit: cover; }
+.pts-cell { font-weight: 700; color: var(--red); font-size: 14px; }
+.pen-neg { color: #c0392b; font-weight: 500; }
+.pen-zero { color: var(--g400); }
+
+/* SEARCH */
+.search-bar { width: 100%; padding: 10px 14px; border: 1.5px solid var(--g200); border-radius: var(--r); font-size: 14px; font-family: var(--font); margin-bottom: 1rem; outline: none; transition: border-color 0.15s; }
+.search-bar:focus { border-color: var(--red); }
+
+/* ALERT */
+.alert-box { background: #fff5f5; border: 1px solid #ffc0c0; border-radius: var(--r); padding: 12px 16px; font-size: 13px; color: #c0392b; margin-bottom: 1rem; line-height: 1.5; }
+
+/* ACCORDION */
+.accordion { background: white; border: 1px solid var(--g200); border-radius: var(--rl); margin-bottom: 8px; overflow: hidden; }
+.acc-header { padding: 14px 16px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; font-weight: 500; font-size: 14px; user-select: none; transition: background 0.1s; }
+.acc-header:hover { background: var(--g100); }
+.acc-chevron { font-size: 18px; color: var(--g400); transition: transform 0.2s; }
+.acc-header.open .acc-chevron { transform: rotate(180deg); }
+.acc-badge { font-size: 11px; padding: 3px 8px; border-radius: 20px; font-weight: 600; }
+.badge-red { background: #fde8e8; color: #c0392b; }
+.badge-gray { background: var(--g100); color: var(--g400); }
+.acc-body { display: none; border-top: 1px solid var(--g100); }
+.acc-body.open { display: block; }
+.pen-item { padding: 12px 16px; border-bottom: 1px solid var(--g100); font-size: 13px; }
+.pen-item:last-child { border-bottom: none; }
+.pen-meta { display: flex; gap: 8px; margin-bottom: 4px; flex-wrap: wrap; }
+.pen-tag { font-size: 11px; padding: 2px 8px; border-radius: 4px; font-weight: 600; }
+.tag-date { background: #e8f4fd; color: #1a6a9e; }
+.pen-desc { color: var(--g600); line-height: 1.5; margin-bottom: 3px; }
+.pen-result { font-weight: 600; color: #c0392b; font-size: 12px; }
+
+/* CORRIDAS GRID */
+.corridas-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.corrida-card { background: white; border-radius: var(--rl); overflow: hidden; border: 1px solid var(--g200); cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; }
+.corrida-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+.corrida-img { width: 100%; height: 130px; object-fit: cover; background: var(--black); display: block; }
+.corrida-img-placeholder { width: 100%; height: 130px; background: var(--black); display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.15); font-size: 32px; }
+.corrida-info { padding: 12px; }
+.corrida-name { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+.corrida-winner { font-size: 12px; color: var(--g600); }
+.corrida-winner strong { color: var(--black); }
+
+/* HISTÓRICO CARDS */
+.historico-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+.hist-card { background: white; border-radius: var(--rl); border: 1px solid var(--g200); padding: 16px; cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; }
+.hist-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+.hist-pos { font-size: 11px; color: var(--g400); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+.hist-name { font-size: 15px; font-weight: 600; margin-bottom: 8px; }
+.hist-titles { font-size: 28px; font-weight: 700; color: var(--red); line-height: 1; }
+.hist-titles-label { font-size: 11px; color: var(--g400); margin-top: 2px; }
+
+/* DETAIL VIEW */
+.detail-view { display: none; }
+.detail-view.active { display: block; }
+.back-btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; background: white; border: 1px solid var(--g200); border-radius: var(--r); font-size: 13px; font-weight: 500; cursor: pointer; margin-bottom: 1rem; font-family: var(--font); transition: background 0.15s; }
+.back-btn:hover { background: var(--g100); }
+.detail-card { background: white; border-radius: var(--rl); border: 1px solid var(--g200); padding: 1.5rem; margin-bottom: 1rem; }
+.detail-title { font-size: 20px; font-weight: 700; margin-bottom: 4px; }
+.detail-sub { font-size: 13px; color: var(--g600); margin-bottom: 1.5rem; }
+.detail-stats { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 10px; }
+.detail-stat { background: var(--g100); border-radius: var(--r); padding: 10px 12px; }
+.detail-stat-label { font-size: 11px; color: var(--g600); margin-bottom: 2px; }
+.detail-stat-val { font-size: 18px; font-weight: 700; color: var(--black); }
+
+.vencedores-list { list-style: none; }
+.vencedores-list li { display: flex; align-items: center; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--g100); font-size: 14px; }
+.vencedores-list li:last-child { border-bottom: none; }
+.v-pos { width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; background: var(--g100); color: var(--g600); flex-shrink: 0; }
+.v-pos.p1 { background: var(--gold); color: #5a4100; }
+
+.loading { text-align: center; padding: 3rem; color: var(--g400); font-size: 14px; }
+.updated { font-size: 11px; color: var(--g400); }
+footer { text-align: center; padding: 2rem; font-size: 12px; color: var(--g400); border-top: 1px solid var(--g200); margin-top: 2rem; }
+
+@media (max-width: 600px) {
+  .hero { padding: 1rem; }
+  .hero h1 { font-size: 18px; }
+  .hero-stats { gap: 1rem; }
+  .hero-stat-val { font-size: 22px; }
+  th, td { padding: 8px 10px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo-area" onclick="setTab('home')">
+      <div class="logo-placeholder">F1WC</div>
+      <span class="logo-name">F1 World Challenge</span>
+    </div>
+    <nav>
+      <button class="nav-btn active" onclick="setTab('home')">Início</button>
+      <button class="nav-btn" onclick="setTab('classificacao')">Classificação</button>
+      <button class="nav-btn" onclick="setTab('duplas')">Duplas</button>
+      <button class="nav-btn" onclick="setTab('construtores')">Construtores</button>
+      <button class="nav-btn" onclick="setTab('corridas')">Corridas</button>
+      <button class="nav-btn" onclick="setTab('punicoes')">Punições</button>
+      <button class="nav-btn" onclick="setTab('historico')">Histórico</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div id="loading" class="loading">Carregando dados da liga...</div>
+
+  <!-- HOME -->
+  <div id="section-home" class="section">
+    <div class="hero">
+      <div>
+        <h1>F1 World Challenge — Temporada 27</h1>
+        <p id="hero-sub">F1 25</p>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="hero-stat-val" id="hero-pilotos">—</div>
+          <div class="hero-stat-label">Pilotos</div>
+        </div>
+        <div>
+          <div class="hero-stat-val" id="hero-corridas">—</div>
+          <div class="hero-stat-label">Corridas</div>
+        </div>
+      </div>
+    </div>
+    <div id="home-content"></div>
+  </div>
+
+  <!-- CLASSIFICAÇÃO -->
+  <div id="section-classificacao" class="section">
+    <div class="div-tabs" id="class-tabs"></div>
+    <div id="class-content"></div>
+  </div>
+
+  <!-- DUPLAS -->
+  <div id="section-duplas" class="section">
+    <div class="div-tabs">
+      <button class="div-tab active" onclick="setDuplas(this,'ab')">Divisão A e B</button>
+      <button class="div-tab" onclick="setDuplas(this,'c')">Divisão C</button>
+    </div>
+    <div id="duplas-content"></div>
+  </div>
+
+  <!-- CONSTRUTORES -->
+  <div id="section-construtores" class="section">
+    <div class="table-card">
+      <div class="table-header"><span class="table-title">Construtores A e B</span></div>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Pos</th><th>Construtor</th><th>Pen.</th><th>Pontos</th></tr></thead>
+          <tbody id="const-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- CORRIDAS -->
+  <div id="section-corridas" class="section">
+    <div id="corridas-list-view">
+      <h2 style="font-size:20px;font-weight:700;margin-bottom:1rem;">Corridas</h2>
+      <div class="corridas-grid" id="corridas-grid"></div>
+    </div>
+    <div id="corrida-detail-view" class="detail-view">
+      <button class="back-btn" onclick="voltarCorridas()">← Voltar</button>
+      <div class="detail-card">
+        <div class="detail-title" id="corrida-detail-nome"></div>
+        <div class="detail-sub">Resultados da corrida</div>
+        <ul class="vencedores-list" id="corrida-vencedores"></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- PUNIÇÕES -->
+  <div id="section-punicoes" class="section">
+    <div id="alert-pun"></div>
+    <input type="search" class="search-bar" placeholder="Procurar piloto..." oninput="filtrarPunicoes(this.value)">
+    <div id="punicoes-list"></div>
+  </div>
+
+  <!-- HISTÓRICO -->
+  <div id="section-historico" class="section">
+    <div id="historico-list-view">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;flex-wrap:wrap;gap:8px;">
+        <h2 style="font-size:20px;font-weight:700;">Histórico</h2>
+        <input type="search" class="search-bar" style="max-width:240px;margin:0;" placeholder="Procurar piloto..." oninput="filtrarHistorico(this.value)">
+      </div>
+      <div class="historico-grid" id="historico-grid"></div>
+    </div>
+    <div id="historico-detail-view" class="detail-view">
+      <button class="back-btn" onclick="voltarHistorico()">← Voltar</button>
+      <div class="detail-card">
+        <div class="detail-title" id="hist-detail-nome"></div>
+        <div class="detail-sub" id="hist-detail-pos"></div>
+        <div class="detail-stats" id="hist-detail-stats"></div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>F1 World Challenge · Temporada 27 · <span id="footer-date"></span></footer>
+
+<script>
+let DATA = {}, PUN = {}, COR = {}, HIST = {};
+let divAtual = 0;
+let duplasAtual = 'ab';
+
+async function loadJSON(p) {
+  const r = await fetch(p + '?v=' + Date.now());
+  return r.json();
+}
+
+async function init() {
+  try {
+    [DATA, PUN, COR, HIST] = await Promise.all([
+      loadJSON('data/temporada.json'),
+      loadJSON('data/punicoes.json'),
+      loadJSON('data/corridas.json'),
+      loadJSON('data/historico.json')
+    ]);
+    document.getElementById('loading').style.display = 'none';
+    renderAll();
+    setTab('home');
+  } catch(e) {
+    document.getElementById('loading').textContent = 'Erro ao carregar dados.';
+    console.error(e);
+  }
+}
+
+function renderAll() {
+  renderHome();
+  renderClassTabs();
+  renderClass(0);
+  renderDuplas('ab');
+  renderConstrutores();
+  renderCorridas();
+  renderPunicoes();
+  renderHistorico();
+  document.getElementById('footer-date').textContent = DATA.ultima_atualizacao || '';
+}
+
+function renderHome() {
+  const divA = DATA.divisoes[0];
+  document.getElementById('hero-pilotos').textContent = divA.pilotos.length;
+  document.getElementById('hero-corridas').textContent = COR.corridas ? COR.corridas.length : '—';
+  document.getElementById('hero-sub').textContent = `Atualizado em ${DATA.ultima_atualizacao || '—'} · ${DATA.jogo || ''}`;
+
+  const top5 = divA.pilotos.slice(0, 5);
+  let html = `<div class="table-card">
+    <div class="table-header"><span class="table-title">🥇 Divisão A — Top 5</span><span class="updated">${DATA.ultima_atualizacao}</span></div>
+    <div class="table-scroll"><table>
+      <thead><tr><th>Pos</th><th>Piloto</th><th>Pen.</th><th>Pontos</th></tr></thead>
+      <tbody>`;
+  top5.forEach(p => {
+    html += `<tr>
+      <td>${posBadge(p.posicao)}</td>
+      <td>${pilotCell(p)}</td>
+      <td class="${p.penalizacoes < 0 ? 'pen-neg' : 'pen-zero'}">${p.penalizacoes || 0}</td>
+      <td class="pts-cell">${p.pontos}</td>
+    </tr>`;
+  });
+  html += `</tbody></table></div></div>`;
+  document.getElementById('home-content').innerHTML = html;
+}
+
+function renderClassTabs() {
+  const tabs = document.getElementById('class-tabs');
+  tabs.innerHTML = DATA.divisoes.map((d, i) =>
+    `<button class="div-tab ${i===0?'active':''}" onclick="renderClass(${i}); document.querySelectorAll('#class-tabs .div-tab').forEach(b=>b.classList.remove('active')); this.classList.add('active')">${d.emoji} ${d.nome}</button>`
+  ).join('');
+}
+
+function renderClass(idx) {
+  const div = DATA.divisoes[idx];
+  if (!div.pilotos || div.pilotos.length === 0) {
+    document.getElementById('class-content').innerHTML = '<div class="loading">Sem dados ainda.</div>';
+    return;
+  }
+  let html = `<div class="table-card">
+    <div class="table-header"><span class="table-title">${div.emoji} ${div.nome}</span><span class="updated">Atualizado em ${DATA.ultima_atualizacao}</span></div>
+    <div class="table-scroll"><table>
+      <thead><tr><th>Pos</th><th>Piloto</th><th>Pen.</th><th>Pontos</th></tr></thead>
+      <tbody>`;
+  div.pilotos.forEach(p => {
+    html += `<tr>
+      <td>${posBadge(p.posicao)}</td>
+      <td>${pilotCell(p)}</td>
+      <td class="${p.penalizacoes < 0 ? 'pen-neg' : 'pen-zero'}">${p.penalizacoes || 0}</td>
+      <td class="pts-cell">${p.pontos}</td>
+    </tr>`;
+  });
+  html += `</tbody></table></div></div>`;
+  document.getElementById('class-content').innerHTML = html;
+}
+
+function renderDuplas(tipo) {
+  duplasAtual = tipo;
+  const lista = tipo === 'ab' ? DATA.duplas_ab : DATA.duplas_c;
+  if (!lista || lista.length === 0) {
+    document.getElementById('duplas-content').innerHTML = '<div class="loading">Sem dados ainda.</div>';
+    return;
+  }
+  let html = `<div class="table-card">
+    <div class="table-header"><span class="table-title">Duplas ${tipo === 'ab' ? 'A e B' : 'C'}</span></div>
+    <div class="table-scroll"><table>
+      <thead><tr><th>Pos</th><th>Dupla</th><th>Pen.</th><th>Pontos</th></tr></thead>
+      <tbody>`;
+  lista.forEach(d => {
+    html += `<tr>
+      <td>${posBadge(d.posicao)}</td>
+      <td style="font-weight:500">${d.dupla}</td>
+      <td class="${d.penalizacoes < 0 ? 'pen-neg' : 'pen-zero'}">${d.penalizacoes || 0}</td>
+      <td class="pts-cell">${d.pontos}</td>
+    </tr>`;
+  });
+  html += `</tbody></table></div></div>`;
+  document.getElementById('duplas-content').innerHTML = html;
+}
+
+function setDuplas(btn, tipo) {
+  document.querySelectorAll('#section-duplas .div-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderDuplas(tipo);
+}
+
+function renderConstrutores() {
+  const lista = DATA.construtores || [];
+  const tbody = document.getElementById('const-tbody');
+  tbody.innerHTML = lista.map(c => `
+    <tr>
+      <td>${posBadge(c.posicao)}</td>
+      <td style="font-weight:500">${c.nome}</td>
+      <td class="${c.penalizacoes < 0 ? 'pen-neg' : 'pen-zero'}">${c.penalizacoes || 0}</td>
+      <td class="pts-cell">${c.pontos}</td>
+    </tr>`).join('');
+}
+
+function renderCorridas() {
+  const grid = document.getElementById('corridas-grid');
+  if (!COR.corridas || COR.corridas.length === 0) {
+    grid.innerHTML = '<div class="loading">Sem dados ainda.</div>';
+    return;
+  }
+  grid.innerHTML = COR.corridas.map((c, i) => `
+    <div class="corrida-card" onclick="abrirCorrida(${i})">
+      ${c.foto ? `<img class="corrida-img" src="${c.foto}" alt="${c.circuito}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">` : ''}
+      <div class="corrida-img-placeholder" style="${c.foto ? 'display:none' : ''}">🏁</div>
+      <div class="corrida-info">
+        <div class="corrida-name">${c.circuito}</div>
+        <div class="corrida-winner">Maior vencedor: <strong>${c.p1 || '—'}</strong></div>
+      </div>
+    </div>`).join('');
+}
+
+function abrirCorrida(idx) {
+  const c = COR.corridas[idx];
+  document.getElementById('corrida-detail-nome').textContent = c.circuito;
+  const ul = document.getElementById('corrida-vencedores');
+  ul.innerHTML = c.vencedores.map((v, i) => `
+    <li>
+      <div class="v-pos ${i===0?'p1':''}">${i+1}</div>
+      <span>${v}</span>
+    </li>`).join('');
+  document.getElementById('corridas-list-view').style.display = 'none';
+  document.getElementById('corrida-detail-view').classList.add('active');
+}
+
+function voltarCorridas() {
+  document.getElementById('corridas-list-view').style.display = '';
+  document.getElementById('corrida-detail-view').classList.remove('active');
+}
+
+function renderPunicoes() {
+  if (PUN.aviso) {
+    document.getElementById('alert-pun').innerHTML = `<div class="alert-box">${PUN.aviso}</div>`;
+  }
+  renderPunicoesLista(PUN.punicoes || []);
+}
+
+function renderPunicoesLista(lista) {
+  document.getElementById('punicoes-list').innerHTML = lista.map((p, i) => `
+    <div class="accordion" data-piloto="${p.piloto.toLowerCase()}">
+      <div class="acc-header" onclick="toggleAcc(this)">
+        <span>${p.piloto}</span>
+        <div style="display:flex;align-items:center;gap:8px;">
+          <span class="acc-badge ${p.total_incidentes > 0 ? 'badge-red' : 'badge-gray'}">${p.total_incidentes > 0 ? p.total_incidentes + ' incidente(s)' : 'Limpo'}</span>
+          <span class="acc-chevron">▾</span>
+        </div>
+      </div>
+      <div class="acc-body">
+        ${p.ocorrencias.length > 0 ? p.ocorrencias.map(o => `
+          <div class="pen-item">
+            <div class="pen-meta"><span class="pen-tag tag-date">${o.data}</span></div>
+            <div class="pen-desc">${o.incidente}</div>
+            <div class="pen-result">${o.penalidade}</div>
+          </div>`).join('') : '<div style="padding:12px 16px;font-size:13px;color:#aaa;">Nenhum incidente registrado.</div>'}
+      </div>
+    </div>`).join('');
+}
+
+function toggleAcc(header) {
+  header.classList.toggle('open');
+  header.nextElementSibling.classList.toggle('open');
+}
+
+function filtrarPunicoes(q) {
+  document.querySelectorAll('.accordion').forEach(el => {
+    el.style.display = el.dataset.piloto.includes(q.toLowerCase()) ? '' : 'none';
+  });
+}
+
+function renderHistorico() {
+  const grid = document.getElementById('historico-grid');
+  grid.innerHTML = (HIST.historico || []).map((h, i) => `
+    <div class="hist-card" data-piloto="${h.piloto.toLowerCase()}" onclick="abrirHistorico(${i})">
+      <div class="hist-pos">${h.posicao}</div>
+      <div class="hist-name">${h.piloto}</div>
+      <div class="hist-titles">${h.titulos}</div>
+      <div class="hist-titles-label">título${h.titulos !== 1 ? 's' : ''}</div>
+    </div>`).join('');
+}
+
+function abrirHistorico(idx) {
+  const h = HIST.historico[idx];
+  document.getElementById('hist-detail-nome').textContent = h.piloto;
+  document.getElementById('hist-detail-pos').textContent = `Posição histórica: ${h.posicao}`;
+  document.getElementById('hist-detail-stats').innerHTML = [
+    ['Títulos', h.titulos],
+    ['Vitórias', h.vitorias],
+    ['Vic. Sprint', h.vic_sprint],
+    ['Vic. Div B', h.vic_div_b],
+    ['2º lugares', h.segundos],
+    ['3º lugares', h.terceiros],
+    ['Pódios', h.podiums],
+    ['% Pódios', h.ppr + '%'],
+    ['Poles', h.poles],
+    ['Corridas', h.corridas],
+    ['DNF', h.dnf],
+    ['% DNF', h.dnf_pct + '%']
+  ].map(([label, val]) => `
+    <div class="detail-stat">
+      <div class="detail-stat-label">${label}</div>
+      <div class="detail-stat-val">${val}</div>
+    </div>`).join('');
+  document.getElementById('historico-list-view').style.display = 'none';
+  document.getElementById('historico-detail-view').classList.add('active');
+}
+
+function voltarHistorico() {
+  document.getElementById('historico-list-view').style.display = '';
+  document.getElementById('historico-detail-view').classList.remove('active');
+}
+
+function filtrarHistorico(q) {
+  document.querySelectorAll('.hist-card').forEach(el => {
+    el.style.display = el.dataset.piloto.includes(q.toLowerCase()) ? '' : 'none';
+  });
+}
+
+function posBadge(pos) {
+  const cls = pos === 1 ? 'pos-1' : pos === 2 ? 'pos-2' : pos === 3 ? 'pos-3' : 'pos-n';
+  return `<span class="pos-badge ${cls}">${pos}</span>`;
+}
+
+function pilotCell(p) {
+  const ini = p.nome.split(' ').map(n => n[0]).join('').slice(0,2).toUpperCase();
+  return `<div class="pilot-cell">
+    <div class="avatar">${p.foto ? `<img src="${p.foto}" alt="${p.nome}" onerror="this.parentElement.textContent='${ini}'">` : ini}</div>
+    <span style="font-weight:500">${p.nome}</span>
+  </div>`;
+}
+
+function setTab(id) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+  const el = document.getElementById('section-' + id);
+  if (el) el.classList.add('active');
+  document.querySelectorAll('.nav-btn').forEach(b => {
+    const map = { home:'início', classificacao:'classif', duplas:'dupla', construtores:'constru', corridas:'corrida', punicoes:'puni', historico:'hist' };
+    if (b.textContent.toLowerCase().includes(map[id] || id)) b.classList.add('active');
+  });
+  window.scrollTo(0, 0);
+}
+
+init();
+</script>
+</body>
+</html>
