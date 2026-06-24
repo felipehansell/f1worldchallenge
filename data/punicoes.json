@@ -185,6 +185,17 @@
           "penalidade": "-5 pontos"
         }
       ]
+    },
+    {
+      "piloto": "Hansell",
+      "total_incidentes": 1,
+      "ocorrencias": [
+        {
+          "data": "23/06/2026",
+          "incidente": "AV Fez um novo app.",
+          "penalidade": "Advertência verbal"
+        }
+      ]
     }
   ]
 }

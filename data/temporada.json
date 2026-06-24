@@ -14,7 +14,7 @@
           "posicao": 1,
           "nome": "Leo Costa",
           "foto": "imagens/pilotos/leo-costa.jpg",
-          "pontos": 94,
+          "pontos": 194,
           "penalizacoes": 0
         },
         {
@@ -91,7 +91,7 @@
           "posicao": 1,
           "nome": "Carlos Eduardo",
           "foto": "imagens/pilotos/carlos-eduardo.jpg",
-          "pontos": 113,
+          "pontos": 183,
           "penalizacoes": 0
         },
         {
@@ -222,8 +222,8 @@
       "pilotos": [
         {
           "posicao": 1,
-          "nome": "Teste",
-          "foto": "imagens/pilotos/teste.jpg",
+          "nome": "Teste A",
+          "foto": "imagens/pilotos/teste-a.jpg",
           "pontos": 10,
           "penalizacoes": 0
         },
@@ -239,6 +239,20 @@
           "nome": "Teste C",
           "foto": "imagens/pilotos/teste-c.jpg",
           "pontos": 3,
+          "penalizacoes": 0
+        },
+        {
+          "posicao": 4,
+          "nome": "Teste D",
+          "foto": "imagens/pilotos/teste-d.jpg",
+          "pontos": 1,
+          "penalizacoes": 0
+        },
+        {
+          "posicao": 5,
+          "nome": "Teste E",
+          "foto": "imagens/pilotos/teste-e.jpg",
+          "pontos": 0,
           "penalizacoes": 0
         }
       ]
@@ -315,7 +329,7 @@
   "duplas_c": [
     {
       "posicao": 1,
-      "dupla": "Lucas / Carlos Eduardo",
+      "dupla": "Dupla C",
       "pontos": 167,
       "penalizacoes": 0
     },
