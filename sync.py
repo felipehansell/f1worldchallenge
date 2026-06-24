@@ -193,7 +193,7 @@ def main():
 
     temporada = {
         "liga": "F1 World Challenge",
-        "temporada": 27,
+        "temporada": int(config.get("temporada", "")),
         "jogo": "F1 25",
         "ultima_atualizacao": datetime.date.today().strftime("%d/%m/%Y"),
         "round_atual": config["round_atual"],
