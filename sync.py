@@ -1,15 +1,9 @@
-import json
-import urllib.request
-import urllib.parse
-import csv
-import io
-import os
-import datetime
+import json, urllib.request, urllib.parse, csv, io, os, datetime
 
 SHEET_ID = "1ahdqArTj45LoNf2xq_BoyZ5Sz8sobToB-lKHpfJwqoE"
 
-def fetch_sheet(sheet_name):
-    url = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet={urllib.parse.quote(sheet_name)}"
+def fetch_sheet(name):
+    url = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet={urllib.parse.quote(name)}"
     with urllib.request.urlopen(url) as r:
         return list(csv.reader(io.StringIO(r.read().decode('utf-8'))))
 
@@ -21,34 +15,37 @@ def save_json(path, data):
 
 def parse_classificacao(sheet_name, div_id, div_nome, emoji):
     rows = fetch_sheet(sheet_name)
+    # linha 0: col A=#, col B=DIVISION X, col E=ITALY, col G=BAHRAIN...
+    # linha 1: col B=DRIVER, col C=PTS, col D=PEN, col E=Pos, col F=PTS...
+    # linha 2+: dados
+
     corridas_row = rows[0]
     corridas = []
-    col = 4
+    col = 4  # começa na coluna E (índice 4)
     while col < len(corridas_row):
         nome = corridas_row[col].strip()
-        if nome:
+        if nome and nome not in ("Pos", "PTS", ""):
             corridas.append({"col_pos": col, "col_pts": col + 1, "nome": nome})
-        col += 2
+            col += 2
+        else:
+            col += 1
 
     pilotos = []
-    for row in rows[2:]:
+    for row in rows[2:]:  # pula linhas 0 e 1 (cabeçalhos)
         if not row or not row[1].strip():
             continue
         try:
-            posicao = int(row[0]) if row[0].strip().lstrip('-').isdigit() else len(pilotos) + 1
+            posicao = int(float(row[0])) if row[0].strip() else len(pilotos) + 1
         except:
             posicao = len(pilotos) + 1
 
         nome   = row[1].strip()
-        pontos = row[2].strip() if len(row) > 2 else "0"
-        pen    = row[3].strip() if len(row) > 3 else "0"
-
         try:
-            pontos = int(float(pontos)) if pontos else 0
+            pontos = int(float(row[2].strip())) if len(row) > 2 and row[2].strip() else 0
         except:
             pontos = 0
         try:
-            pen = int(float(pen)) if pen else 0
+            pen = int(float(row[3].strip())) if len(row) > 3 and row[3].strip() else 0
         except:
             pen = 0
 
@@ -60,7 +57,7 @@ def parse_classificacao(sheet_name, div_id, div_nome, emoji):
                 pts_int = int(float(pts_val)) if pts_val else 0
             except:
                 pts_int = 0
-            if pos_val in ("DNF", "NP", "DSQ", ""):
+            if pos_val in ("DNF", "NP", "DSQ", "ABS", ""):
                 pos_out = pos_val if pos_val else "NP"
             else:
                 try:
@@ -85,7 +82,6 @@ def parse_punicoes():
     pilotos_resumo = {}
     detalhes = []
     modo = "resumo"
-
     for i, row in enumerate(rows):
         if i == 0:
             continue
@@ -103,17 +99,12 @@ def parse_punicoes():
             descr = row[2].strip() if len(row) > 2 else ""
             if descr:
                 detalhes.append({"piloto": piloto, "data": data, "descricao": descr})
-
     for d in detalhes:
         p = d["piloto"]
         if p not in pilotos_resumo:
             pilotos_resumo[p] = {"ocorrencias": []}
         pilotos_resumo[p]["ocorrencias"].append({"data": d["data"], "descricao": d["descricao"]})
-
-    resultado = []
-    for nome, dados in sorted(pilotos_resumo.items()):
-        resultado.append({"piloto": nome, "ocorrencias": dados["ocorrencias"]})
-
+    resultado = [{"piloto": n, "ocorrencias": d["ocorrencias"]} for n, d in sorted(pilotos_resumo.items())]
     return {
         "aviso": "A partir da temporada XXV, essa tabela é acumulativa e zerada apenas quando trocarmos para o próximo jogo: F126.",
         "email_recursos": "worldchallengeleague@gmail.com",
@@ -139,14 +130,13 @@ def parse_corridas():
             except:
                 n = 1
             contagem[piloto] = max(contagem.get(piloto, 0), n)
-        maior_vencedor = max(contagem, key=contagem.get) if contagem else ""
-        maior_vitorias = contagem.get(maior_vencedor, 0)
+        maior = max(contagem, key=contagem.get) if contagem else ""
         circuitos.append({
             "id": nome.lower().replace(" ", "-"),
             "nome": nome,
             "foto": f"imagens/circuitos/{nome.lower().replace(' ', '-')}.jpg",
-            "maior_vencedor": maior_vencedor,
-            "vitorias_maior_vencedor": maior_vitorias
+            "maior_vencedor": maior,
+            "vitorias_maior_vencedor": contagem.get(maior, 0)
         })
     return {"circuitos": circuitos}
 
@@ -154,19 +144,15 @@ def parse_historico():
     rows = fetch_sheet("Histórico")
     pilotos = []
     for i, row in enumerate(rows):
-        if i == 0:
+        if i == 0 or not row or not row[0].strip():
             continue
-        if not row or not row[0].strip():
-            continue
-        def val(idx, default=0):
+        def val(idx):
             try:
-                v = row[idx].strip() if idx < len(row) else ""
-                return int(float(v)) if v else default
+                return int(float(row[idx].strip())) if idx < len(row) and row[idx].strip() else 0
             except:
-                return default
+                return 0
         pilotos.append({
-            "posicao": row[0].strip(),
-            "piloto":  row[1].strip() if len(row) > 1 else "",
+            "posicao": row[0].strip(), "piloto": row[1].strip() if len(row) > 1 else "",
             "titulos": val(2), "vitorias": val(3), "vitorias_sprint": val(4),
             "segundos": val(5), "terceiros": val(6), "podiums": val(7), "ppr": val(8)
         })
@@ -176,15 +162,13 @@ def parse_duplas():
     rows = fetch_sheet("Duplas A e B")
     duplas = []
     for i, row in enumerate(rows):
-        if i == 0:
-            continue
-        if not row or not row[0].strip():
+        if i == 0 or not row or not row[0].strip():
             continue
         try:
             pos = int(row[0].strip())
         except:
             pos = i
-        dupla  = row[1].strip() if len(row) > 1 else ""
+        dupla = row[1].strip() if len(row) > 1 else ""
         try:
             pontos = int(float(row[2].strip())) if len(row) > 2 and row[2].strip() else 0
         except:
@@ -194,29 +178,29 @@ def parse_duplas():
     return duplas
 
 def main():
-    print("Sincronizando dados do Google Sheets...")
+    print("Sincronizando...")
     div_a = parse_classificacao("Classificação A", "A", "Divisão A", "🥇")
     div_b = parse_classificacao("Classificação B", "B", "Divisão B", "🥈")
     div_c = parse_classificacao("Classificação C", "C", "Divisão C", "🥉")
 
+    print(f"Div A: {len(div_a['pilotos'])} pilotos, corridas: {[r['circuito'] for r in div_a['pilotos'][0]['resultados']] if div_a['pilotos'] else []}")
+
+    ultima = div_a["pilotos"][0]["resultados"][-1]["circuito"] if div_a["pilotos"] and div_a["pilotos"][0]["resultados"] else ""
+    rodada = len(div_a["pilotos"][0]["resultados"]) if div_a["pilotos"] else 0
+
     temporada = {
-        "liga": "F1 World Challenge",
-        "temporada": 27,
-        "jogo": "F1 25",
+        "liga": "F1 World Challenge", "temporada": 27, "jogo": "F1 25",
         "ultima_atualizacao": datetime.date.today().strftime("%d/%m/%Y"),
-        "ultima_corrida": div_a["pilotos"][0]["resultados"][-1]["circuito"] if div_a["pilotos"] else "",
-        "proxima_corrida": "",
-        "rodada_atual": len(div_a["pilotos"][0]["resultados"]) if div_a["pilotos"] else 0,
-        "total_rodadas": 22,
-        "divisoes": [div_a, div_b],
+        "ultima_corrida": ultima, "proxima_corrida": "",
+        "rodada_atual": rodada, "total_rodadas": 22,
+        "divisoes": [div_a, div_b, div_c],
         "duplas": parse_duplas()
     }
-
     save_json("data/temporada.json", temporada)
-    save_json("data/punicoes.json",  parse_punicoes())
+    save_json("data/punicoes.json", parse_punicoes())
     save_json("data/circuitos.json", parse_corridas())
     save_json("data/historico.json", parse_historico())
-    print("Sincronização concluída!")
+    print("Concluído!")
 
 if __name__ == "__main__":
     main()
