@@ -1555,6 +1555,131 @@
           ]
         }
       ]
+    },
+    {
+      "id": "C",
+      "nome": "Divisão C",
+      "emoji": "🥉",
+      "pilotos": [
+        {
+          "posicao": 2,
+          "nome": "Teste B",
+          "foto": "imagens/pilotos/teste-b.jpg",
+          "pontos": 5,
+          "penalizacoes": 0,
+          "resultados": [
+            {
+              "circuito": "ITALY Pos",
+              "posicao": "NP",
+              "pontos": 0
+            },
+            {
+              "circuito": "BAHRAIN Pos",
+              "posicao": "NP",
+              "pontos": 0
+            },
+            {
+              "circuito": "ARABIA Pos",
+              "posicao": "NP",
+              "pontos": 0
+            },
+            {
+              "circuito": "SINGAPORE Pos",
+              "posicao": "NP",
+              "pontos": 0
+            },
+            {
+              "circuito": "MIAMI Pos",
+              "posicao": "NP",
+              "pontos": 0
+            },
+            {
+              "circuito": "USA Pos",
+              "posicao": "NP",
+              "pontos": 0
+            },
+            {
+              "circuito": "MEXICO Pos",
+              "posicao": "NP",
+              "pontos": 0
+            },
+            {
+              "circuito": "CANADA Pos",
+              "posicao": "NP",
+              "pontos": 0
+            },
+            {
+              "circuito": "BRAZIL Pos",
+              "posicao": "NP",
+              "pontos": 0
+            },
+            {
+              "circuito": "MONACO Pos",
+              "posicao": "NP",
+              "pontos": 0
+            }
+          ]
+        },
+        {
+          "posicao": 3,
+          "nome": "Teste C",
+          "foto": "imagens/pilotos/teste-c.jpg",
+          "pontos": 3,
+          "penalizacoes": 0,
+          "resultados": [
+            {
+              "circuito": "ITALY Pos",
+              "posicao": "NP",
+              "pontos": 0
+            },
+            {
+              "circuito": "BAHRAIN Pos",
+              "posicao": "NP",
+              "pontos": 0
+            },
+            {
+              "circuito": "ARABIA Pos",
+              "posicao": "NP",
+              "pontos": 0
+            },
+            {
+              "circuito": "SINGAPORE Pos",
+              "posicao": "NP",
+              "pontos": 0
+            },
+            {
+              "circuito": "MIAMI Pos",
+              "posicao": "NP",
+              "pontos": 0
+            },
+            {
+              "circuito": "USA Pos",
+              "posicao": "NP",
+              "pontos": 0
+            },
+            {
+              "circuito": "MEXICO Pos",
+              "posicao": "NP",
+              "pontos": 0
+            },
+            {
+              "circuito": "CANADA Pos",
+              "posicao": "NP",
+              "pontos": 0
+            },
+            {
+              "circuito": "BRAZIL Pos",
+              "posicao": "NP",
+              "pontos": 0
+            },
+            {
+              "circuito": "MONACO Pos",
+              "posicao": "NP",
+              "pontos": 0
+            }
+          ]
+        }
+      ]
     }
   ],
   "duplas": [
