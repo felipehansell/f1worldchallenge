@@ -19,7 +19,7 @@ def parse_classificacao(sheet_name, div_id, div_nome, emoji):
     # linha 1: col B=DRIVER, col C=PTS, col D=PEN, col E=Pos, col F=PTS...
     # linha 2+: dados
 
-    corridas_row = rows[0]
+    corridas_row = rows[0] # nomes dos GPs ficam aqui
     corridas = []
     col = 4  # começa na coluna E (índice 4)
     while col < len(corridas_row):
@@ -31,7 +31,7 @@ def parse_classificacao(sheet_name, div_id, div_nome, emoji):
             col += 1
 
     pilotos = []
-    for row in rows[2:]:  # pula linhas 0 e 1 (cabeçalhos)
+    for row in rows[2:]:  # linha 3 em diante = pilotos
         if not row or not row[1].strip():
             continue
         try:
