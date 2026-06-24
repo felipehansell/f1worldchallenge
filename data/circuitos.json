@@ -2,102 +2,185 @@
   "circuitos": [
     {
       "id": "abu-dhabi",
-      "nome": "Abu Dhabi",
+      "nome": "ABU DHABI",
       "foto": "imagens/circuitos/abu-dhabi.jpg",
       "maior_vencedor": "Cloviz",
-      "vitorias_maior_vencedor": 2,
-      "historico": [
-        { "temporada": 26, "vencedor": "Cloviz", "volta_rapida": "Magiolo", "pole": "Leo Costa" },
-        { "temporada": 25, "vencedor": "Cloviz", "volta_rapida": "Hansell", "pole": "Cloviz" }
-      ]
+      "vitorias_maior_vencedor": 2
     },
     {
       "id": "arabia",
-      "nome": "Arabia Saudita",
+      "nome": "ARABIA",
       "foto": "imagens/circuitos/arabia.jpg",
       "maior_vencedor": "Magiolo",
-      "vitorias_maior_vencedor": 2,
-      "historico": [
-        { "temporada": 27, "vencedor": "Leo Costa", "volta_rapida": "Hansell", "pole": "Leo Costa" },
-        { "temporada": 26, "vencedor": "Magiolo",   "volta_rapida": "Lavacar", "pole": "Magiolo" }
-      ]
+      "vitorias_maior_vencedor": 2
     },
     {
       "id": "austin",
-      "nome": "Austin",
+      "nome": "AUSTIN",
       "foto": "imagens/circuitos/austin.jpg",
       "maior_vencedor": "Adilson",
-      "vitorias_maior_vencedor": 2,
-      "historico": [
-        { "temporada": 27, "vencedor": "Daniel Sylva", "volta_rapida": "Leo Costa", "pole": "Hansell" },
-        { "temporada": 26, "vencedor": "Adilson",      "volta_rapida": "Adilson",   "pole": "Adilson" }
-      ]
+      "vitorias_maior_vencedor": 2
     },
     {
       "id": "australia",
-      "nome": "Australia",
+      "nome": "AUSTRALIA",
       "foto": "imagens/circuitos/australia.jpg",
       "maior_vencedor": "Medrano",
-      "vitorias_maior_vencedor": 2,
-      "historico": [
-        { "temporada": 27, "vencedor": "Rafael Lavacar", "volta_rapida": "Leo Costa", "pole": "Magiolo" },
-        { "temporada": 26, "vencedor": "Medrano",        "volta_rapida": "Medrano",   "pole": "Medrano" }
-      ]
+      "vitorias_maior_vencedor": 2
     },
     {
       "id": "austria",
-      "nome": "Austria",
+      "nome": "AUSTRIA",
       "foto": "imagens/circuitos/austria.jpg",
       "maior_vencedor": "Cambui",
-      "vitorias_maior_vencedor": 2,
-      "historico": [
-        { "temporada": 27, "vencedor": "Marco Magiolo", "volta_rapida": "Lavacar", "pole": "Lavacar" },
-        { "temporada": 26, "vencedor": "Cambui",        "volta_rapida": "Cambui",  "pole": "Cambui" }
-      ]
+      "vitorias_maior_vencedor": 2
     },
     {
       "id": "azerbaijan",
-      "nome": "Azerbaijan",
+      "nome": "AZERBAIJAN",
       "foto": "imagens/circuitos/azerbaijan.jpg",
       "maior_vencedor": "Hansell",
-      "vitorias_maior_vencedor": 2,
-      "historico": [
-        { "temporada": 27, "vencedor": "Felipe Hansell", "volta_rapida": "Tozzi",   "pole": "Tozzi" },
-        { "temporada": 26, "vencedor": "Hansell",        "volta_rapida": "Hansell", "pole": "Hansell" }
-      ]
+      "vitorias_maior_vencedor": 2
     },
     {
       "id": "bahrain",
-      "nome": "Bahrain",
+      "nome": "BAHRAIN",
       "foto": "imagens/circuitos/bahrain.jpg",
       "maior_vencedor": "Cambui",
-      "vitorias_maior_vencedor": 2,
-      "historico": [
-        { "temporada": 27, "vencedor": "Leo Costa", "volta_rapida": "Sylva",  "pole": "Leo Costa" },
-        { "temporada": 26, "vencedor": "Cambui",    "volta_rapida": "Cambui", "pole": "Emerson" }
-      ]
+      "vitorias_maior_vencedor": 2
     },
     {
       "id": "belgium",
-      "nome": "Belgium",
+      "nome": "BELGIUM",
       "foto": "imagens/circuitos/belgium.jpg",
       "maior_vencedor": "Cloviz",
-      "vitorias_maior_vencedor": 3,
-      "historico": [
-        { "temporada": 27, "vencedor": "Wilsinho Tozzi", "volta_rapida": "Magiolo", "pole": "Leo Costa" },
-        { "temporada": 26, "vencedor": "Cloviz",         "volta_rapida": "Cloviz",  "pole": "Cloviz" }
-      ]
+      "vitorias_maior_vencedor": 3
+    },
+    {
+      "id": "brazil",
+      "nome": "BRAZIL",
+      "foto": "imagens/circuitos/brazil.jpg",
+      "maior_vencedor": "Lucas",
+      "vitorias_maior_vencedor": 3
+    },
+    {
+      "id": "british",
+      "nome": "BRITISH",
+      "foto": "imagens/circuitos/british.jpg",
+      "maior_vencedor": "Leo Costa",
+      "vitorias_maior_vencedor": 1
+    },
+    {
+      "id": "canada",
+      "nome": "CANADA",
+      "foto": "imagens/circuitos/canada.jpg",
+      "maior_vencedor": "Magiolo",
+      "vitorias_maior_vencedor": 3
+    },
+    {
+      "id": "china",
+      "nome": "CHINA",
+      "foto": "imagens/circuitos/china.jpg",
+      "maior_vencedor": "Leo Costa",
+      "vitorias_maior_vencedor": 2
+    },
+    {
+      "id": "france",
+      "nome": "FRANCE",
+      "foto": "imagens/circuitos/france.jpg",
+      "maior_vencedor": "Magiolo",
+      "vitorias_maior_vencedor": 2
+    },
+    {
+      "id": "hungary",
+      "nome": "HUNGARY",
+      "foto": "imagens/circuitos/hungary.jpg",
+      "maior_vencedor": "Magiolo",
+      "vitorias_maior_vencedor": 2
+    },
+    {
+      "id": "imola",
+      "nome": "IMOLA",
+      "foto": "imagens/circuitos/imola.jpg",
+      "maior_vencedor": "Claudio",
+      "vitorias_maior_vencedor": 3
+    },
+    {
+      "id": "italy",
+      "nome": "ITALY",
+      "foto": "imagens/circuitos/italy.jpg",
+      "maior_vencedor": "Medrano",
+      "vitorias_maior_vencedor": 2
+    },
+    {
+      "id": "japan",
+      "nome": "JAPAN",
+      "foto": "imagens/circuitos/japan.jpg",
+      "maior_vencedor": "Gronk",
+      "vitorias_maior_vencedor": 2
+    },
+    {
+      "id": "las-vegas",
+      "nome": "LAS VEGAS",
+      "foto": "imagens/circuitos/las-vegas.jpg",
+      "maior_vencedor": "Tozzi",
+      "vitorias_maior_vencedor": 2
+    },
+    {
+      "id": "mexico",
+      "nome": "MEXICO",
+      "foto": "imagens/circuitos/mexico.jpg",
+      "maior_vencedor": "Magiolo",
+      "vitorias_maior_vencedor": 2
+    },
+    {
+      "id": "miami",
+      "nome": "MIAMI",
+      "foto": "imagens/circuitos/miami.jpg",
+      "maior_vencedor": "Cloviz",
+      "vitorias_maior_vencedor": 2
     },
     {
       "id": "monaco",
-      "nome": "Monaco",
+      "nome": "MONACO",
       "foto": "imagens/circuitos/monaco.jpg",
+      "maior_vencedor": "Cambui",
+      "vitorias_maior_vencedor": 2
+    },
+    {
+      "id": "netherlands",
+      "nome": "NETHERLANDS",
+      "foto": "imagens/circuitos/netherlands.jpg",
+      "maior_vencedor": "Cambui",
+      "vitorias_maior_vencedor": 3
+    },
+    {
+      "id": "portugal",
+      "nome": "PORTUGAL",
+      "foto": "imagens/circuitos/portugal.jpg",
+      "maior_vencedor": "Nicolas Silva",
+      "vitorias_maior_vencedor": 1
+    },
+    {
+      "id": "qatar",
+      "nome": "QATAR",
+      "foto": "imagens/circuitos/qatar.jpg",
+      "maior_vencedor": "Zezinho",
+      "vitorias_maior_vencedor": 1
+    },
+    {
+      "id": "singapore",
+      "nome": "SINGAPORE",
+      "foto": "imagens/circuitos/singapore.jpg",
+      "maior_vencedor": "Gabriel",
+      "vitorias_maior_vencedor": 2
+    },
+    {
+      "id": "spain",
+      "nome": "SPAIN",
+      "foto": "imagens/circuitos/spain.jpg",
       "maior_vencedor": "Leo Costa",
-      "vitorias_maior_vencedor": 3,
-      "historico": [
-        { "temporada": 27, "vencedor": "Rafael Lavacar", "volta_rapida": "Hansell",  "pole": "Lavacar" },
-        { "temporada": 26, "vencedor": "Leo Costa",      "volta_rapida": "Leo Costa","pole": "Leo Costa" }
-      ]
+      "vitorias_maior_vencedor": 1
     }
   ]
 }

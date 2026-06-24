@@ -3,54 +3,19 @@
   "email_recursos": "worldchallengeleague@gmail.com",
   "punicoes": [
     {
+      "piloto": "ADRIANO BH",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "ALBUQUERQUE",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "ALEX CAMEL",
+      "ocorrencias": []
+    },
+    {
       "piloto": "Adriano BH",
-      "ocorrencias": [
-        {
-          "corrida": "Monaco",
-          "temporada": 27,
-          "tipo": "Colisão",
-          "descricao": "Colisão com piloto adversário na volta 8.",
-          "penalidade": "Drive through",
-          "pontos": -10
-        }
-      ]
-    },
-    {
-      "piloto": "Daniel Sylva",
-      "ocorrencias": [
-        {
-          "corrida": "Italia",
-          "temporada": 27,
-          "tipo": "Ultrapassagem irregular",
-          "descricao": "Ultrapassagem fora dos limites da pista no setor 2.",
-          "penalidade": "+5s no resultado",
-          "pontos": -5
-        },
-        {
-          "corrida": "Bahrain",
-          "temporada": 27,
-          "tipo": "Bandeira amarela",
-          "descricao": "Não respeitou bandeira amarela no setor 3.",
-          "penalidade": "+10s no resultado",
-          "pontos": -10
-        }
-      ]
-    },
-    {
-      "piloto": "Herlon Passos",
-      "ocorrencias": [
-        {
-          "corrida": "Arabia Saudita",
-          "temporada": 27,
-          "tipo": "Pit lane",
-          "descricao": "Velocidade acima do limite no pit lane.",
-          "penalidade": "Drive through",
-          "pontos": -10
-        }
-      ]
-    },
-    {
-      "piloto": "Albuquerque",
       "ocorrencias": []
     },
     {
@@ -58,15 +23,31 @@
       "ocorrencias": []
     },
     {
+      "piloto": "CAMBUI",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "CAMPOLA",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "CLAUDIO GBS",
+      "ocorrencias": []
+    },
+    {
       "piloto": "Cambui",
       "ocorrencias": []
     },
     {
-      "piloto": "Campola",
+      "piloto": "DENIS",
       "ocorrencias": []
     },
     {
-      "piloto": "Claudio GBS",
+      "piloto": "DEVERSON",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "Daniel Sylva",
       "ocorrencias": []
     },
     {
@@ -78,7 +59,115 @@
       "ocorrencias": []
     },
     {
+      "piloto": "EMERSON",
+      "ocorrencias": []
+    },
+    {
       "piloto": "Emerson",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "FLYER",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "Flyer",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "GABROPE",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "GabRope",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "HANSELL",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "HEBERT",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "HERLON",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "Hebert",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "Herlon",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "JEAN OSS",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "JOAO PEDRO",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "JUNIOR Z",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "Junior Z",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "LAVACAR",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "LEO COSTA",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "MAGIOLO",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "MATHSS",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "MIKAEL OSS",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "NETO",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "PABLO",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "PAULO JUPA",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "TIAGO ANDRE",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "TOZZI",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "Tiago Andre",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "Tozzi",
+      "ocorrencias": []
+    },
+    {
+      "piloto": "ZEZINHO",
       "ocorrencias": []
     }
   ]

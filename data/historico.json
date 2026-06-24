@@ -7,20 +7,20 @@
       "vitorias": 27,
       "vitorias_sprint": 0,
       "segundos": 22,
-      "terceiros": 24,
-      "podiums": 73,
-      "ppr": 24
+      "terceiros": 23,
+      "podiums": 0,
+      "ppr": 72
     },
     {
       "posicao": "2nd",
       "piloto": "Leo Costa",
       "titulos": 3,
-      "vitorias": 26,
+      "vitorias": 25,
       "vitorias_sprint": 1,
       "segundos": 4,
       "terceiros": 2,
-      "podiums": 33,
-      "ppr": 84
+      "podiums": 0,
+      "ppr": 32
     },
     {
       "posicao": "3rd",
@@ -30,8 +30,8 @@
       "vitorias_sprint": 0,
       "segundos": 14,
       "terceiros": 14,
-      "podiums": 34,
-      "ppr": 21
+      "podiums": 0,
+      "ppr": 34
     },
     {
       "posicao": "4th",
@@ -41,8 +41,8 @@
       "vitorias_sprint": 0,
       "segundos": 23,
       "terceiros": 12,
-      "podiums": 56,
-      "ppr": 35
+      "podiums": 0,
+      "ppr": 56
     },
     {
       "posicao": "5th",
@@ -52,8 +52,8 @@
       "vitorias_sprint": 1,
       "segundos": 11,
       "terceiros": 13,
-      "podiums": 39,
-      "ppr": 50
+      "podiums": 0,
+      "ppr": 39
     },
     {
       "posicao": "6th",
@@ -63,8 +63,8 @@
       "vitorias_sprint": 0,
       "segundos": 3,
       "terceiros": 6,
-      "podiums": 21,
-      "ppr": 65
+      "podiums": 0,
+      "ppr": 21
     },
     {
       "posicao": "7th",
@@ -74,8 +74,8 @@
       "vitorias_sprint": 0,
       "segundos": 13,
       "terceiros": 4,
-      "podiums": 37,
-      "ppr": 26
+      "podiums": 0,
+      "ppr": 37
     },
     {
       "posicao": "8th",
@@ -85,8 +85,8 @@
       "vitorias_sprint": 1,
       "segundos": 18,
       "terceiros": 10,
-      "podiums": 41,
-      "ppr": 37
+      "podiums": 0,
+      "ppr": 41
     },
     {
       "posicao": "9th",
@@ -94,10 +94,10 @@
       "titulos": 1,
       "vitorias": 9,
       "vitorias_sprint": 3,
-      "segundos": 22,
+      "segundos": 21,
       "terceiros": 15,
-      "podiums": 49,
-      "ppr": 39
+      "podiums": 0,
+      "ppr": 48
     },
     {
       "posicao": "10th",
@@ -107,8 +107,8 @@
       "vitorias_sprint": 2,
       "segundos": 7,
       "terceiros": 13,
-      "podiums": 31,
-      "ppr": 41
+      "podiums": 0,
+      "ppr": 31
     },
     {
       "posicao": "11th",
@@ -118,30 +118,1152 @@
       "vitorias_sprint": 0,
       "segundos": 2,
       "terceiros": 1,
-      "podiums": 12,
-      "ppr": 37
+      "podiums": 0,
+      "ppr": 12
     },
     {
-      "posicao": "12th",
+      "posicao": "13th",
       "piloto": "Rafael Lavacar",
       "titulos": 1,
       "vitorias": 8,
       "vitorias_sprint": 4,
       "segundos": 10,
       "terceiros": 12,
-      "podiums": 34,
-      "ppr": 40
+      "podiums": 0,
+      "ppr": 34
     },
     {
-      "posicao": "13th",
+      "posicao": "12th",
       "piloto": "Wilsinho Tozzi",
       "titulos": 1,
       "vitorias": 7,
       "vitorias_sprint": 0,
       "segundos": 13,
       "terceiros": 21,
-      "podiums": 41,
-      "ppr": 27
+      "podiums": 0,
+      "ppr": 41
+    },
+    {
+      "posicao": "14th",
+      "piloto": "Max Weber",
+      "titulos": 1,
+      "vitorias": 7,
+      "vitorias_sprint": 0,
+      "segundos": 9,
+      "terceiros": 7,
+      "podiums": 0,
+      "ppr": 23
+    },
+    {
+      "posicao": "15th",
+      "piloto": "Airton",
+      "titulos": 1,
+      "vitorias": 5,
+      "vitorias_sprint": 1,
+      "segundos": 1,
+      "terceiros": 2,
+      "podiums": 0,
+      "ppr": 9
+    },
+    {
+      "posicao": "16th",
+      "piloto": "Joao Vicente",
+      "titulos": 1,
+      "vitorias": 2,
+      "vitorias_sprint": 0,
+      "segundos": 2,
+      "terceiros": 1,
+      "podiums": 0,
+      "ppr": 5
+    },
+    {
+      "posicao": "17th",
+      "piloto": "Lucas Medeiros",
+      "titulos": 0,
+      "vitorias": 14,
+      "vitorias_sprint": 0,
+      "segundos": 9,
+      "terceiros": 11,
+      "podiums": 0,
+      "ppr": 34
+    },
+    {
+      "posicao": "18th",
+      "piloto": "Denis Campos",
+      "titulos": 0,
+      "vitorias": 8,
+      "vitorias_sprint": 0,
+      "segundos": 10,
+      "terceiros": 4,
+      "podiums": 0,
+      "ppr": 22
+    },
+    {
+      "posicao": "19th",
+      "piloto": "Pappoutz",
+      "titulos": 0,
+      "vitorias": 8,
+      "vitorias_sprint": 0,
+      "segundos": 4,
+      "terceiros": 7,
+      "podiums": 0,
+      "ppr": 19
+    },
+    {
+      "posicao": "20th",
+      "piloto": "Alex Camel",
+      "titulos": 0,
+      "vitorias": 7,
+      "vitorias_sprint": 3,
+      "segundos": 9,
+      "terceiros": 3,
+      "podiums": 0,
+      "ppr": 22
+    },
+    {
+      "posicao": "21st",
+      "piloto": "Adilson",
+      "titulos": 0,
+      "vitorias": 7,
+      "vitorias_sprint": 0,
+      "segundos": 9,
+      "terceiros": 4,
+      "podiums": 0,
+      "ppr": 20
+    },
+    {
+      "posicao": "22nd",
+      "piloto": "Medrano",
+      "titulos": 0,
+      "vitorias": 6,
+      "vitorias_sprint": 1,
+      "segundos": 7,
+      "terceiros": 1,
+      "podiums": 0,
+      "ppr": 15
+    },
+    {
+      "posicao": "23rd",
+      "piloto": "Rafael Tonin",
+      "titulos": 0,
+      "vitorias": 6,
+      "vitorias_sprint": 0,
+      "segundos": 7,
+      "terceiros": 11,
+      "podiums": 0,
+      "ppr": 24
+    },
+    {
+      "posicao": "24th",
+      "piloto": "Sergio Siverly",
+      "titulos": 0,
+      "vitorias": 5,
+      "vitorias_sprint": 1,
+      "segundos": 1,
+      "terceiros": 3,
+      "podiums": 0,
+      "ppr": 10
+    },
+    {
+      "posicao": "25th",
+      "piloto": "Claudio GBS",
+      "titulos": 0,
+      "vitorias": 5,
+      "vitorias_sprint": 0,
+      "segundos": 8,
+      "terceiros": 5,
+      "podiums": 0,
+      "ppr": 18
+    },
+    {
+      "posicao": "26th",
+      "piloto": "Matheus Mathss",
+      "titulos": 0,
+      "vitorias": 5,
+      "vitorias_sprint": 0,
+      "segundos": 4,
+      "terceiros": 6,
+      "podiums": 0,
+      "ppr": 15
+    },
+    {
+      "posicao": "27th",
+      "piloto": "Malone",
+      "titulos": 0,
+      "vitorias": 5,
+      "vitorias_sprint": 0,
+      "segundos": 3,
+      "terceiros": 8,
+      "podiums": 0,
+      "ppr": 16
+    },
+    {
+      "posicao": "28th",
+      "piloto": "Daniel (1)",
+      "titulos": 0,
+      "vitorias": 5,
+      "vitorias_sprint": 0,
+      "segundos": 3,
+      "terceiros": 4,
+      "podiums": 0,
+      "ppr": 12
+    },
+    {
+      "posicao": "29th",
+      "piloto": "Pyromaniac",
+      "titulos": 0,
+      "vitorias": 4,
+      "vitorias_sprint": 0,
+      "segundos": 5,
+      "terceiros": 8,
+      "podiums": 0,
+      "ppr": 17
+    },
+    {
+      "posicao": "30th",
+      "piloto": "Borges",
+      "titulos": 0,
+      "vitorias": 4,
+      "vitorias_sprint": 0,
+      "segundos": 4,
+      "terceiros": 1,
+      "podiums": 0,
+      "ppr": 9
+    },
+    {
+      "posicao": "31st",
+      "piloto": "Zezinho",
+      "titulos": 0,
+      "vitorias": 4,
+      "vitorias_sprint": 0,
+      "segundos": 2,
+      "terceiros": 10,
+      "podiums": 0,
+      "ppr": 16
+    },
+    {
+      "posicao": "32nd",
+      "piloto": "Nicolas Silva",
+      "titulos": 0,
+      "vitorias": 3,
+      "vitorias_sprint": 1,
+      "segundos": 2,
+      "terceiros": 1,
+      "podiums": 0,
+      "ppr": 7
+    },
+    {
+      "posicao": "33rd",
+      "piloto": "Netto",
+      "titulos": 0,
+      "vitorias": 2,
+      "vitorias_sprint": 0,
+      "segundos": 8,
+      "terceiros": 11,
+      "podiums": 0,
+      "ppr": 21
+    },
+    {
+      "posicao": "34th",
+      "piloto": "Cruz",
+      "titulos": 0,
+      "vitorias": 2,
+      "vitorias_sprint": 0,
+      "segundos": 5,
+      "terceiros": 3,
+      "podiums": 0,
+      "ppr": 10
+    },
+    {
+      "posicao": "35th",
+      "piloto": "Kelvin Bros",
+      "titulos": 0,
+      "vitorias": 2,
+      "vitorias_sprint": 0,
+      "segundos": 2,
+      "terceiros": 2,
+      "podiums": 0,
+      "ppr": 6
+    },
+    {
+      "posicao": "36th",
+      "piloto": "Juninho",
+      "titulos": 0,
+      "vitorias": 2,
+      "vitorias_sprint": 0,
+      "segundos": 2,
+      "terceiros": 1,
+      "podiums": 0,
+      "ppr": 5
+    },
+    {
+      "posicao": "37th",
+      "piloto": "Minion",
+      "titulos": 0,
+      "vitorias": 2,
+      "vitorias_sprint": 0,
+      "segundos": 2,
+      "terceiros": 1,
+      "podiums": 0,
+      "ppr": 5
+    },
+    {
+      "posicao": "38th",
+      "piloto": "PH Silva",
+      "titulos": 0,
+      "vitorias": 2,
+      "vitorias_sprint": 0,
+      "segundos": 1,
+      "terceiros": 1,
+      "podiums": 0,
+      "ppr": 4
+    },
+    {
+      "posicao": "39th",
+      "piloto": "Roberto Oening",
+      "titulos": 0,
+      "vitorias": 2,
+      "vitorias_sprint": 0,
+      "segundos": 1,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 3
+    },
+    {
+      "posicao": "40th",
+      "piloto": "Kleber",
+      "titulos": 0,
+      "vitorias": 2,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 3,
+      "podiums": 0,
+      "ppr": 5
+    },
+    {
+      "posicao": "41st",
+      "piloto": "Adriano Prado",
+      "titulos": 0,
+      "vitorias": 2,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 1,
+      "podiums": 0,
+      "ppr": 3
+    },
+    {
+      "posicao": "42nd",
+      "piloto": "Victor Iron",
+      "titulos": 0,
+      "vitorias": 1,
+      "vitorias_sprint": 1,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 2
+    },
+    {
+      "posicao": "43rd",
+      "piloto": "Paulo Jupa",
+      "titulos": 0,
+      "vitorias": 1,
+      "vitorias_sprint": 0,
+      "segundos": 3,
+      "terceiros": 2,
+      "podiums": 1,
+      "ppr": 7
+    },
+    {
+      "posicao": "44th",
+      "piloto": "Tiago Campola",
+      "titulos": 0,
+      "vitorias": 1,
+      "vitorias_sprint": 0,
+      "segundos": 1,
+      "terceiros": 3,
+      "podiums": 0,
+      "ppr": 5
+    },
+    {
+      "posicao": "45th",
+      "piloto": "Kimono",
+      "titulos": 0,
+      "vitorias": 1,
+      "vitorias_sprint": 0,
+      "segundos": 1,
+      "terceiros": 1,
+      "podiums": 0,
+      "ppr": 3
+    },
+    {
+      "posicao": "46th",
+      "piloto": "Deverson",
+      "titulos": 0,
+      "vitorias": 1,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 2,
+      "podiums": 0,
+      "ppr": 3
+    },
+    {
+      "posicao": "47th",
+      "piloto": "Ewerton",
+      "titulos": 0,
+      "vitorias": 1,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 2,
+      "podiums": 0,
+      "ppr": 3
+    },
+    {
+      "posicao": "48th",
+      "piloto": "Carlos Eduardo",
+      "titulos": 0,
+      "vitorias": 1,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 7,
+      "ppr": 8
+    },
+    {
+      "posicao": "49th",
+      "piloto": "Pablo Sousa",
+      "titulos": 0,
+      "vitorias": 1,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 1
+    },
+    {
+      "posicao": "50th",
+      "piloto": "Nando",
+      "titulos": 0,
+      "vitorias": 1,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 1
+    },
+    {
+      "posicao": "51st",
+      "piloto": "Adriano BH",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 1,
+      "segundos": 1,
+      "terceiros": 4,
+      "podiums": 0,
+      "ppr": 6
+    },
+    {
+      "posicao": "52nd",
+      "piloto": "Rafa 14",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 1,
+      "segundos": 1,
+      "terceiros": 2,
+      "podiums": 0,
+      "ppr": 4
+    },
+    {
+      "posicao": "53rd",
+      "piloto": "Daniel Sylva",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 3,
+      "terceiros": 1,
+      "podiums": 0,
+      "ppr": 4
+    },
+    {
+      "posicao": "54th",
+      "piloto": "Charloz",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 2,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 2
+    },
+    {
+      "posicao": "55th",
+      "piloto": "Josh Flyer",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 1,
+      "terceiros": 4,
+      "podiums": 0,
+      "ppr": 5
+    },
+    {
+      "posicao": "56th",
+      "piloto": "Hebert Felipe",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 1,
+      "terceiros": 1,
+      "podiums": 0,
+      "ppr": 2
+    },
+    {
+      "posicao": "57th",
+      "piloto": "Joao Belle",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 1,
+      "terceiros": 1,
+      "podiums": 0,
+      "ppr": 2
+    },
+    {
+      "posicao": "58th",
+      "piloto": "Tiago Andre",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 1,
+      "terceiros": 1,
+      "podiums": 0,
+      "ppr": 2
+    },
+    {
+      "posicao": "59th",
+      "piloto": "Sidney",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 1,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 1
+    },
+    {
+      "posicao": "60th",
+      "piloto": "Teller",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 1,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 1
+    },
+    {
+      "posicao": "61st",
+      "piloto": "Black",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 1,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 1
+    },
+    {
+      "posicao": "62nd",
+      "piloto": "Raphael Otoline",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 1,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 1
+    },
+    {
+      "posicao": "63rd",
+      "piloto": "Dudu Gomes",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 1,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 1
+    },
+    {
+      "posicao": "64th",
+      "piloto": "Philipe",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 1,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 1
+    },
+    {
+      "posicao": "65th",
+      "piloto": "Ricardo Garcia",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 2,
+      "podiums": 0,
+      "ppr": 2
+    },
+    {
+      "posicao": "66th",
+      "piloto": "Perdition",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 2,
+      "podiums": 0,
+      "ppr": 2
+    },
+    {
+      "posicao": "67th",
+      "piloto": "I. Luchyan",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 1,
+      "podiums": 0,
+      "ppr": 1
+    },
+    {
+      "posicao": "68th",
+      "piloto": "Daniel Viana",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 1,
+      "podiums": 0,
+      "ppr": 1
+    },
+    {
+      "posicao": "69th",
+      "piloto": "Herlon Passos",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 1,
+      "podiums": 0,
+      "ppr": 1
+    },
+    {
+      "posicao": "70th",
+      "piloto": "Jean Oss",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "71st",
+      "piloto": "Andre Campos",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "72nd",
+      "piloto": "Marco Albuquerque",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "73rd",
+      "piloto": "Assuncao",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "74th",
+      "piloto": "Fabio Lafon",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "75th",
+      "piloto": "Adriano BR",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "76th",
+      "piloto": "Wallace Normandia",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "77th",
+      "piloto": "Bruno 81",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "78th",
+      "piloto": "Kaka",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "79th",
+      "piloto": "Luiz",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "80th",
+      "piloto": "Jose Ramos",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "81st",
+      "piloto": "Diniz",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "82nd",
+      "piloto": "Davizin",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "83rd",
+      "piloto": "Gregg",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "84th",
+      "piloto": "Rudi",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "85th",
+      "piloto": "Junior Zamper",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "86th",
+      "piloto": "Matheus Sindra",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "87th",
+      "piloto": "Wilton",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "88th",
+      "piloto": "Luis Vidal",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "89th",
+      "piloto": "Victor Salviano",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "90th",
+      "piloto": "Vinicius ZDS",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "91st",
+      "piloto": "Rodrigo Cavalcante",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "92nd",
+      "piloto": "Bianchi",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "93rd",
+      "piloto": "Mikael Oss",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "95th",
+      "piloto": "Fernando Foppa",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "94th",
+      "piloto": "Hugo",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "96th",
+      "piloto": "Freitas",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "97th",
+      "piloto": "Felnes",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "98th",
+      "piloto": "Alexandre",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "99th",
+      "piloto": "Matheus Emanuel",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "100th",
+      "piloto": "David",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "101st",
+      "piloto": "Yan",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "102nd",
+      "piloto": "Ricardo M",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "107th",
+      "piloto": "Rafael Antunes",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "103rd",
+      "piloto": "Igor Lima",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "104th",
+      "piloto": "Geraldno Tomaz",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "105th",
+      "piloto": "Cheech",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "106th",
+      "piloto": "Jodeir",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "113th",
+      "piloto": "Guilherme Meireles",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "115th",
+      "piloto": "Alex Brisant",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "108th",
+      "piloto": "Matheuz",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "109th",
+      "piloto": "Mossato",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "110th",
+      "piloto": "Weslei",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "111th",
+      "piloto": "Guilherme",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "112th",
+      "piloto": "Francisco",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
+    },
+    {
+      "posicao": "114th",
+      "piloto": "Eduardo Quintas",
+      "titulos": 0,
+      "vitorias": 0,
+      "vitorias_sprint": 0,
+      "segundos": 0,
+      "terceiros": 0,
+      "podiums": 0,
+      "ppr": 0
     }
   ]
 }
