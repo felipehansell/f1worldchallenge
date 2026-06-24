@@ -3,7 +3,7 @@
   "temporada": 27,
   "jogo": "F1 25",
   "ultima_atualizacao": "24/06/2026",
-  "ultima_corrida": "Pos MONACO",
+  "ultima_corrida": "MONACO",
   "proxima_corrida": "",
   "rodada_atual": 10,
   "total_rodadas": 22,
@@ -14,6 +14,65 @@
       "emoji": "🥇",
       "pilotos": [
         {
+          "posicao": 1,
+          "nome": "Leo Costa",
+          "foto": "imagens/pilotos/leo-costa.jpg",
+          "pontos": 94,
+          "penalizacoes": 0,
+          "resultados": [
+            {
+              "circuito": "ITALY",
+              "posicao": 1,
+              "pontos": 15
+            },
+            {
+              "circuito": "BAHRAIN",
+              "posicao": 1,
+              "pontos": 15
+            },
+            {
+              "circuito": "ARABIA",
+              "posicao": 1,
+              "pontos": 15
+            },
+            {
+              "circuito": "SINGAPORE",
+              "posicao": 6,
+              "pontos": 4
+            },
+            {
+              "circuito": "MIAMI",
+              "posicao": 1,
+              "pontos": 15
+            },
+            {
+              "circuito": "USA",
+              "posicao": 1,
+              "pontos": 15
+            },
+            {
+              "circuito": "MEXICO",
+              "posicao": 0,
+              "pontos": 0
+            },
+            {
+              "circuito": "CANADA",
+              "posicao": 1,
+              "pontos": 15
+            },
+            {
+              "circuito": "BRAZIL",
+              "posicao": "NP",
+              "pontos": 0
+            },
+            {
+              "circuito": "MONACO",
+              "posicao": 0,
+              "pontos": 0
+            }
+          ]
+        },
+        {
           "posicao": 2,
           "nome": "Rafael Lavacar",
           "foto": "imagens/pilotos/rafael-lavacar.jpg",
@@ -21,52 +80,52 @@
           "penalizacoes": 0,
           "resultados": [
             {
-              "circuito": "Pos ITALY",
+              "circuito": "ITALY",
               "posicao": 4,
               "pontos": 6
             },
             {
-              "circuito": "Pos BAHRAIN",
+              "circuito": "BAHRAIN",
               "posicao": 9,
               "pontos": 1
             },
             {
-              "circuito": "Pos ARABIA",
+              "circuito": "ARABIA",
               "posicao": 5,
               "pontos": 5
             },
             {
-              "circuito": "Pos SINGAPORE",
+              "circuito": "SINGAPORE",
               "posicao": 1,
               "pontos": 15
             },
             {
-              "circuito": "Pos MIAMI",
+              "circuito": "MIAMI",
               "posicao": 3,
               "pontos": 8
             },
             {
-              "circuito": "Pos USA",
+              "circuito": "USA",
               "posicao": 2,
               "pontos": 10
             },
             {
-              "circuito": "Pos MEXICO",
+              "circuito": "MEXICO",
               "posicao": 0,
               "pontos": 0
             },
             {
-              "circuito": "Pos CANADA",
+              "circuito": "CANADA",
               "posicao": "NP",
               "pontos": 0
             },
             {
-              "circuito": "Pos BRAZIL",
+              "circuito": "BRAZIL",
               "posicao": 1,
               "pontos": 15
             },
             {
-              "circuito": "Pos MONACO",
+              "circuito": "MONACO",
               "posicao": 0,
               "pontos": 0
             }
@@ -80,52 +139,52 @@
           "penalizacoes": 0,
           "resultados": [
             {
-              "circuito": "Pos ITALY",
+              "circuito": "ITALY",
               "posicao": 3,
               "pontos": 8
             },
             {
-              "circuito": "Pos BAHRAIN",
+              "circuito": "BAHRAIN",
               "posicao": 2,
               "pontos": 10
             },
             {
-              "circuito": "Pos ARABIA",
+              "circuito": "ARABIA",
               "posicao": 4,
               "pontos": 6
             },
             {
-              "circuito": "Pos SINGAPORE",
+              "circuito": "SINGAPORE",
               "posicao": "NP",
               "pontos": 0
             },
             {
-              "circuito": "Pos MIAMI",
+              "circuito": "MIAMI",
               "posicao": 2,
               "pontos": 10
             },
             {
-              "circuito": "Pos USA",
+              "circuito": "USA",
               "posicao": 3,
               "pontos": 8
             },
             {
-              "circuito": "Pos MEXICO",
+              "circuito": "MEXICO",
               "posicao": 0,
               "pontos": 0
             },
             {
-              "circuito": "Pos CANADA",
+              "circuito": "CANADA",
               "posicao": 5,
               "pontos": 5
             },
             {
-              "circuito": "Pos BRAZIL",
+              "circuito": "BRAZIL",
               "posicao": 2,
               "pontos": 10
             },
             {
-              "circuito": "Pos MONACO",
+              "circuito": "MONACO",
               "posicao": 0,
               "pontos": 0
             }
@@ -139,52 +198,52 @@
           "penalizacoes": 0,
           "resultados": [
             {
-              "circuito": "Pos ITALY",
+              "circuito": "ITALY",
               "posicao": 5,
               "pontos": 5
             },
             {
-              "circuito": "Pos BAHRAIN",
+              "circuito": "BAHRAIN",
               "posicao": 7,
               "pontos": 3
             },
             {
-              "circuito": "Pos ARABIA",
+              "circuito": "ARABIA",
               "posicao": 6,
               "pontos": 4
             },
             {
-              "circuito": "Pos SINGAPORE",
+              "circuito": "SINGAPORE",
               "posicao": 2,
               "pontos": 10
             },
             {
-              "circuito": "Pos MIAMI",
+              "circuito": "MIAMI",
               "posicao": 6,
               "pontos": 4
             },
             {
-              "circuito": "Pos USA",
+              "circuito": "USA",
               "posicao": 6,
               "pontos": 4
             },
             {
-              "circuito": "Pos MEXICO",
+              "circuito": "MEXICO",
               "posicao": 0,
               "pontos": 0
             },
             {
-              "circuito": "Pos CANADA",
+              "circuito": "CANADA",
               "posicao": 3,
               "pontos": 8
             },
             {
-              "circuito": "Pos BRAZIL",
+              "circuito": "BRAZIL",
               "posicao": 3,
               "pontos": 8
             },
             {
-              "circuito": "Pos MONACO",
+              "circuito": "MONACO",
               "posicao": 0,
               "pontos": 0
             }
@@ -198,52 +257,52 @@
           "penalizacoes": 0,
           "resultados": [
             {
-              "circuito": "Pos ITALY",
+              "circuito": "ITALY",
               "posicao": 6,
               "pontos": 4
             },
             {
-              "circuito": "Pos BAHRAIN",
+              "circuito": "BAHRAIN",
               "posicao": 3,
               "pontos": 8
             },
             {
-              "circuito": "Pos ARABIA",
+              "circuito": "ARABIA",
               "posicao": 8,
               "pontos": 2
             },
             {
-              "circuito": "Pos SINGAPORE",
+              "circuito": "SINGAPORE",
               "posicao": "NP",
               "pontos": 0
             },
             {
-              "circuito": "Pos MIAMI",
+              "circuito": "MIAMI",
               "posicao": 8,
               "pontos": 2
             },
             {
-              "circuito": "Pos USA",
+              "circuito": "USA",
               "posicao": 5,
               "pontos": 5
             },
             {
-              "circuito": "Pos MEXICO",
+              "circuito": "MEXICO",
               "posicao": 0,
               "pontos": 0
             },
             {
-              "circuito": "Pos CANADA",
+              "circuito": "CANADA",
               "posicao": 2,
               "pontos": 10
             },
             {
-              "circuito": "Pos BRAZIL",
+              "circuito": "BRAZIL",
               "posicao": 5,
               "pontos": 5
             },
             {
-              "circuito": "Pos MONACO",
+              "circuito": "MONACO",
               "posicao": 0,
               "pontos": 0
             }
@@ -257,52 +316,52 @@
           "penalizacoes": 0,
           "resultados": [
             {
-              "circuito": "Pos ITALY",
+              "circuito": "ITALY",
               "posicao": 7,
               "pontos": 3
             },
             {
-              "circuito": "Pos BAHRAIN",
+              "circuito": "BAHRAIN",
               "posicao": 5,
               "pontos": 5
             },
             {
-              "circuito": "Pos ARABIA",
+              "circuito": "ARABIA",
               "posicao": 7,
               "pontos": 3
             },
             {
-              "circuito": "Pos SINGAPORE",
+              "circuito": "SINGAPORE",
               "posicao": 4,
               "pontos": 6
             },
             {
-              "circuito": "Pos MIAMI",
+              "circuito": "MIAMI",
               "posicao": 7,
               "pontos": 3
             },
             {
-              "circuito": "Pos USA",
+              "circuito": "USA",
               "posicao": 4,
               "pontos": 6
             },
             {
-              "circuito": "Pos MEXICO",
+              "circuito": "MEXICO",
               "posicao": 0,
               "pontos": 0
             },
             {
-              "circuito": "Pos CANADA",
+              "circuito": "CANADA",
               "posicao": 6,
               "pontos": 4
             },
             {
-              "circuito": "Pos BRAZIL",
+              "circuito": "BRAZIL",
               "posicao": 4,
               "pontos": 6
             },
             {
-              "circuito": "Pos MONACO",
+              "circuito": "MONACO",
               "posicao": 0,
               "pontos": 0
             }
@@ -316,52 +375,52 @@
           "penalizacoes": 0,
           "resultados": [
             {
-              "circuito": "Pos ITALY",
+              "circuito": "ITALY",
               "posicao": 8,
               "pontos": 2
             },
             {
-              "circuito": "Pos BAHRAIN",
+              "circuito": "BAHRAIN",
               "posicao": 6,
               "pontos": 4
             },
             {
-              "circuito": "Pos ARABIA",
+              "circuito": "ARABIA",
               "posicao": 9,
               "pontos": 1
             },
             {
-              "circuito": "Pos SINGAPORE",
+              "circuito": "SINGAPORE",
               "posicao": 3,
               "pontos": 8
             },
             {
-              "circuito": "Pos MIAMI",
+              "circuito": "MIAMI",
               "posicao": 4,
               "pontos": 6
             },
             {
-              "circuito": "Pos USA",
+              "circuito": "USA",
               "posicao": "NP",
               "pontos": 0
             },
             {
-              "circuito": "Pos MEXICO",
+              "circuito": "MEXICO",
               "posicao": 0,
               "pontos": 0
             },
             {
-              "circuito": "Pos CANADA",
+              "circuito": "CANADA",
               "posicao": 7,
               "pontos": 3
             },
             {
-              "circuito": "Pos BRAZIL",
+              "circuito": "BRAZIL",
               "posicao": 6,
               "pontos": 4
             },
             {
-              "circuito": "Pos MONACO",
+              "circuito": "MONACO",
               "posicao": 0,
               "pontos": 0
             }
@@ -375,52 +434,52 @@
           "penalizacoes": -15,
           "resultados": [
             {
-              "circuito": "Pos ITALY",
+              "circuito": "ITALY",
               "posicao": 2,
               "pontos": 10
             },
             {
-              "circuito": "Pos BAHRAIN",
+              "circuito": "BAHRAIN",
               "posicao": 4,
               "pontos": 6
             },
             {
-              "circuito": "Pos ARABIA",
+              "circuito": "ARABIA",
               "posicao": 2,
               "pontos": 10
             },
             {
-              "circuito": "Pos SINGAPORE",
+              "circuito": "SINGAPORE",
               "posicao": 5,
               "pontos": 5
             },
             {
-              "circuito": "Pos MIAMI",
+              "circuito": "MIAMI",
               "posicao": 5,
               "pontos": 5
             },
             {
-              "circuito": "Pos USA",
+              "circuito": "USA",
               "posicao": 7,
               "pontos": 3
             },
             {
-              "circuito": "Pos MEXICO",
+              "circuito": "MEXICO",
               "posicao": 0,
               "pontos": 0
             },
             {
-              "circuito": "Pos CANADA",
+              "circuito": "CANADA",
               "posicao": "NP",
               "pontos": 0
             },
             {
-              "circuito": "Pos BRAZIL",
+              "circuito": "BRAZIL",
               "posicao": 8,
               "pontos": 2
             },
             {
-              "circuito": "Pos MONACO",
+              "circuito": "MONACO",
               "posicao": 0,
               "pontos": 0
             }
@@ -434,52 +493,52 @@
           "penalizacoes": 0,
           "resultados": [
             {
-              "circuito": "Pos ITALY",
+              "circuito": "ITALY",
               "posicao": "NP",
               "pontos": 0
             },
             {
-              "circuito": "Pos BAHRAIN",
+              "circuito": "BAHRAIN",
               "posicao": 8,
               "pontos": 2
             },
             {
-              "circuito": "Pos ARABIA",
+              "circuito": "ARABIA",
               "posicao": 3,
               "pontos": 8
             },
             {
-              "circuito": "Pos SINGAPORE",
+              "circuito": "SINGAPORE",
               "posicao": "NP",
               "pontos": 0
             },
             {
-              "circuito": "Pos MIAMI",
+              "circuito": "MIAMI",
               "posicao": 9,
               "pontos": 1
             },
             {
-              "circuito": "Pos USA",
+              "circuito": "USA",
               "posicao": "NP",
               "pontos": 0
             },
             {
-              "circuito": "Pos MEXICO",
+              "circuito": "MEXICO",
               "posicao": 0,
               "pontos": 0
             },
             {
-              "circuito": "Pos CANADA",
+              "circuito": "CANADA",
               "posicao": 8,
               "pontos": 2
             },
             {
-              "circuito": "Pos BRAZIL",
+              "circuito": "BRAZIL",
               "posicao": 7,
               "pontos": 3
             },
             {
-              "circuito": "Pos MONACO",
+              "circuito": "MONACO",
               "posicao": 0,
               "pontos": 0
             }
@@ -493,52 +552,52 @@
           "penalizacoes": 0,
           "resultados": [
             {
-              "circuito": "Pos ITALY",
+              "circuito": "ITALY",
               "posicao": "NP",
               "pontos": 0
             },
             {
-              "circuito": "Pos BAHRAIN",
+              "circuito": "BAHRAIN",
               "posicao": "NP",
               "pontos": 0
             },
             {
-              "circuito": "Pos ARABIA",
+              "circuito": "ARABIA",
               "posicao": "NP",
               "pontos": 0
             },
             {
-              "circuito": "Pos SINGAPORE",
+              "circuito": "SINGAPORE",
               "posicao": "NP",
               "pontos": 0
             },
             {
-              "circuito": "Pos MIAMI",
+              "circuito": "MIAMI",
               "posicao": "NP",
               "pontos": 0
             },
             {
-              "circuito": "Pos USA",
+              "circuito": "USA",
               "posicao": "NP",
               "pontos": 0
             },
             {
-              "circuito": "Pos MEXICO",
+              "circuito": "MEXICO",
               "posicao": 0,
               "pontos": 0
             },
             {
-              "circuito": "Pos CANADA",
+              "circuito": "CANADA",
               "posicao": 4,
               "pontos": 6
             },
             {
-              "circuito": "Pos BRAZIL",
+              "circuito": "BRAZIL",
               "posicao": "NP",
               "pontos": 0
             },
             {
-              "circuito": "Pos MONACO",
+              "circuito": "MONACO",
               "posicao": 0,
               "pontos": 0
             }
@@ -552,63 +611,20 @@
       "emoji": "🥈",
       "pilotos": [
         {
+          "posicao": 1,
+          "nome": "Carlos Eduardo",
+          "foto": "imagens/pilotos/carlos-eduardo.jpg",
+          "pontos": 113,
+          "penalizacoes": 0,
+          "resultados": []
+        },
+        {
           "posicao": 2,
           "nome": "Fernando Foppa",
           "foto": "imagens/pilotos/fernando-foppa.jpg",
           "pontos": 40,
           "penalizacoes": -8,
-          "resultados": [
-            {
-              "circuito": "ITALY Pos",
-              "posicao": 2,
-              "pontos": 10
-            },
-            {
-              "circuito": "BAHRAIN Pos",
-              "posicao": 3,
-              "pontos": 8
-            },
-            {
-              "circuito": "ARABIA Pos",
-              "posicao": 4,
-              "pontos": 6
-            },
-            {
-              "circuito": "SINGAPORE Pos",
-              "posicao": 3,
-              "pontos": 8
-            },
-            {
-              "circuito": "MIAMI Pos",
-              "posicao": 2,
-              "pontos": 10
-            },
-            {
-              "circuito": "USA Pos",
-              "posicao": 4,
-              "pontos": 6
-            },
-            {
-              "circuito": "MEXICO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BRAZIL Pos",
-              "posicao": 10,
-              "pontos": 0
-            },
-            {
-              "circuito": "MONACO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            }
-          ]
+          "resultados": []
         },
         {
           "posicao": 3,
@@ -616,58 +632,7 @@
           "foto": "imagens/pilotos/tiago-campola.jpg",
           "pontos": 39,
           "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY Pos",
-              "posicao": 8,
-              "pontos": 2
-            },
-            {
-              "circuito": "BAHRAIN Pos",
-              "posicao": 5,
-              "pontos": 5
-            },
-            {
-              "circuito": "ARABIA Pos",
-              "posicao": 6,
-              "pontos": 4
-            },
-            {
-              "circuito": "SINGAPORE Pos",
-              "posicao": 7,
-              "pontos": 3
-            },
-            {
-              "circuito": "MIAMI Pos",
-              "posicao": 4,
-              "pontos": 6
-            },
-            {
-              "circuito": "USA Pos",
-              "posicao": 5,
-              "pontos": 5
-            },
-            {
-              "circuito": "MEXICO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA Pos",
-              "posicao": 3,
-              "pontos": 8
-            },
-            {
-              "circuito": "BRAZIL Pos",
-              "posicao": 4,
-              "pontos": 6
-            },
-            {
-              "circuito": "MONACO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            }
-          ]
+          "resultados": []
         },
         {
           "posicao": 4,
@@ -675,58 +640,7 @@
           "foto": "imagens/pilotos/adriano-bh.jpg",
           "pontos": 36,
           "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY Pos",
-              "posicao": 5,
-              "pontos": 5
-            },
-            {
-              "circuito": "BAHRAIN Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "ARABIA Pos",
-              "posicao": 7,
-              "pontos": 3
-            },
-            {
-              "circuito": "SINGAPORE Pos",
-              "posicao": 4,
-              "pontos": 6
-            },
-            {
-              "circuito": "MIAMI Pos",
-              "posicao": 5,
-              "pontos": 5
-            },
-            {
-              "circuito": "USA Pos",
-              "posicao": 2,
-              "pontos": 10
-            },
-            {
-              "circuito": "MEXICO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA Pos",
-              "posicao": 7,
-              "pontos": 3
-            },
-            {
-              "circuito": "BRAZIL Pos",
-              "posicao": 6,
-              "pontos": 4
-            },
-            {
-              "circuito": "MONACO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            }
-          ]
+          "resultados": []
         },
         {
           "posicao": 5,
@@ -734,58 +648,7 @@
           "foto": "imagens/pilotos/josh-flyer.jpg",
           "pontos": 20,
           "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BAHRAIN Pos",
-              "posicao": 9,
-              "pontos": 1
-            },
-            {
-              "circuito": "ARABIA Pos",
-              "posicao": 8,
-              "pontos": 2
-            },
-            {
-              "circuito": "SINGAPORE Pos",
-              "posicao": 5,
-              "pontos": 5
-            },
-            {
-              "circuito": "MIAMI Pos",
-              "posicao": 7,
-              "pontos": 3
-            },
-            {
-              "circuito": "USA Pos",
-              "posicao": 8,
-              "pontos": 2
-            },
-            {
-              "circuito": "MEXICO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA Pos",
-              "posicao": 6,
-              "pontos": 4
-            },
-            {
-              "circuito": "BRAZIL Pos",
-              "posicao": 7,
-              "pontos": 3
-            },
-            {
-              "circuito": "MONACO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            }
-          ]
+          "resultados": []
         },
         {
           "posicao": 6,
@@ -793,58 +656,7 @@
           "foto": "imagens/pilotos/rafael-antunes.jpg",
           "pontos": 16,
           "penalizacoes": -10,
-          "resultados": [
-            {
-              "circuito": "ITALY Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BAHRAIN Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "ARABIA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "SINGAPORE Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MIAMI Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "USA Pos",
-              "posicao": 3,
-              "pontos": 8
-            },
-            {
-              "circuito": "MEXICO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA Pos",
-              "posicao": 2,
-              "pontos": 10
-            },
-            {
-              "circuito": "BRAZIL Pos",
-              "posicao": 3,
-              "pontos": 8
-            },
-            {
-              "circuito": "MONACO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            }
-          ]
+          "resultados": []
         },
         {
           "posicao": 7,
@@ -852,58 +664,7 @@
           "foto": "imagens/pilotos/junior-zamper.jpg",
           "pontos": 11,
           "penalizacoes": -3,
-          "resultados": [
-            {
-              "circuito": "ITALY Pos",
-              "posicao": 7,
-              "pontos": 3
-            },
-            {
-              "circuito": "BAHRAIN Pos",
-              "posicao": 7,
-              "pontos": 3
-            },
-            {
-              "circuito": "ARABIA Pos",
-              "posicao": 5,
-              "pontos": 5
-            },
-            {
-              "circuito": "SINGAPORE Pos",
-              "posicao": 9,
-              "pontos": 1
-            },
-            {
-              "circuito": "MIAMI Pos",
-              "posicao": 9,
-              "pontos": 1
-            },
-            {
-              "circuito": "USA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MEXICO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA Pos",
-              "posicao": 9,
-              "pontos": 1
-            },
-            {
-              "circuito": "BRAZIL Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MONACO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            }
-          ]
+          "resultados": []
         },
         {
           "posicao": 8,
@@ -911,58 +672,7 @@
           "foto": "imagens/pilotos/guilherme-meireles.jpg",
           "pontos": 10,
           "penalizacoes": -4,
-          "resultados": [
-            {
-              "circuito": "ITALY Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BAHRAIN Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "ARABIA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "SINGAPORE Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MIAMI Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "USA Pos",
-              "posicao": 6,
-              "pontos": 4
-            },
-            {
-              "circuito": "MEXICO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BRAZIL Pos",
-              "posicao": 2,
-              "pontos": 10
-            },
-            {
-              "circuito": "MONACO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            }
-          ]
+          "resultados": []
         },
         {
           "posicao": 9,
@@ -970,58 +680,7 @@
           "foto": "imagens/pilotos/lucas-medeiros.jpg",
           "pontos": 9,
           "penalizacoes": -4,
-          "resultados": [
-            {
-              "circuito": "ITALY Pos",
-              "posicao": 6,
-              "pontos": 4
-            },
-            {
-              "circuito": "BAHRAIN Pos",
-              "posicao": 6,
-              "pontos": 4
-            },
-            {
-              "circuito": "ARABIA Pos",
-              "posicao": "DNF",
-              "pontos": 0
-            },
-            {
-              "circuito": "SINGAPORE Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MIAMI Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "USA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MEXICO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BRAZIL Pos",
-              "posicao": 5,
-              "pontos": 5
-            },
-            {
-              "circuito": "MONACO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            }
-          ]
+          "resultados": []
         },
         {
           "posicao": 10,
@@ -1029,58 +688,7 @@
           "foto": "imagens/pilotos/gabriel-rope.jpg",
           "pontos": 8,
           "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BAHRAIN Pos",
-              "posicao": 4,
-              "pontos": 6
-            },
-            {
-              "circuito": "ARABIA Pos",
-              "posicao": "DNF",
-              "pontos": 0
-            },
-            {
-              "circuito": "SINGAPORE Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MIAMI Pos",
-              "posicao": 8,
-              "pontos": 2
-            },
-            {
-              "circuito": "USA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MEXICO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BRAZIL Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MONACO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            }
-          ]
+          "resultados": []
         },
         {
           "posicao": 11,
@@ -1088,58 +696,7 @@
           "foto": "imagens/pilotos/marco-albuquerque.jpg",
           "pontos": 6,
           "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY Pos",
-              "posicao": 9,
-              "pontos": 1
-            },
-            {
-              "circuito": "BAHRAIN Pos",
-              "posicao": 10,
-              "pontos": 0
-            },
-            {
-              "circuito": "ARABIA Pos",
-              "posicao": "DNF",
-              "pontos": 0
-            },
-            {
-              "circuito": "SINGAPORE Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MIAMI Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "USA Pos",
-              "posicao": 9,
-              "pontos": 1
-            },
-            {
-              "circuito": "MEXICO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA Pos",
-              "posicao": 8,
-              "pontos": 2
-            },
-            {
-              "circuito": "BRAZIL Pos",
-              "posicao": 8,
-              "pontos": 2
-            },
-            {
-              "circuito": "MONACO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            }
-          ]
+          "resultados": []
         },
         {
           "posicao": 12,
@@ -1147,58 +704,7 @@
           "foto": "imagens/pilotos/eduardo-quintas.jpg",
           "pontos": 5,
           "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BAHRAIN Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "ARABIA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "SINGAPORE Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MIAMI Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "USA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MEXICO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA Pos",
-              "posicao": 5,
-              "pontos": 5
-            },
-            {
-              "circuito": "BRAZIL Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MONACO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            }
-          ]
+          "resultados": []
         },
         {
           "posicao": 13,
@@ -1206,58 +712,7 @@
           "foto": "imagens/pilotos/denis-campos.jpg",
           "pontos": 4,
           "penalizacoes": -17,
-          "resultados": [
-            {
-              "circuito": "ITALY Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BAHRAIN Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "ARABIA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "SINGAPORE Pos",
-              "posicao": 6,
-              "pontos": 4
-            },
-            {
-              "circuito": "MIAMI Pos",
-              "posicao": 3,
-              "pontos": 8
-            },
-            {
-              "circuito": "USA Pos",
-              "posicao": 7,
-              "pontos": 3
-            },
-            {
-              "circuito": "MEXICO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA Pos",
-              "posicao": 4,
-              "pontos": 6
-            },
-            {
-              "circuito": "BRAZIL Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MONACO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            }
-          ]
+          "resultados": []
         },
         {
           "posicao": 14,
@@ -1265,58 +720,7 @@
           "foto": "imagens/pilotos/gustavo-cambui.jpg",
           "pontos": 2,
           "penalizacoes": -16,
-          "resultados": [
-            {
-              "circuito": "ITALY Pos",
-              "posicao": 4,
-              "pontos": 6
-            },
-            {
-              "circuito": "BAHRAIN Pos",
-              "posicao": 8,
-              "pontos": 2
-            },
-            {
-              "circuito": "ARABIA Pos",
-              "posicao": 3,
-              "pontos": 8
-            },
-            {
-              "circuito": "SINGAPORE Pos",
-              "posicao": 8,
-              "pontos": 2
-            },
-            {
-              "circuito": "MIAMI Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "USA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MEXICO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BRAZIL Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MONACO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            }
-          ]
+          "resultados": []
         },
         {
           "posicao": 15,
@@ -1324,58 +728,7 @@
           "foto": "imagens/pilotos/alex-brisant.jpg",
           "pontos": 1,
           "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BAHRAIN Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "ARABIA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "SINGAPORE Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MIAMI Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "USA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MEXICO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BRAZIL Pos",
-              "posicao": 9,
-              "pontos": 1
-            },
-            {
-              "circuito": "MONACO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            }
-          ]
+          "resultados": []
         },
         {
           "posicao": 16,
@@ -1383,58 +736,7 @@
           "foto": "imagens/pilotos/paulo-jupa.jpg",
           "pontos": 0,
           "penalizacoes": -49,
-          "resultados": [
-            {
-              "circuito": "ITALY Pos",
-              "posicao": 1,
-              "pontos": 15
-            },
-            {
-              "circuito": "BAHRAIN Pos",
-              "posicao": 2,
-              "pontos": 10
-            },
-            {
-              "circuito": "ARABIA Pos",
-              "posicao": 2,
-              "pontos": 10
-            },
-            {
-              "circuito": "SINGAPORE Pos",
-              "posicao": 2,
-              "pontos": 10
-            },
-            {
-              "circuito": "MIAMI Pos",
-              "posicao": 6,
-              "pontos": 4
-            },
-            {
-              "circuito": "USA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MEXICO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BRAZIL Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MONACO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            }
-          ]
+          "resultados": []
         },
         {
           "posicao": 17,
@@ -1442,58 +744,7 @@
           "foto": "imagens/pilotos/matheus-mathss.jpg",
           "pontos": 0,
           "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BAHRAIN Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "ARABIA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "SINGAPORE Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MIAMI Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "USA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MEXICO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BRAZIL Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MONACO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            }
-          ]
+          "resultados": []
         },
         {
           "posicao": 18,
@@ -1501,58 +752,7 @@
           "foto": "imagens/pilotos/emerson-santana.jpg",
           "pontos": 0,
           "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BAHRAIN Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "ARABIA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "SINGAPORE Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MIAMI Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "USA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MEXICO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BRAZIL Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MONACO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            }
-          ]
+          "resultados": []
         }
       ]
     },
@@ -1562,63 +762,20 @@
       "emoji": "🥉",
       "pilotos": [
         {
+          "posicao": 1,
+          "nome": "Teste",
+          "foto": "imagens/pilotos/teste.jpg",
+          "pontos": 10,
+          "penalizacoes": 0,
+          "resultados": []
+        },
+        {
           "posicao": 2,
           "nome": "Teste B",
           "foto": "imagens/pilotos/teste-b.jpg",
           "pontos": 5,
           "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BAHRAIN Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "ARABIA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "SINGAPORE Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MIAMI Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "USA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MEXICO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BRAZIL Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MONACO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            }
-          ]
+          "resultados": []
         },
         {
           "posicao": 3,
@@ -1626,58 +783,7 @@
           "foto": "imagens/pilotos/teste-c.jpg",
           "pontos": 3,
           "penalizacoes": 0,
-          "resultados": [
-            {
-              "circuito": "ITALY Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BAHRAIN Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "ARABIA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "SINGAPORE Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MIAMI Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "USA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MEXICO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "CANADA Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "BRAZIL Pos",
-              "posicao": "NP",
-              "pontos": 0
-            },
-            {
-              "circuito": "MONACO Pos",
-              "posicao": "NP",
-              "pontos": 0
-            }
-          ]
+          "resultados": []
         }
       ]
     }
