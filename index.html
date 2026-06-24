@@ -259,7 +259,7 @@ footer { text-align: center; padding: 2rem; font-size: 12px; color: var(--g400);
   </div>
 </main>
 
-<footer>F1 World Challenge · Temporada 27 · <span id="footer-date"></span></footer>
+<footer class="desktop-footer">F1 World Challenge · Temporada 27 · <span id="footer-date"></span></footer>  <nav class="mobile-footer">   <button class="mf-btn active" onclick="setTab('home')">     <span class="mf-icon">🏠</span>     <span class="mf-label">Início</span>   </button>   <button class="mf-btn" onclick="setTab('classificacao')">     <span class="mf-icon">🏆</span>     <span class="mf-label">Classificação</span>   </button>   <button class="mf-btn" onclick="setTab('duplas')">     <span class="mf-icon">👥</span>     <span class="mf-label">Duplas</span>   </button>   <button class="mf-btn" onclick="setTab('corridas')">     <span class="mf-icon">🏁</span>     <span class="mf-label">Corridas</span>   </button>   <button class="mf-btn" onclick="setTab('punicoes')">     <span class="mf-icon">⚠️</span>     <span class="mf-label">Punições</span>   </button>   <button class="mf-btn" onclick="setTab('historico')">     <span class="mf-icon">📊</span>     <span class="mf-label">Histórico</span>   </button> </nav>
 
 <script>
 let DATA = {}, PUN = {}, COR = {}, HIST = {};
