@@ -3,16 +3,7 @@
   "temporada": 27,
   "jogo": "F1 25",
   "ultima_atualizacao": "24/06/2026",
-"round_atual": 1,
-"total_rounds": 22,
-"proxima_etapa": "Silverstone",
-"proxima_etapa_data": "1 e 2 de Julho",
-"videos": [
-  { "id": "E3TUPOMkhsk", "titulo": "Não temos medo de Mônaco", "data": "25/06/2026" },
-  { "id": "hg39S_DbqXU", "titulo": "Etapa final temporada 27", "data": "26/06/2026" },
-  { "id": "MUd7xI-n6HU", "titulo": "Próxima temporada", "data": "27/06/2026" }
-],
-  "total_rodadas": 10,
+  "total_rodadas": 22,
   "divisoes": [
     {
       "id": "A",
