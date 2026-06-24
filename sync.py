@@ -133,7 +133,7 @@ def parse_punicoes():
             "ocorrencias": agrupado[piloto]
         })
     return {
-        "aviso": "A partir da temporada XXV, essa tabela é acumulativa e zerada apenas quando trocarmos para o próximo jogo: F126.",
+        "aviso": "Pedidos de punição devem ser enviados para o e-mail worldchallengeleague@gmail.com em até 24 horas após a corrida.",
         "email_recursos": "worldchallengeleague@gmail.com",
         "punicoes": resultado
     }
