@@ -13,7 +13,30 @@ def save_json(path, data):
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"Salvo: {path}")
 
-# POS / PILOTO / PTS / PEN
+def parse_config():
+    rows = fetch_sheet("Config")
+    config = {}
+    for row in rows[1:]:
+        if not row or not row[0].strip():
+            continue
+        config[row[0].strip()] = row[1].strip() if len(row) > 1 else ""
+    videos = []
+    for i in range(1, 4):
+        vid_id = config.get(f"video{i}_id", "")
+        if vid_id:
+            videos.append({
+                "id": vid_id,
+                "titulo": config.get(f"video{i}_titulo", ""),
+                "data": config.get(f"video{i}_data", "")
+            })
+    return {
+        "round_atual": int(config.get("round_atual", 0)),
+        "total_rounds": int(config.get("total_rounds", 0)),
+        "proxima_etapa": config.get("proxima_etapa", ""),
+        "proxima_etapa_data": config.get("proxima_etapa_data", ""),
+        "videos": videos
+    }
+
 def parse_classificacao(sheet_name, div_id, div_nome, emoji):
     rows = fetch_sheet(sheet_name)
     pilotos = []
@@ -42,7 +65,6 @@ def parse_classificacao(sheet_name, div_id, div_nome, emoji):
         })
     return {"id": div_id, "nome": div_nome, "emoji": emoji, "pilotos": pilotos}
 
-# POS / TEAMS / PTS / PEN
 def parse_duplas(sheet_name):
     rows = fetch_sheet(sheet_name)
     duplas = []
@@ -65,7 +87,6 @@ def parse_duplas(sheet_name):
         duplas.append({"posicao": pos, "dupla": dupla, "pontos": pts, "penalizacoes": pen})
     return duplas
 
-# POS / CONSTRUCTORS / PTS / PEN
 def parse_construtores():
     rows = fetch_sheet("Construtores AeB")
     construtores = []
@@ -88,7 +109,6 @@ def parse_construtores():
         construtores.append({"posicao": pos, "nome": nome, "pontos": pts, "penalizacoes": pen})
     return construtores
 
-# PILOTO / DATA / INCIDENTE / PENALIDADE — agrupa por piloto
 def parse_punicoes():
     rows = fetch_sheet("Punições")
     agrupado = {}
@@ -97,18 +117,14 @@ def parse_punicoes():
         if not row or not row[0].strip():
             continue
         piloto = row[0].strip()
-        data   = row[1].strip() if len(row) > 1 else ""
+        data = row[1].strip() if len(row) > 1 else ""
         incidente = row[2].strip() if len(row) > 2 else ""
         penalidade = row[3].strip() if len(row) > 3 else ""
         if piloto not in agrupado:
             agrupado[piloto] = []
             ordem.append(piloto)
         if incidente:
-            agrupado[piloto].append({
-                "data": data,
-                "incidente": incidente,
-                "penalidade": penalidade
-            })
+            agrupado[piloto].append({"data": data, "incidente": incidente, "penalidade": penalidade})
     resultado = []
     for piloto in ordem:
         resultado.append({
@@ -122,7 +138,6 @@ def parse_punicoes():
         "punicoes": resultado
     }
 
-# CIRCUITO / P1 / P2 / ... / P14
 def parse_corridas():
     rows = fetch_sheet("Corridas")
     corridas = []
@@ -130,20 +145,15 @@ def parse_corridas():
         if not row or not row[0].strip():
             continue
         circuito = row[0].strip()
-        vencedores = []
-        for cell in row[1:]:
-            v = cell.strip()
-            if v:
-                vencedores.append(v)
+        vencedores = [cell.strip() for cell in row[1:] if cell.strip()]
         corridas.append({
             "circuito": circuito,
             "foto": f"imagens/circuitos/{circuito.lower().replace(' ', '-')}.jpg",
-            "p1": vencedores[0] if len(vencedores) > 0 else "",
+            "p1": vencedores[0] if vencedores else "",
             "vencedores": vencedores
         })
     return {"corridas": corridas}
 
-# POS / PILOTO / TITLES / VICTORIES / VIC-SPR / SECOND / THIRD / VIC-DIVB / PODIUMS / PPR / POLES / RACES / DNF / DNF%
 def parse_historico():
     rows = fetch_sheet("Histórico")
     pilotos = []
@@ -162,49 +172,44 @@ def parse_historico():
             except:
                 return 0
         pilotos.append({
-            "posicao":       val(0),
-            "piloto":        val(1),
-            "titulos":       ival(2),
-            "vitorias":      ival(3),
-            "vic_sprint":    ival(4),
-            "segundos":      ival(5),
-            "terceiros":     ival(6),
-            "vic_div_b":     ival(7),
-            "podiums":       ival(8),
-            "ppr":           val(9),
-            "poles":         ival(10),
-            "corridas":      ival(11),
-            "dnf":           ival(12),
-            "dnf_pct":       val(13)
+            "posicao": val(0), "piloto": val(1),
+            "titulos": ival(2), "vitorias": ival(3), "vic_sprint": ival(4),
+            "segundos": ival(5), "terceiros": ival(6), "vic_div_b": ival(7),
+            "podiums": ival(8), "ppr": val(9), "poles": ival(10),
+            "corridas": ival(11), "dnf": ival(12), "dnf_pct": val(13)
         })
     return {"historico": pilotos}
 
 def main():
     print("Sincronizando...")
 
+    config = parse_config()
     div_a = parse_classificacao("Classificação A", "A", "Divisão A", "🥇")
     div_b = parse_classificacao("Classificação B", "B", "Divisão B", "🥈")
     div_c = parse_classificacao("Classificação C", "C", "Divisão C", "🥉")
 
     print(f"Div A: {len(div_a['pilotos'])} pilotos")
-    print(f"Div B: {len(div_b['pilotos'])} pilotos")
-    print(f"Div C: {len(div_c['pilotos'])} pilotos")
+    print(f"Config: round {config['round_atual']} de {config['total_rounds']}, próxima: {config['proxima_etapa']}")
 
     temporada = {
         "liga": "F1 World Challenge",
         "temporada": 27,
         "jogo": "F1 25",
         "ultima_atualizacao": datetime.date.today().strftime("%d/%m/%Y"),
-        "total_rodadas": 22,
+        "round_atual": config["round_atual"],
+        "total_rounds": config["total_rounds"],
+        "proxima_etapa": config["proxima_etapa"],
+        "proxima_etapa_data": config["proxima_etapa_data"],
+        "videos": config["videos"],
         "divisoes": [div_a, div_b, div_c],
         "duplas_ab": parse_duplas("Duplas A e B"),
-        "duplas_c":  parse_duplas("Duplas C"),
+        "duplas_c": parse_duplas("Duplas C"),
         "construtores": parse_construtores()
     }
 
     save_json("data/temporada.json", temporada)
-    save_json("data/punicoes.json",  parse_punicoes())
-    save_json("data/corridas.json",  parse_corridas())
+    save_json("data/punicoes.json", parse_punicoes())
+    save_json("data/corridas.json", parse_corridas())
     save_json("data/historico.json", parse_historico())
     print("Concluído!")
 
