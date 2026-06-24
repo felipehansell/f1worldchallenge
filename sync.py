@@ -15,31 +15,26 @@ def save_json(path, data):
 
 def parse_classificacao(sheet_name, div_id, div_nome, emoji):
     rows = fetch_sheet(sheet_name)
-    # linha 0: col A=#, col B=DIVISION X, col E=ITALY, col G=BAHRAIN...
-    # linha 1: col B=DRIVER, col C=PTS, col D=PEN, col E=Pos, col F=PTS...
-    # linha 2+: dados
 
-    corridas_row = rows[0] # nomes dos GPs ficam aqui
+    corridas_row = rows[0]
     corridas = []
-    col = 4  # começa na coluna E (índice 4)
+    col = 4
     while col < len(corridas_row):
         nome = corridas_row[col].strip()
         if nome and nome not in ("Pos", "PTS", ""):
             corridas.append({"col_pos": col, "col_pts": col + 1, "nome": nome})
-            col += 2
-        else:
-            col += 1
+        col += 2
 
     pilotos = []
-    for row in rows[2:]:  # linha 3 em diante = pilotos
-        if not row or not row[1].strip():
+    for row in rows[2:]:
+        if not row or not row[1].strip() or row[1].strip() == "DRIVER":
             continue
         try:
             posicao = int(float(row[0])) if row[0].strip() else len(pilotos) + 1
         except:
             posicao = len(pilotos) + 1
 
-        nome   = row[1].strip()
+        nome = row[1].strip()
         try:
             pontos = int(float(row[2].strip())) if len(row) > 2 and row[2].strip() else 0
         except:
