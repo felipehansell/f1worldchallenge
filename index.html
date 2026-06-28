@@ -609,9 +609,15 @@ function posBadge(pos) {
 
 function pilotCell(p) {
   const ini = p.nome.split(' ').map(n => n[0]).join('').slice(0,2).toUpperCase();
-  return `<div class="pilot-cell"><div class="avatar">${p.foto ? `<img src="${p.foto}" alt="${p.nome}" onerror="this.parentElement.textContent='${ini}'">` : ini}</div><span style="font-weight:500">${p.nome}</span></div>`;
+  const histIdx = HIST.historico ? HIST.historico.findIndex(h => h.piloto.toLowerCase() === p.nome.toLowerCase()) : -1;
+  const clickable = histIdx >= 0 ? `onclick="setTab('historico'); abrirHistorico(${histIdx})" style="cursor:pointer"` : '';
+  return `<div class="pilot-cell" ${clickable}>
+    <div class="avatar">${p.foto ? `<img src="${p.foto}" alt="${p.nome}" onerror="this.parentElement.textContent='${ini}'">` : ini}</div>
+    <span style="font-weight:500">${p.nome}</span>
+    ${histIdx >= 0 ? '<span style="font-size:11px;color:var(--g400);margin-left:4px;">›</span>' : ''}
+  </div>`;
 }
-
+  
 function abrirDrawer() {
   document.getElementById('drawer').classList.add('open');
   document.getElementById('drawer-overlay').classList.add('open');
