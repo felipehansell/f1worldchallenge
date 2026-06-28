@@ -329,9 +329,22 @@ footer { text-align: center; padding: 2rem; font-size: 12px; color: var(--g400);
   <div id="section-historico" class="section">
     <div id="historico-list-view">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;flex-wrap:wrap;gap:8px;">
-        <h2 style="font-size:20px;font-weight:700;">Histórico</h2>
-        <input type="search" class="search-bar" style="max-width:240px;margin:0;" placeholder="Procurar piloto..." oninput="filtrarHistorico(this.value)">
-      </div>
+  <h2 style="font-size:20px;font-weight:700;">Histórico</h2>
+  <div style="display:flex;gap:8px;flex-wrap:wrap;">
+    <select class="search-bar" style="max-width:200px;margin:0;" onchange="ordenarHistorico(this.value)">
+      <option value="titulos">Ordenar por: Títulos</option>
+      <option value="vitorias">Vitórias</option>
+      <option value="vic_sprint">Vic. Sprint</option>
+      <option value="segundos">2º lugares</option>
+      <option value="terceiros">3º lugares</option>
+      <option value="podiums">Pódios</option>
+      <option value="poles">Poles</option>
+      <option value="corridas">Corridas</option>
+      <option value="dnf">DNF</option>
+    </select>
+    <input type="search" class="search-bar" style="max-width:200px;margin:0;" placeholder="Procurar piloto..." oninput="filtrarHistorico(this.value)">
+  </div>
+</div>
       <div class="historico-grid" id="historico-grid"></div>
     </div>
     <div id="historico-detail-view" class="detail-view">
@@ -585,6 +598,39 @@ function renderHistorico() {
       <div class="hist-titles-label">título${h.titulos !== 1 ? 's' : ''}</div>
     </div>`;
   }).join('');
+}
+  function ordenarHistorico(campo) {
+  const sorted = [...HIST.historico].sort((a, b) => {
+    const va = parseFloat(a[campo]) || 0;
+    const vb = parseFloat(b[campo]) || 0;
+    return vb - va;
+  });
+  document.getElementById('historico-grid').innerHTML = sorted.map((h, i) => {
+    const foto = `imagens/pilotos/${h.piloto.toLowerCase().replace(/ /g, '-')}.jpg`;
+    const ini = h.piloto.split(' ').map(n => n[0]).join('').slice(0,2).toUpperCase();
+    const origIdx = HIST.historico.indexOf(h);
+    return `
+    <div class="hist-card" data-piloto="${h.piloto.toLowerCase()}" onclick="abrirHistorico(${origIdx})">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+        <div class="avatar"><img src="${foto}" alt="${h.piloto}" onerror="this.parentElement.textContent='${ini}'"></div>
+        <div>
+          <div class="hist-pos">${h.posicao}</div>
+          <div class="hist-name" style="margin-bottom:0">${h.piloto}</div>
+        </div>
+      </div>
+      <div class="hist-titles">${h[campo] || h.titulos}</div>
+      <div class="hist-titles-label">${nomeOrdem(campo)}</div>
+    </div>`;
+  }).join('');
+}
+
+function nomeOrdem(campo) {
+  const map = {
+    titulos: 'títulos', vitorias: 'vitórias', vic_sprint: 'vic. sprint',
+    segundos: '2º lugares', terceiros: '3º lugares', podiums: 'pódios',
+    poles: 'poles', corridas: 'corridas', dnf: 'DNF'
+  };
+  return map[campo] || campo;
 }
 
 let histOrigin = 'historico';
