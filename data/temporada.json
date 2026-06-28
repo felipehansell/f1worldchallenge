@@ -109,29 +109,29 @@
       "pilotos": [
         {
           "posicao": 1,
-          "nome": "GabRope",
-          "foto": "imagens/pilotos/gabrope.jpg",
+          "nome": "Gabriel Rope",
+          "foto": "imagens/pilotos/gabriel-rope.jpg",
           "pontos": 0,
           "penalizacoes": 0
         },
         {
           "posicao": 2,
-          "nome": "Cambui",
-          "foto": "imagens/pilotos/cambui.jpg",
+          "nome": "Gustavo Cambui",
+          "foto": "imagens/pilotos/gustavo-cambui.jpg",
           "pontos": 0,
           "penalizacoes": 0
         },
         {
           "posicao": 3,
-          "nome": "Camel",
-          "foto": "imagens/pilotos/camel.jpg",
+          "nome": "Alex Camel",
+          "foto": "imagens/pilotos/alex-camel.jpg",
           "pontos": 0,
           "penalizacoes": 0
         },
         {
           "posicao": 4,
-          "nome": "Albuquerque",
-          "foto": "imagens/pilotos/albuquerque.jpg",
+          "nome": "Marco Albuquerque",
+          "foto": "imagens/pilotos/marco-albuquerque.jpg",
           "pontos": 0,
           "penalizacoes": 0
         },
@@ -151,8 +151,8 @@
         },
         {
           "posicao": 7,
-          "nome": "Bruninho",
-          "foto": "imagens/pilotos/bruninho.jpg",
+          "nome": "Bruno Augusto",
+          "foto": "imagens/pilotos/bruno-augusto.jpg",
           "pontos": 0,
           "penalizacoes": 0
         },
@@ -179,8 +179,8 @@
         },
         {
           "posicao": 11,
-          "nome": "Daniel Vianna",
-          "foto": "imagens/pilotos/daniel-vianna.jpg",
+          "nome": "Daniel Viana",
+          "foto": "imagens/pilotos/daniel-viana.jpg",
           "pontos": 0,
           "penalizacoes": 0
         },
@@ -398,7 +398,7 @@
     },
     {
       "posicao": 10,
-      "dupla": "Vianna / Meireles",
+      "dupla": "Viana / Meireles",
       "pontos": 0,
       "penalizacoes": 0
     },
