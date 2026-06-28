@@ -577,7 +577,10 @@ function renderHistorico() {
     </div>`).join('');
 }
 
-function abrirHistorico(idx) {
+let histOrigin = 'historico';
+
+function abrirHistorico(idx, origin = 'historico') {
+  histOrigin = origin;
   const h = HIST.historico[idx];
   document.getElementById('hist-detail-nome').textContent = h.piloto;
   document.getElementById('hist-detail-pos').textContent = `Posição histórica: ${h.posicao}`;
@@ -589,6 +592,7 @@ function abrirHistorico(idx) {
   ].map(([label, val]) => `<div class="detail-stat"><div class="detail-stat-label">${label}</div><div class="detail-stat-val">${val}</div></div>`).join('');
   document.getElementById('historico-list-view').style.display = 'none';
   document.getElementById('historico-detail-view').classList.add('active');
+  document.getElementById('hist-back-btn').textContent = origin === 'historico' ? '← Voltar' : '← Voltar para Classificação';
 }
 
 function voltarHistorico() {
