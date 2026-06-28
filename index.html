@@ -337,6 +337,7 @@ footer { text-align: center; padding: 2rem; font-size: 12px; color: var(--g400);
     <div id="historico-detail-view" class="detail-view">
       <button class="back-btn" id="hist-back-btn" onclick="voltarHistorico()">← Voltar</button>
       <div class="detail-card">
+        <div class="avatar" id="hist-detail-avatar" style="width:64px;height:64px;font-size:20px;margin-bottom:12px;"></div>
         <div class="detail-title" id="hist-detail-nome"></div>
         <div class="detail-sub" id="hist-detail-pos"></div>
         <div class="detail-stats" id="hist-detail-stats"></div>
@@ -568,13 +569,22 @@ function filtrarPunicoes(q) {
 }
 
 function renderHistorico() {
-  document.getElementById('historico-grid').innerHTML = (HIST.historico || []).map((h, i) => `
+  document.getElementById('historico-grid').innerHTML = (HIST.historico || []).map((h, i) => {
+    const foto = `imagens/pilotos/${h.piloto.toLowerCase().replace(/ /g, '-')}.jpg`;
+    const ini = h.piloto.split(' ').map(n => n[0]).join('').slice(0,2).toUpperCase();
+    return `
     <div class="hist-card" data-piloto="${h.piloto.toLowerCase()}" onclick="abrirHistorico(${i})">
-      <div class="hist-pos">${h.posicao}</div>
-      <div class="hist-name">${h.piloto}</div>
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+        <div class="avatar"><img src="${foto}" alt="${h.piloto}" onerror="this.parentElement.textContent='${ini}'"></div>
+        <div>
+          <div class="hist-pos">${h.posicao}</div>
+          <div class="hist-name" style="margin-bottom:0">${h.piloto}</div>
+        </div>
+      </div>
       <div class="hist-titles">${h.titulos}</div>
       <div class="hist-titles-label">título${h.titulos !== 1 ? 's' : ''}</div>
-    </div>`).join('');
+    </div>`;
+  }).join('');
 }
 
 let histOrigin = 'historico';
@@ -583,6 +593,9 @@ function abrirHistorico(idx, origin = 'historico') {
   histOrigin = origin;
   const h = HIST.historico[idx];
   document.getElementById('hist-detail-nome').textContent = h.piloto;
+  const foto = `imagens/pilotos/${h.piloto.toLowerCase().replace(/ /g, '-')}.jpg`;
+const ini = h.piloto.split(' ').map(n => n[0]).join('').slice(0,2).toUpperCase();
+document.getElementById('hist-detail-avatar').innerHTML = `<img src="${foto}" alt="${h.piloto}" onerror="this.parentElement.textContent='${ini}'" style="width:100%;height:100%;object-fit:cover;">`;
   document.getElementById('hist-detail-pos').textContent = `Posição histórica: ${h.posicao}`;
   document.getElementById('hist-detail-stats').innerHTML = [
     ['Títulos', h.titulos], ['Vitórias', h.vitorias], ['Vic. Sprint', h.vic_sprint],
