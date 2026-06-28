@@ -335,7 +335,7 @@ footer { text-align: center; padding: 2rem; font-size: 12px; color: var(--g400);
       <div class="historico-grid" id="historico-grid"></div>
     </div>
     <div id="historico-detail-view" class="detail-view">
-      <button class="back-btn" onclick="voltarHistorico()">← Voltar</button>
+      <button class="back-btn" id="hist-back-btn" onclick="voltarHistorico()">← Voltar</button>
       <div class="detail-card">
         <div class="detail-title" id="hist-detail-nome"></div>
         <div class="detail-sub" id="hist-detail-pos"></div>
@@ -596,10 +596,14 @@ function abrirHistorico(idx, origin = 'historico') {
 }
 
 function voltarHistorico() {
-  document.getElementById('historico-list-view').style.display = '';
   document.getElementById('historico-detail-view').classList.remove('active');
+  if (histOrigin === 'historico') {
+    document.getElementById('historico-list-view').style.display = '';
+  } else {
+    setTab(histOrigin);
+  }
 }
-
+  
 function filtrarHistorico(q) {
   document.querySelectorAll('.hist-card').forEach(el => {
     el.style.display = el.dataset.piloto.includes(q.toLowerCase()) ? '' : 'none';
