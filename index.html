@@ -592,10 +592,10 @@ let histOrigin = 'historico';
 function abrirHistorico(idx, origin = 'historico') {
   histOrigin = origin;
   const h = HIST.historico[idx];
-  document.getElementById('hist-detail-nome').textContent = h.piloto;
   const foto = `imagens/pilotos/${h.piloto.toLowerCase().replace(/ /g, '-')}.jpg`;
-const ini = h.piloto.split(' ').map(n => n[0]).join('').slice(0,2).toUpperCase();
-document.getElementById('hist-detail-avatar').innerHTML = `<img src="${foto}" alt="${h.piloto}" onerror="this.parentElement.textContent='${ini}'" style="width:100%;height:100%;object-fit:cover;">`;
+  const ini = h.piloto.split(' ').map(n => n[0]).join('').slice(0,2).toUpperCase();
+  document.getElementById('hist-detail-avatar').innerHTML = `<img src="${foto}" alt="${h.piloto}" onerror="this.parentElement.textContent='${ini}'" style="width:100%;height:100%;object-fit:cover;">`;
+  document.getElementById('hist-detail-nome').textContent = h.piloto;
   document.getElementById('hist-detail-pos').textContent = `Posição histórica: ${h.posicao}`;
   document.getElementById('hist-detail-stats').innerHTML = [
     ['Títulos', h.titulos], ['Vitórias', h.vitorias], ['Vic. Sprint', h.vic_sprint],
@@ -605,6 +605,8 @@ document.getElementById('hist-detail-avatar').innerHTML = `<img src="${foto}" al
   ].map(([label, val]) => `<div class="detail-stat"><div class="detail-stat-label">${label}</div><div class="detail-stat-val">${val}</div></div>`).join('');
   document.getElementById('historico-list-view').style.display = 'none';
   document.getElementById('historico-detail-view').classList.add('active');
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.getElementById('section-historico').classList.add('active');
   document.getElementById('hist-back-btn').textContent = origin === 'historico' ? '← Voltar' : '← Voltar para Classificação';
 }
 
@@ -613,6 +615,7 @@ function voltarHistorico() {
   if (histOrigin === 'historico') {
     document.getElementById('historico-list-view').style.display = '';
   } else {
+    document.getElementById('historico-list-view').style.display = '';
     setTab(histOrigin);
   }
 }
