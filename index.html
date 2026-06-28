@@ -619,7 +619,7 @@ function renderHistorico() {
           <div class="hist-name" style="margin-bottom:0">${h.piloto}</div>
         </div>
       </div>
-      <div class="hist-titles">${h[campo] || h.titulos}</div>
+      <div class="hist-titles">${h[campo] !== undefined ? h[campo] : h.titulos}</div>
       <div class="hist-titles-label">${nomeOrdem(campo)}</div>
     </div>`;
   }).join('');
