@@ -164,9 +164,9 @@
     {
       "circuito": "BRITISH",
       "foto": "imagens/circuitos/british.jpg",
-      "p1": "Leo Costa - 1",
+      "p1": "Leo Costa -2",
       "vencedores": [
-        "Leo Costa - 1",
+        "Leo Costa -2",
         "Paulo Jupa - 1",
         "Alex Camel -1",
         "Airton -1",
@@ -176,7 +176,8 @@
         "Malone - 1",
         "Cloviz - 1",
         "Lucas - 1",
-        "Pappoutz - 1"
+        "Pappoutz - 1",
+        "Bruninho (B) 1"
       ]
     },
     {
@@ -318,7 +319,7 @@
       "p1": "Magiolo - 2",
       "vencedores": [
         "Magiolo - 2",
-        "Leo Costa - 1",
+        "Leo Costa - 2",
         "Zezinho - 1",
         "Siverly - 1",
         "Kelvin - 1",
@@ -327,7 +328,8 @@
         "PyroManiac - 1",
         "PH Silva - 1",
         "Max Weber - 1",
-        "Kaio - 1"
+        "Kaio - 1",
+        "Carlos Eduardo (B) 1"
       ]
     },
     {
@@ -352,12 +354,14 @@
       "vencedores": [
         "Cambui - 2",
         "Hansell - 2",
+        "Leo Costa - 1",
         "Joao Vicente - 1",
         "Denis - 1",
         "Malone - 1",
         "Magiolo - 1",
         "Max Weber - 1",
-        "Kaio - 1"
+        "Kaio - 1",
+        "Carlos Eduardo (B) 1"
       ]
     },
     {

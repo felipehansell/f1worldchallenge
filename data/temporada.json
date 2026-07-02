@@ -2,7 +2,7 @@
   "liga": "F1 World Challenge",
   "temporada": 28,
   "jogo": "F1 25",
-  "ultima_atualizacao": "28/06/2026",
+  "ultima_atualizacao": "02/07/2026",
   "round_atual": 1,
   "total_rounds": 10,
   "proxima_etapa": "Silverstone",
@@ -34,69 +34,69 @@
           "posicao": 1,
           "nome": "Leo Costa",
           "foto": "imagens/pilotos/leo-costa.jpg",
-          "pontos": 0,
+          "pontos": 15,
           "penalizacoes": 0
         },
         {
           "posicao": 2,
-          "nome": "Rafael Lavacar",
-          "foto": "imagens/pilotos/rafael-lavacar.jpg",
-          "pontos": 0,
+          "nome": "Felipe Hansell",
+          "foto": "imagens/pilotos/felipe-hansell.jpg",
+          "pontos": 10,
           "penalizacoes": 0
         },
         {
           "posicao": 3,
-          "nome": "Felipe Hansell",
-          "foto": "imagens/pilotos/felipe-hansell.jpg",
-          "pontos": 0,
+          "nome": "Marco Magiolo",
+          "foto": "imagens/pilotos/marco-magiolo.jpg",
+          "pontos": 8,
           "penalizacoes": 0
         },
         {
           "posicao": 4,
-          "nome": "Marco Magiolo",
-          "foto": "imagens/pilotos/marco-magiolo.jpg",
-          "pontos": 0,
+          "nome": "Daniel Sylva",
+          "foto": "imagens/pilotos/daniel-sylva.jpg",
+          "pontos": 6,
           "penalizacoes": 0
         },
         {
           "posicao": 5,
-          "nome": "Hebert Felipe",
-          "foto": "imagens/pilotos/hebert-felipe.jpg",
-          "pontos": 0,
+          "nome": "Fernando Foppa",
+          "foto": "imagens/pilotos/fernando-foppa.jpg",
+          "pontos": 5,
           "penalizacoes": 0
         },
         {
           "posicao": 6,
-          "nome": "Wilsinho Tozzi",
-          "foto": "imagens/pilotos/wilsinho-tozzi.jpg",
-          "pontos": 0,
+          "nome": "Hebert Felipe",
+          "foto": "imagens/pilotos/hebert-felipe.jpg",
+          "pontos": 4,
           "penalizacoes": 0
         },
         {
           "posicao": 7,
-          "nome": "Daniel Sylva",
-          "foto": "imagens/pilotos/daniel-sylva.jpg",
-          "pontos": 0,
+          "nome": "Rafael Lavacar",
+          "foto": "imagens/pilotos/rafael-lavacar.jpg",
+          "pontos": 3,
           "penalizacoes": 0
         },
         {
           "posicao": 8,
-          "nome": "Carlos Eduardo",
-          "foto": "imagens/pilotos/carlos-eduardo.jpg",
-          "pontos": 0,
+          "nome": "Thiago Campola",
+          "foto": "imagens/pilotos/thiago-campola.jpg",
+          "pontos": 2,
           "penalizacoes": 0
         },
         {
           "posicao": 9,
-          "nome": "Fernando Foppa",
-          "foto": "imagens/pilotos/fernando-foppa.jpg",
-          "pontos": 0,
+          "nome": "Carlos Eduardo",
+          "foto": "imagens/pilotos/carlos-eduardo.jpg",
+          "pontos": 1,
           "penalizacoes": 0
         },
         {
           "posicao": 10,
-          "nome": "Tiago Campola",
-          "foto": "imagens/pilotos/tiago-campola.jpg",
+          "nome": "Wilsinho Tozzi",
+          "foto": "imagens/pilotos/wilsinho-tozzi.jpg",
           "pontos": 0,
           "penalizacoes": 0
         }
@@ -109,78 +109,78 @@
       "pilotos": [
         {
           "posicao": 1,
-          "nome": "Gabriel Rope",
-          "foto": "imagens/pilotos/gabriel-rope.jpg",
-          "pontos": 0,
+          "nome": "Bruninho",
+          "foto": "imagens/pilotos/bruninho.jpg",
+          "pontos": 15,
           "penalizacoes": 0
         },
         {
           "posicao": 2,
-          "nome": "Gustavo Cambui",
-          "foto": "imagens/pilotos/gustavo-cambui.jpg",
-          "pontos": 0,
+          "nome": "Junior Zamper",
+          "foto": "imagens/pilotos/junior-zamper.jpg",
+          "pontos": 10,
           "penalizacoes": 0
         },
         {
           "posicao": 3,
+          "nome": "Paulo Jupa",
+          "foto": "imagens/pilotos/paulo-jupa.jpg",
+          "pontos": 8,
+          "penalizacoes": 0
+        },
+        {
+          "posicao": 4,
+          "nome": "Gabriel Rope",
+          "foto": "imagens/pilotos/gabriel-rope.jpg",
+          "pontos": 6,
+          "penalizacoes": 0
+        },
+        {
+          "posicao": 5,
+          "nome": "Gustavo Cambui",
+          "foto": "imagens/pilotos/gustavo-cambui.jpg",
+          "pontos": 5,
+          "penalizacoes": 0
+        },
+        {
+          "posicao": 6,
+          "nome": "Lucas Medeiros",
+          "foto": "imagens/pilotos/lucas-medeiros.jpg",
+          "pontos": 4,
+          "penalizacoes": 0
+        },
+        {
+          "posicao": 7,
+          "nome": "M. Albuquerque",
+          "foto": "imagens/pilotos/m.-albuquerque.jpg",
+          "pontos": 3,
+          "penalizacoes": 0
+        },
+        {
+          "posicao": 8,
+          "nome": "Denis Campos",
+          "foto": "imagens/pilotos/denis-campos.jpg",
+          "pontos": 2,
+          "penalizacoes": 0
+        },
+        {
+          "posicao": 9,
           "nome": "Alex Camel",
           "foto": "imagens/pilotos/alex-camel.jpg",
           "pontos": 0,
           "penalizacoes": 0
         },
         {
-          "posicao": 4,
-          "nome": "Marco Albuquerque",
-          "foto": "imagens/pilotos/marco-albuquerque.jpg",
-          "pontos": 0,
-          "penalizacoes": 0
-        },
-        {
-          "posicao": 5,
-          "nome": "Denis Campos",
-          "foto": "imagens/pilotos/denis-campos.jpg",
-          "pontos": 0,
-          "penalizacoes": 0
-        },
-        {
-          "posicao": 6,
-          "nome": "Paulo Jupa",
-          "foto": "imagens/pilotos/paulo-jupa.jpg",
-          "pontos": 0,
-          "penalizacoes": 0
-        },
-        {
-          "posicao": 7,
-          "nome": "Bruno Augusto",
-          "foto": "imagens/pilotos/bruno-augusto.jpg",
-          "pontos": 0,
-          "penalizacoes": 0
-        },
-        {
-          "posicao": 8,
-          "nome": "Junior Zamper",
-          "foto": "imagens/pilotos/junior-zamper.jpg",
-          "pontos": 0,
-          "penalizacoes": 0
-        },
-        {
-          "posicao": 9,
+          "posicao": 10,
           "nome": "Josh Flyer",
           "foto": "imagens/pilotos/josh-flyer.jpg",
           "pontos": 0,
           "penalizacoes": 0
         },
         {
-          "posicao": 10,
-          "nome": "Lucas Medeiros",
-          "foto": "imagens/pilotos/lucas-medeiros.jpg",
-          "pontos": 0,
-          "penalizacoes": 0
-        },
-        {
           "posicao": 11,
-          "nome": "Daniel Viana",
-          "foto": "imagens/pilotos/daniel-viana.jpg",
+          "nome": "Daniel Vianna",
+          "foto": "imagens/pilotos/daniel-vianna.jpg",
           "pontos": 0,
           "penalizacoes": 0
         },
@@ -344,67 +344,67 @@
   "duplas_ab": [
     {
       "posicao": 1,
-      "dupla": "Hansell / Tozzi",
-      "pontos": 0,
+      "dupla": "Bruninho / Junior Zamper",
+      "pontos": 25,
       "penalizacoes": 0
     },
     {
       "posicao": 2,
-      "dupla": "Lavacar / Magiolo",
-      "pontos": 0,
+      "dupla": "Hebert Felipe / Leo Costa",
+      "pontos": 19,
       "penalizacoes": 0
     },
     {
       "posicao": 3,
-      "dupla": "Foppa / Carlos Eduardo",
-      "pontos": 0,
+      "dupla": "Marco Magiolo / Rafael Lavacar",
+      "pontos": 11,
       "penalizacoes": 0
     },
     {
       "posicao": 4,
-      "dupla": "Hebert / Leo Costa",
-      "pontos": 0,
+      "dupla": "Gabriel Rope / Gustavo Cambui",
+      "pontos": 11,
       "penalizacoes": 0
     },
     {
       "posicao": 5,
-      "dupla": "Daniel Sylva / Campola",
-      "pontos": 0,
+      "dupla": "Felipe Hansel / Wilsinho Tozzi",
+      "pontos": 10,
       "penalizacoes": 0
     },
     {
       "posicao": 6,
-      "dupla": "GabRope / Cambui",
-      "pontos": 0,
+      "dupla": "Denis Campos / Paulo Jupa",
+      "pontos": 10,
       "penalizacoes": 0
     },
     {
       "posicao": 7,
-      "dupla": "Denis / Jupá",
-      "pontos": 0,
+      "dupla": "Daniel Sylva / Thiago Campola",
+      "pontos": 8,
       "penalizacoes": 0
     },
     {
       "posicao": 8,
-      "dupla": "Bruninho / Zamper",
-      "pontos": 0,
+      "dupla": "Fernando Foppa / Carlos Eduardo",
+      "pontos": 6,
       "penalizacoes": 0
     },
     {
       "posicao": 9,
-      "dupla": "Flyer / Lucas Medeiros",
-      "pontos": 0,
+      "dupla": "Josh Flyer / Lucas Medeiros",
+      "pontos": 4,
       "penalizacoes": 0
     },
     {
       "posicao": 10,
-      "dupla": "Viana / Meireles",
-      "pontos": 0,
+      "dupla": "Alex Camel / M. Albuquerque",
+      "pontos": 3,
       "penalizacoes": 0
     },
     {
       "posicao": 11,
-      "dupla": "RESERVE DRIVERS",
+      "dupla": "Daniel Vianna / Gui Meireles",
       "pontos": 0,
       "penalizacoes": 0
     }
@@ -480,61 +480,67 @@
   "construtores": [
     {
       "posicao": 1,
-      "nome": "FERRARI",
-      "pontos": 0,
+      "nome": "RB",
+      "pontos": 25,
       "penalizacoes": 0
     },
     {
       "posicao": 2,
-      "nome": "MCLAREN",
-      "pontos": 0,
+      "nome": "FERRARI",
+      "pontos": 19,
       "penalizacoes": 0
     },
     {
       "posicao": 3,
-      "nome": "RB",
-      "pontos": 0,
+      "nome": "ALPINE",
+      "pontos": 11,
       "penalizacoes": 0
     },
     {
       "posicao": 4,
-      "nome": "MERCEDES",
-      "pontos": 0,
+      "nome": "ASTON MARTIN",
+      "pontos": 11,
       "penalizacoes": 0
     },
     {
       "posicao": 5,
-      "nome": "ALPINE",
-      "pontos": 0,
+      "nome": "MCLAREN",
+      "pontos": 10,
       "penalizacoes": 0
     },
     {
       "posicao": 6,
-      "nome": "HAAS",
-      "pontos": 0,
+      "nome": "AUDI",
+      "pontos": 10,
       "penalizacoes": 0
     },
     {
       "posicao": 7,
-      "nome": "WILLIAMS",
-      "pontos": 0,
+      "nome": "MERCEDES",
+      "pontos": 8,
       "penalizacoes": 0
     },
     {
       "posicao": 8,
       "nome": "RED BULL",
-      "pontos": 0,
+      "pontos": 6,
       "penalizacoes": 0
     },
     {
       "posicao": 9,
-      "nome": "SAUBER",
-      "pontos": 0,
+      "nome": "HAAS",
+      "pontos": 4,
       "penalizacoes": 0
     },
     {
       "posicao": 10,
-      "nome": "ASTON MARTIN",
+      "nome": "WILLIAMS",
+      "pontos": 3,
+      "penalizacoes": 0
+    },
+    {
+      "posicao": 11,
+      "nome": "CADILLAC",
       "pontos": 0,
       "penalizacoes": 0
     }
