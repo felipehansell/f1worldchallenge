@@ -9,12 +9,12 @@
       "segundos": 22,
       "terceiros": 25,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "74",
-      "poles": 0,
-      "corridas": 10,
-      "dnf": 295,
-      "dnf_pct": "21"
+      "podiums": 74,
+      "ppr": "25,08",
+      "poles": 10,
+      "corridas": 295,
+      "dnf": 21,
+      "dnf_pct": "7,12"
     },
     {
       "posicao": "2nd",
@@ -25,12 +25,12 @@
       "segundos": 4,
       "terceiros": 2,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "35",
-      "poles": 0,
-      "corridas": 22,
-      "dnf": 41,
-      "dnf_pct": "1"
+      "podiums": 35,
+      "ppr": "85,37",
+      "poles": 22,
+      "corridas": 41,
+      "dnf": 1,
+      "dnf_pct": "2,44"
     },
     {
       "posicao": "3rd",
@@ -41,12 +41,12 @@
       "segundos": 14,
       "terceiros": 14,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "34",
-      "poles": 0,
-      "corridas": 8,
-      "dnf": 155,
-      "dnf_pct": "13"
+      "podiums": 34,
+      "ppr": "21,94",
+      "poles": 8,
+      "corridas": 155,
+      "dnf": 13,
+      "dnf_pct": "8,39"
     },
     {
       "posicao": "4th",
@@ -57,12 +57,12 @@
       "segundos": 23,
       "terceiros": 12,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "56",
-      "poles": 0,
-      "corridas": 16,
-      "dnf": 159,
-      "dnf_pct": "21"
+      "podiums": 56,
+      "ppr": "35,22",
+      "poles": 16,
+      "corridas": 159,
+      "dnf": 21,
+      "dnf_pct": "13,21"
     },
     {
       "posicao": "5th",
@@ -73,11 +73,11 @@
       "segundos": 11,
       "terceiros": 13,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "39",
-      "poles": 50,
-      "corridas": 13,
-      "dnf": 78,
+      "podiums": 39,
+      "ppr": "50",
+      "poles": 13,
+      "corridas": 78,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -89,11 +89,11 @@
       "segundos": 3,
       "terceiros": 6,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "21",
-      "poles": 0,
-      "corridas": 11,
-      "dnf": 32,
+      "podiums": 21,
+      "ppr": "65,63",
+      "poles": 11,
+      "corridas": 32,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -105,12 +105,12 @@
       "segundos": 13,
       "terceiros": 4,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "37",
-      "poles": 0,
-      "corridas": 24,
-      "dnf": 140,
-      "dnf_pct": "20"
+      "podiums": 37,
+      "ppr": "26,43",
+      "poles": 24,
+      "corridas": 140,
+      "dnf": 20,
+      "dnf_pct": "14,29"
     },
     {
       "posicao": "8th",
@@ -121,12 +121,12 @@
       "segundos": 18,
       "terceiros": 10,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "41",
-      "poles": 0,
-      "corridas": 21,
-      "dnf": 110,
-      "dnf_pct": "7"
+      "podiums": 41,
+      "ppr": "37,27",
+      "poles": 21,
+      "corridas": 110,
+      "dnf": 7,
+      "dnf_pct": "6,36"
     },
     {
       "posicao": "9th",
@@ -137,12 +137,12 @@
       "segundos": 24,
       "terceiros": 15,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "51",
-      "poles": 0,
-      "corridas": 8,
-      "dnf": 125,
-      "dnf_pct": "6"
+      "podiums": 51,
+      "ppr": "40,8",
+      "poles": 8,
+      "corridas": 125,
+      "dnf": 6,
+      "dnf_pct": "4,8"
     },
     {
       "posicao": "10th",
@@ -152,13 +152,13 @@
       "vic_sprint": 2,
       "segundos": 7,
       "terceiros": 13,
-      "vic_div_b": 0,
-      "podiums": 1,
-      "ppr": "32",
-      "poles": 0,
-      "corridas": 10,
-      "dnf": 75,
-      "dnf_pct": "7"
+      "vic_div_b": 1,
+      "podiums": 32,
+      "ppr": "42,67",
+      "poles": 10,
+      "corridas": 75,
+      "dnf": 7,
+      "dnf_pct": "9,33"
     },
     {
       "posicao": "11th",
@@ -169,12 +169,12 @@
       "segundos": 2,
       "terceiros": 1,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "12",
-      "poles": 0,
-      "corridas": 1,
-      "dnf": 33,
-      "dnf_pct": "2"
+      "podiums": 12,
+      "ppr": "36,36",
+      "poles": 1,
+      "corridas": 33,
+      "dnf": 2,
+      "dnf_pct": "6,06"
     },
     {
       "posicao": "12th",
@@ -185,12 +185,12 @@
       "segundos": 10,
       "terceiros": 12,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "34",
-      "poles": 0,
-      "corridas": 10,
-      "dnf": 86,
-      "dnf_pct": "7"
+      "podiums": 34,
+      "ppr": "39,53",
+      "poles": 10,
+      "corridas": 86,
+      "dnf": 7,
+      "dnf_pct": "8,14"
     },
     {
       "posicao": "13th",
@@ -201,12 +201,12 @@
       "segundos": 13,
       "terceiros": 22,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "42",
-      "poles": 28,
-      "corridas": 8,
-      "dnf": 150,
-      "dnf_pct": "3"
+      "podiums": 42,
+      "ppr": "28",
+      "poles": 8,
+      "corridas": 150,
+      "dnf": 3,
+      "dnf_pct": "2"
     },
     {
       "posicao": "14th",
@@ -217,12 +217,12 @@
       "segundos": 9,
       "terceiros": 7,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "23",
-      "poles": 0,
-      "corridas": 2,
-      "dnf": 64,
-      "dnf_pct": "4"
+      "podiums": 23,
+      "ppr": "35,94",
+      "poles": 2,
+      "corridas": 64,
+      "dnf": 4,
+      "dnf_pct": "6,25"
     },
     {
       "posicao": "15th",
@@ -233,11 +233,11 @@
       "segundos": 1,
       "terceiros": 2,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "9",
-      "poles": 0,
-      "corridas": 3,
-      "dnf": 19,
+      "podiums": 9,
+      "ppr": "47,37",
+      "poles": 3,
+      "corridas": 19,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -249,11 +249,11 @@
       "segundos": 2,
       "terceiros": 1,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "5",
-      "poles": 50,
-      "corridas": 0,
-      "dnf": 10,
+      "podiums": 5,
+      "ppr": "50",
+      "poles": 0,
+      "corridas": 10,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -265,12 +265,12 @@
       "segundos": 9,
       "terceiros": 11,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "34",
-      "poles": 0,
-      "corridas": 5,
-      "dnf": 143,
-      "dnf_pct": "19"
+      "podiums": 34,
+      "ppr": "23,78",
+      "poles": 5,
+      "corridas": 143,
+      "dnf": 19,
+      "dnf_pct": "13,29"
     },
     {
       "posicao": "18th",
@@ -281,12 +281,12 @@
       "segundos": 10,
       "terceiros": 4,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "22",
-      "poles": 25,
-      "corridas": 1,
-      "dnf": 88,
-      "dnf_pct": "3"
+      "podiums": 22,
+      "ppr": "25",
+      "poles": 1,
+      "corridas": 88,
+      "dnf": 3,
+      "dnf_pct": "3,41"
     },
     {
       "posicao": "19th",
@@ -297,12 +297,12 @@
       "segundos": 4,
       "terceiros": 7,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "19",
-      "poles": 0,
-      "corridas": 6,
-      "dnf": 103,
-      "dnf_pct": "8"
+      "podiums": 19,
+      "ppr": "18,45",
+      "poles": 6,
+      "corridas": 103,
+      "dnf": 8,
+      "dnf_pct": "7,77"
     },
     {
       "posicao": "20th",
@@ -313,12 +313,12 @@
       "segundos": 9,
       "terceiros": 3,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "22",
-      "poles": 0,
-      "corridas": 13,
-      "dnf": 51,
-      "dnf_pct": "4"
+      "podiums": 22,
+      "ppr": "43,14",
+      "poles": 13,
+      "corridas": 51,
+      "dnf": 4,
+      "dnf_pct": "7,84"
     },
     {
       "posicao": "21st",
@@ -329,12 +329,12 @@
       "segundos": 9,
       "terceiros": 4,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "20",
-      "poles": 0,
-      "corridas": 8,
-      "dnf": 76,
-      "dnf_pct": "6"
+      "podiums": 20,
+      "ppr": "26,32",
+      "poles": 8,
+      "corridas": 76,
+      "dnf": 6,
+      "dnf_pct": "7,89"
     },
     {
       "posicao": "22nd",
@@ -345,12 +345,12 @@
       "segundos": 7,
       "terceiros": 1,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "15",
-      "poles": 0,
-      "corridas": 10,
-      "dnf": 91,
-      "dnf_pct": "47"
+      "podiums": 15,
+      "ppr": "16,48",
+      "poles": 10,
+      "corridas": 91,
+      "dnf": 47,
+      "dnf_pct": "51,65"
     },
     {
       "posicao": "23rd",
@@ -361,12 +361,12 @@
       "segundos": 7,
       "terceiros": 11,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "24",
-      "poles": 0,
-      "corridas": 4,
-      "dnf": 203,
-      "dnf_pct": "18"
+      "podiums": 24,
+      "ppr": "11,82",
+      "poles": 4,
+      "corridas": 203,
+      "dnf": 18,
+      "dnf_pct": "8,87"
     },
     {
       "posicao": "24th",
@@ -377,12 +377,12 @@
       "segundos": 1,
       "terceiros": 3,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "10",
-      "poles": 0,
-      "corridas": 3,
-      "dnf": 32,
-      "dnf_pct": "4"
+      "podiums": 10,
+      "ppr": "31,25",
+      "poles": 3,
+      "corridas": 32,
+      "dnf": 4,
+      "dnf_pct": "12,5"
     },
     {
       "posicao": "25th",
@@ -393,12 +393,12 @@
       "segundos": 8,
       "terceiros": 5,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "18",
-      "poles": 0,
-      "corridas": 1,
-      "dnf": 71,
-      "dnf_pct": "6"
+      "podiums": 18,
+      "ppr": "25,35",
+      "poles": 1,
+      "corridas": 71,
+      "dnf": 6,
+      "dnf_pct": "8,45"
     },
     {
       "posicao": "26th",
@@ -409,12 +409,12 @@
       "segundos": 4,
       "terceiros": 6,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "15",
-      "poles": 0,
-      "corridas": 1,
-      "dnf": 66,
-      "dnf_pct": "1"
+      "podiums": 15,
+      "ppr": "22,73",
+      "poles": 1,
+      "corridas": 66,
+      "dnf": 1,
+      "dnf_pct": "1,52"
     },
     {
       "posicao": "27th",
@@ -425,12 +425,12 @@
       "segundos": 3,
       "terceiros": 8,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "16",
-      "poles": 0,
-      "corridas": 8,
-      "dnf": 72,
-      "dnf_pct": "8"
+      "podiums": 16,
+      "ppr": "22,22",
+      "poles": 8,
+      "corridas": 72,
+      "dnf": 8,
+      "dnf_pct": "11,11"
     },
     {
       "posicao": "28th",
@@ -441,12 +441,12 @@
       "segundos": 3,
       "terceiros": 4,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "12",
-      "poles": 0,
-      "corridas": 2,
-      "dnf": 51,
-      "dnf_pct": "6"
+      "podiums": 12,
+      "ppr": "23,53",
+      "poles": 2,
+      "corridas": 51,
+      "dnf": 6,
+      "dnf_pct": "11,76"
     },
     {
       "posicao": "29th",
@@ -457,12 +457,12 @@
       "segundos": 5,
       "terceiros": 8,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "17",
-      "poles": 0,
-      "corridas": 2,
-      "dnf": 80,
-      "dnf_pct": "10"
+      "podiums": 17,
+      "ppr": "21,25",
+      "poles": 2,
+      "corridas": 80,
+      "dnf": 10,
+      "dnf_pct": "12,5"
     },
     {
       "posicao": "30th",
@@ -473,11 +473,11 @@
       "segundos": 4,
       "terceiros": 1,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "9",
-      "poles": 30,
-      "corridas": 0,
-      "dnf": 30,
+      "podiums": 9,
+      "ppr": "30",
+      "poles": 0,
+      "corridas": 30,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -489,12 +489,12 @@
       "segundos": 2,
       "terceiros": 10,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "16",
-      "poles": 0,
-      "corridas": 4,
-      "dnf": 78,
-      "dnf_pct": "3"
+      "podiums": 16,
+      "ppr": "20,51",
+      "poles": 4,
+      "corridas": 78,
+      "dnf": 3,
+      "dnf_pct": "3,85"
     },
     {
       "posicao": "32nd",
@@ -505,12 +505,12 @@
       "segundos": 2,
       "terceiros": 1,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "7",
-      "poles": 50,
-      "corridas": 0,
-      "dnf": 14,
-      "dnf_pct": "1"
+      "podiums": 7,
+      "ppr": "50",
+      "poles": 0,
+      "corridas": 14,
+      "dnf": 1,
+      "dnf_pct": "7,14"
     },
     {
       "posicao": "33rd",
@@ -521,12 +521,12 @@
       "segundos": 8,
       "terceiros": 11,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "21",
+      "podiums": 21,
+      "ppr": "11,23",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 187,
-      "dnf_pct": "15"
+      "corridas": 187,
+      "dnf": 15,
+      "dnf_pct": "8,02"
     },
     {
       "posicao": "34th",
@@ -537,12 +537,12 @@
       "segundos": 5,
       "terceiros": 3,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "10",
-      "poles": 0,
-      "corridas": 1,
-      "dnf": 78,
-      "dnf_pct": "22"
+      "podiums": 10,
+      "ppr": "12,82",
+      "poles": 1,
+      "corridas": 78,
+      "dnf": 22,
+      "dnf_pct": "28,21"
     },
     {
       "posicao": "35th",
@@ -553,12 +553,12 @@
       "segundos": 2,
       "terceiros": 2,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "6",
-      "poles": 0,
-      "corridas": 3,
-      "dnf": 28,
-      "dnf_pct": "6"
+      "podiums": 6,
+      "ppr": "21,43",
+      "poles": 3,
+      "corridas": 28,
+      "dnf": 6,
+      "dnf_pct": "21,43"
     },
     {
       "posicao": "36th",
@@ -569,11 +569,11 @@
       "segundos": 2,
       "terceiros": 1,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "5",
-      "poles": 50,
-      "corridas": 3,
-      "dnf": 10,
+      "podiums": 5,
+      "ppr": "50",
+      "poles": 3,
+      "corridas": 10,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -585,11 +585,11 @@
       "segundos": 2,
       "terceiros": 1,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "5",
-      "poles": 25,
-      "corridas": 0,
-      "dnf": 20,
+      "podiums": 5,
+      "ppr": "25",
+      "poles": 0,
+      "corridas": 20,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -601,12 +601,12 @@
       "segundos": 1,
       "terceiros": 1,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "4",
-      "poles": 0,
-      "corridas": 4,
-      "dnf": 19,
-      "dnf_pct": "1"
+      "podiums": 4,
+      "ppr": "21,05",
+      "poles": 4,
+      "corridas": 19,
+      "dnf": 1,
+      "dnf_pct": "5,26"
     },
     {
       "posicao": "39th",
@@ -617,12 +617,12 @@
       "segundos": 1,
       "terceiros": 0,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "3",
-      "poles": 0,
-      "corridas": 2,
-      "dnf": 21,
-      "dnf_pct": "2"
+      "podiums": 3,
+      "ppr": "14,29",
+      "poles": 2,
+      "corridas": 21,
+      "dnf": 2,
+      "dnf_pct": "9,52"
     },
     {
       "posicao": "40th",
@@ -633,12 +633,12 @@
       "segundos": 0,
       "terceiros": 3,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "5",
-      "poles": 0,
-      "corridas": 5,
-      "dnf": 187,
-      "dnf_pct": "13"
+      "podiums": 5,
+      "ppr": "2,67",
+      "poles": 5,
+      "corridas": 187,
+      "dnf": 13,
+      "dnf_pct": "6,95"
     },
     {
       "posicao": "41st",
@@ -649,12 +649,12 @@
       "segundos": 0,
       "terceiros": 1,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "3",
-      "poles": 0,
-      "corridas": 2,
-      "dnf": 21,
-      "dnf_pct": "2"
+      "podiums": 3,
+      "ppr": "14,29",
+      "poles": 2,
+      "corridas": 21,
+      "dnf": 2,
+      "dnf_pct": "9,52"
     },
     {
       "posicao": "42nd",
@@ -665,11 +665,11 @@
       "segundos": 0,
       "terceiros": 0,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "2",
-      "poles": 200,
-      "corridas": 0,
-      "dnf": 1,
+      "podiums": 2,
+      "ppr": "200",
+      "poles": 0,
+      "corridas": 1,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -680,13 +680,13 @@
       "vic_sprint": 0,
       "segundos": 3,
       "terceiros": 2,
-      "vic_div_b": 0,
-      "podiums": 1,
-      "ppr": "7",
+      "vic_div_b": 1,
+      "podiums": 7,
+      "ppr": "14,89",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 47,
-      "dnf_pct": "6"
+      "corridas": 47,
+      "dnf": 6,
+      "dnf_pct": "12,77"
     },
     {
       "posicao": "44th",
@@ -697,12 +697,12 @@
       "segundos": 1,
       "terceiros": 3,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "5",
+      "podiums": 5,
+      "ppr": "4,03",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 124,
-      "dnf_pct": "7"
+      "corridas": 124,
+      "dnf": 7,
+      "dnf_pct": "5,65"
     },
     {
       "posicao": "45th",
@@ -713,12 +713,12 @@
       "segundos": 1,
       "terceiros": 1,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "3",
+      "podiums": 3,
+      "ppr": "9,38",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 32,
-      "dnf_pct": "3"
+      "corridas": 32,
+      "dnf": 3,
+      "dnf_pct": "9,38"
     },
     {
       "posicao": "46th",
@@ -729,12 +729,12 @@
       "segundos": 0,
       "terceiros": 2,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "3",
-      "poles": 0,
-      "corridas": 3,
-      "dnf": 54,
-      "dnf_pct": "13"
+      "podiums": 3,
+      "ppr": "5,56",
+      "poles": 3,
+      "corridas": 54,
+      "dnf": 13,
+      "dnf_pct": "24,07"
     },
     {
       "posicao": "47th",
@@ -745,12 +745,12 @@
       "segundos": 0,
       "terceiros": 2,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "3",
+      "podiums": 3,
+      "ppr": "4,41",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 68,
-      "dnf_pct": "1"
+      "corridas": 68,
+      "dnf": 1,
+      "dnf_pct": "1,47"
     },
     {
       "posicao": "48th",
@@ -760,12 +760,12 @@
       "vic_sprint": 0,
       "segundos": 0,
       "terceiros": 0,
-      "vic_div_b": 1,
-      "podiums": 9,
-      "ppr": "10",
-      "poles": 0,
-      "corridas": 1,
-      "dnf": 12,
+      "vic_div_b": 9,
+      "podiums": 10,
+      "ppr": "83,33",
+      "poles": 1,
+      "corridas": 12,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -777,12 +777,12 @@
       "segundos": 0,
       "terceiros": 0,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "1",
+      "podiums": 1,
+      "ppr": "3,85",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 26,
-      "dnf_pct": "6"
+      "corridas": 26,
+      "dnf": 6,
+      "dnf_pct": "23,08"
     },
     {
       "posicao": "50th",
@@ -793,11 +793,11 @@
       "segundos": 0,
       "terceiros": 0,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "1",
+      "podiums": 1,
+      "ppr": "7,69",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 13,
+      "corridas": 13,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -809,12 +809,12 @@
       "segundos": 1,
       "terceiros": 4,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "6",
-      "poles": 0,
-      "corridas": 1,
-      "dnf": 66,
-      "dnf_pct": "3"
+      "podiums": 6,
+      "ppr": "9,09",
+      "poles": 1,
+      "corridas": 66,
+      "dnf": 3,
+      "dnf_pct": "4,55"
     },
     {
       "posicao": "52nd",
@@ -825,12 +825,12 @@
       "segundos": 1,
       "terceiros": 2,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "4",
-      "poles": 0,
-      "corridas": 4,
-      "dnf": 34,
-      "dnf_pct": "8"
+      "podiums": 4,
+      "ppr": "11,76",
+      "poles": 4,
+      "corridas": 34,
+      "dnf": 8,
+      "dnf_pct": "23,53"
     },
     {
       "posicao": "53rd",
@@ -841,12 +841,12 @@
       "segundos": 3,
       "terceiros": 1,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "4",
+      "podiums": 4,
+      "ppr": "9,76",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 41,
-      "dnf_pct": "6"
+      "corridas": 41,
+      "dnf": 6,
+      "dnf_pct": "14,63"
     },
     {
       "posicao": "54th",
@@ -857,11 +857,11 @@
       "segundos": 2,
       "terceiros": 0,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "2",
+      "podiums": 2,
+      "ppr": "11,76",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 17,
+      "corridas": 17,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -873,12 +873,12 @@
       "segundos": 1,
       "terceiros": 4,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "5",
-      "poles": 0,
-      "corridas": 2,
-      "dnf": 280,
-      "dnf_pct": "29"
+      "podiums": 5,
+      "ppr": "1,79",
+      "poles": 2,
+      "corridas": 280,
+      "dnf": 29,
+      "dnf_pct": "10,36"
     },
     {
       "posicao": "56th",
@@ -889,12 +889,12 @@
       "segundos": 1,
       "terceiros": 1,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "2",
+      "podiums": 2,
+      "ppr": "5,41",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 37,
-      "dnf_pct": "2"
+      "corridas": 37,
+      "dnf": 2,
+      "dnf_pct": "5,41"
     },
     {
       "posicao": "57th",
@@ -905,12 +905,12 @@
       "segundos": 1,
       "terceiros": 1,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "2",
+      "podiums": 2,
+      "ppr": "8,33",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 24,
-      "dnf_pct": "3"
+      "corridas": 24,
+      "dnf": 3,
+      "dnf_pct": "12,5"
     },
     {
       "posicao": "58th",
@@ -921,12 +921,12 @@
       "segundos": 1,
       "terceiros": 1,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "2",
+      "podiums": 2,
+      "ppr": "11,11",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 18,
-      "dnf_pct": "6"
+      "corridas": 18,
+      "dnf": 6,
+      "dnf_pct": "33,33"
     },
     {
       "posicao": "59th",
@@ -937,12 +937,12 @@
       "segundos": 1,
       "terceiros": 0,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "1",
+      "podiums": 1,
+      "ppr": "1,3",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 77,
-      "dnf_pct": "9"
+      "corridas": 77,
+      "dnf": 9,
+      "dnf_pct": "11,69"
     },
     {
       "posicao": "60th",
@@ -953,11 +953,11 @@
       "segundos": 1,
       "terceiros": 0,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "1",
-      "poles": 5,
-      "corridas": 0,
-      "dnf": 20,
+      "podiums": 1,
+      "ppr": "5",
+      "poles": 0,
+      "corridas": 20,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -969,11 +969,11 @@
       "segundos": 1,
       "terceiros": 0,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "1",
-      "poles": 5,
-      "corridas": 0,
-      "dnf": 20,
+      "podiums": 1,
+      "ppr": "5",
+      "poles": 0,
+      "corridas": 20,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -985,12 +985,12 @@
       "segundos": 1,
       "terceiros": 0,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "1",
+      "podiums": 1,
+      "ppr": "5,26",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 19,
-      "dnf_pct": "5"
+      "corridas": 19,
+      "dnf": 5,
+      "dnf_pct": "26,32"
     },
     {
       "posicao": "63rd",
@@ -1001,12 +1001,12 @@
       "segundos": 1,
       "terceiros": 0,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "1",
+      "podiums": 1,
+      "ppr": "8,33",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 12,
-      "dnf_pct": "1"
+      "corridas": 12,
+      "dnf": 1,
+      "dnf_pct": "8,33"
     },
     {
       "posicao": "64th",
@@ -1017,12 +1017,12 @@
       "segundos": 1,
       "terceiros": 0,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "1",
+      "podiums": 1,
+      "ppr": "11,11",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 9,
-      "dnf_pct": "1"
+      "corridas": 9,
+      "dnf": 1,
+      "dnf_pct": "11,11"
     },
     {
       "posicao": "65th",
@@ -1033,12 +1033,12 @@
       "segundos": 0,
       "terceiros": 2,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "2",
-      "poles": 0,
-      "corridas": 1,
-      "dnf": 6,
-      "dnf_pct": "1"
+      "podiums": 2,
+      "ppr": "33,33",
+      "poles": 1,
+      "corridas": 6,
+      "dnf": 1,
+      "dnf_pct": "16,67"
     },
     {
       "posicao": "66th",
@@ -1049,12 +1049,12 @@
       "segundos": 0,
       "terceiros": 2,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "2",
+      "podiums": 2,
+      "ppr": "1,39",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 144,
-      "dnf_pct": "15"
+      "corridas": 144,
+      "dnf": 15,
+      "dnf_pct": "10,42"
     },
     {
       "posicao": "67th",
@@ -1065,11 +1065,11 @@
       "segundos": 0,
       "terceiros": 1,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "1",
-      "poles": 25,
-      "corridas": 1,
-      "dnf": 4,
+      "podiums": 1,
+      "ppr": "25",
+      "poles": 1,
+      "corridas": 4,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1081,12 +1081,12 @@
       "segundos": 0,
       "terceiros": 1,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "1",
+      "podiums": 1,
+      "ppr": "5,26",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 19,
-      "dnf_pct": "3"
+      "corridas": 19,
+      "dnf": 3,
+      "dnf_pct": "15,79"
     },
     {
       "posicao": "69th",
@@ -1097,12 +1097,12 @@
       "segundos": 0,
       "terceiros": 1,
       "vic_div_b": 0,
-      "podiums": 0,
-      "ppr": "1",
+      "podiums": 1,
+      "ppr": "4,76",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 21,
-      "dnf_pct": "1"
+      "corridas": 21,
+      "dnf": 1,
+      "dnf_pct": "4,76"
     },
     {
       "posicao": "70th",
@@ -1115,9 +1115,9 @@
       "vic_div_b": 0,
       "podiums": 0,
       "ppr": "0",
-      "poles": 0,
-      "corridas": 2,
-      "dnf": 12,
+      "poles": 2,
+      "corridas": 12,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1131,10 +1131,10 @@
       "vic_div_b": 0,
       "podiums": 0,
       "ppr": "0",
-      "poles": 0,
-      "corridas": 1,
-      "dnf": 9,
-      "dnf_pct": "3"
+      "poles": 1,
+      "corridas": 9,
+      "dnf": 3,
+      "dnf_pct": "33,33"
     },
     {
       "posicao": "72nd",
@@ -1148,9 +1148,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 80,
-      "dnf_pct": "19"
+      "corridas": 80,
+      "dnf": 19,
+      "dnf_pct": "23,75"
     },
     {
       "posicao": "73rd",
@@ -1164,9 +1164,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 52,
-      "dnf_pct": "32"
+      "corridas": 52,
+      "dnf": 32,
+      "dnf_pct": "61,54"
     },
     {
       "posicao": "74th",
@@ -1180,9 +1180,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 26,
-      "dnf_pct": "9"
+      "corridas": 26,
+      "dnf": 9,
+      "dnf_pct": "34,62"
     },
     {
       "posicao": "75th",
@@ -1196,9 +1196,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 26,
-      "dnf_pct": "4"
+      "corridas": 26,
+      "dnf": 4,
+      "dnf_pct": "15,38"
     },
     {
       "posicao": "76th",
@@ -1212,9 +1212,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 25,
-      "dnf_pct": "12"
+      "corridas": 25,
+      "dnf": 12,
+      "dnf_pct": "48"
     },
     {
       "posicao": "77th",
@@ -1228,8 +1228,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 25,
+      "corridas": 25,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1244,8 +1244,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 22,
+      "corridas": 22,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1260,8 +1260,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 21,
+      "corridas": 21,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1276,8 +1276,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 20,
+      "corridas": 20,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1292,8 +1292,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 20,
+      "corridas": 20,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1308,8 +1308,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 20,
+      "corridas": 20,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1324,8 +1324,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 19,
+      "corridas": 19,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1340,9 +1340,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 16,
-      "dnf_pct": "3"
+      "corridas": 16,
+      "dnf": 3,
+      "dnf_pct": "18,75"
     },
     {
       "posicao": "85th",
@@ -1356,9 +1356,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 16,
-      "dnf_pct": "3"
+      "corridas": 16,
+      "dnf": 3,
+      "dnf_pct": "18,75"
     },
     {
       "posicao": "86th",
@@ -1372,9 +1372,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 12,
-      "dnf_pct": "3"
+      "corridas": 12,
+      "dnf": 3,
+      "dnf_pct": "25"
     },
     {
       "posicao": "87th",
@@ -1388,9 +1388,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 12,
-      "dnf_pct": "6"
+      "corridas": 12,
+      "dnf": 6,
+      "dnf_pct": "50"
     },
     {
       "posicao": "88th",
@@ -1404,8 +1404,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 10,
+      "corridas": 10,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1420,8 +1420,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 8,
+      "corridas": 8,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1436,8 +1436,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 8,
+      "corridas": 8,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1452,9 +1452,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 8,
-      "dnf_pct": "1"
+      "corridas": 8,
+      "dnf": 1,
+      "dnf_pct": "12,5"
     },
     {
       "posicao": "92nd",
@@ -1468,9 +1468,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 7,
-      "dnf_pct": "3"
+      "corridas": 7,
+      "dnf": 3,
+      "dnf_pct": "42,86"
     },
     {
       "posicao": "93rd",
@@ -1484,9 +1484,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 7,
-      "dnf_pct": "1"
+      "corridas": 7,
+      "dnf": 1,
+      "dnf_pct": "14,29"
     },
     {
       "posicao": "94th",
@@ -1500,9 +1500,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 7,
-      "dnf_pct": "2"
+      "corridas": 7,
+      "dnf": 2,
+      "dnf_pct": "28,57"
     },
     {
       "posicao": "95th",
@@ -1516,8 +1516,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 6,
+      "corridas": 6,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1532,9 +1532,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 5,
-      "dnf_pct": "2"
+      "corridas": 5,
+      "dnf": 2,
+      "dnf_pct": "40"
     },
     {
       "posicao": "97th",
@@ -1548,9 +1548,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 5,
-      "dnf_pct": "1"
+      "corridas": 5,
+      "dnf": 1,
+      "dnf_pct": "20"
     },
     {
       "posicao": "98th",
@@ -1564,8 +1564,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 4,
+      "corridas": 4,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1580,9 +1580,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 4,
-      "dnf_pct": "1"
+      "corridas": 4,
+      "dnf": 1,
+      "dnf_pct": "25"
     },
     {
       "posicao": "100th",
@@ -1596,9 +1596,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 4,
-      "dnf_pct": "1"
+      "corridas": 4,
+      "dnf": 1,
+      "dnf_pct": "25"
     },
     {
       "posicao": "101st",
@@ -1612,9 +1612,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 3,
-      "dnf_pct": "1"
+      "corridas": 3,
+      "dnf": 1,
+      "dnf_pct": "33,33"
     },
     {
       "posicao": "102nd",
@@ -1628,9 +1628,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 3,
-      "dnf_pct": "1"
+      "corridas": 3,
+      "dnf": 1,
+      "dnf_pct": "33,33"
     },
     {
       "posicao": "103rd",
@@ -1644,9 +1644,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 3,
-      "dnf_pct": "1"
+      "corridas": 3,
+      "dnf": 1,
+      "dnf_pct": "33,33"
     },
     {
       "posicao": "104th",
@@ -1660,8 +1660,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 2,
+      "corridas": 2,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1676,9 +1676,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
+      "corridas": 2,
       "dnf": 2,
-      "dnf_pct": "2"
+      "dnf_pct": "100"
     },
     {
       "posicao": "106th",
@@ -1692,8 +1692,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 2,
+      "corridas": 2,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1708,8 +1708,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 2,
+      "corridas": 2,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1724,8 +1724,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 2,
+      "corridas": 2,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1740,9 +1740,9 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 2,
-      "dnf_pct": "1"
+      "corridas": 2,
+      "dnf": 1,
+      "dnf_pct": "50"
     },
     {
       "posicao": "110th",
@@ -1756,8 +1756,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 2,
+      "corridas": 2,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1772,8 +1772,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 1,
+      "corridas": 1,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1788,8 +1788,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 1,
+      "corridas": 1,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1804,8 +1804,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 1,
+      "corridas": 1,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1820,8 +1820,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 1,
+      "corridas": 1,
+      "dnf": 0,
       "dnf_pct": "0"
     },
     {
@@ -1836,8 +1836,8 @@
       "podiums": 0,
       "ppr": "0",
       "poles": 0,
-      "corridas": 0,
-      "dnf": 1,
+      "corridas": 1,
+      "dnf": 0,
       "dnf_pct": "0"
     }
   ]
