@@ -12,6 +12,28 @@
           "penalidade": "Fique atento"
         }
       ]
+    },
+    {
+      "piloto": "Fernando Foppa",
+      "total_incidentes": 1,
+      "ocorrencias": [
+        {
+          "data": "01/07/2026",
+          "incidente": "GP da Grã-Bretanha: Colisão com o carro de Lucas Medeiros jogando-o para fora da pista sem danos ao adversário.",
+          "penalidade": "Advertência Verbal"
+        }
+      ]
+    },
+    {
+      "piloto": "Joel Felipe",
+      "total_incidentes": 1,
+      "ocorrencias": [
+        {
+          "data": "02/07/2026",
+          "incidente": "GP da Grã-Bretanha: Colisão com Alex Brisant ao mudar de linha devido a um carro mais lento a sua frente.",
+          "penalidade": "Advertência Verbal"
+        }
+      ]
     }
   ]
 }

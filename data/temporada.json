@@ -200,120 +200,141 @@
       "pilotos": [
         {
           "posicao": 1,
-          "nome": "A. Brisant",
-          "foto": "imagens/pilotos/a.-brisant.jpg",
-          "pontos": 0,
+          "nome": "Paulão Henrique",
+          "foto": "imagens/pilotos/paulão-henrique.jpg",
+          "pontos": 35,
           "penalizacoes": 0
         },
         {
           "posicao": 2,
-          "nome": "J. Cicero",
-          "foto": "imagens/pilotos/j.-cicero.jpg",
-          "pontos": 0,
+          "nome": "R. Gradiador",
+          "foto": "imagens/pilotos/r.-gradiador.jpg",
+          "pontos": 30,
           "penalizacoes": 0
         },
         {
           "posicao": 3,
-          "nome": "Emerson",
-          "foto": "imagens/pilotos/emerson.jpg",
-          "pontos": 0,
+          "nome": "Rafael Antunes",
+          "foto": "imagens/pilotos/rafael-antunes.jpg",
+          "pontos": 25,
           "penalizacoes": 0
         },
         {
           "posicao": 4,
-          "nome": "Lucas Souza",
-          "foto": "imagens/pilotos/lucas-souza.jpg",
-          "pontos": 0,
+          "nome": "Edu Quintas",
+          "foto": "imagens/pilotos/edu-quintas.jpg",
+          "pontos": 22,
           "penalizacoes": 0
         },
         {
           "posicao": 5,
-          "nome": "Fel Bezerra",
-          "foto": "imagens/pilotos/fel-bezerra.jpg",
-          "pontos": 0,
+          "nome": "Deverson",
+          "foto": "imagens/pilotos/deverson.jpg",
+          "pontos": 20,
           "penalizacoes": 0
         },
         {
           "posicao": 6,
-          "nome": "R Antunes",
-          "foto": "imagens/pilotos/r-antunes.jpg",
-          "pontos": 0,
+          "nome": "Joel Felipe",
+          "foto": "imagens/pilotos/joel-felipe.jpg",
+          "pontos": 18,
           "penalizacoes": 0
         },
         {
           "posicao": 7,
-          "nome": "Gab Felipe",
-          "foto": "imagens/pilotos/gab-felipe.jpg",
-          "pontos": 0,
+          "nome": "R. Otoline",
+          "foto": "imagens/pilotos/r.-otoline.jpg",
+          "pontos": 16,
           "penalizacoes": 0
         },
         {
           "posicao": 8,
           "nome": "Pablo Dias",
           "foto": "imagens/pilotos/pablo-dias.jpg",
-          "pontos": 0,
+          "pontos": 14,
           "penalizacoes": 0
         },
         {
           "posicao": 9,
-          "nome": "Vit Martins",
-          "foto": "imagens/pilotos/vit-martins.jpg",
-          "pontos": 0,
+          "nome": "Vitor Martins",
+          "foto": "imagens/pilotos/vitor-martins.jpg",
+          "pontos": 12,
           "penalizacoes": 0
         },
         {
           "posicao": 10,
-          "nome": "Fab Lafon",
-          "foto": "imagens/pilotos/fab-lafon.jpg",
-          "pontos": 0,
+          "nome": "Kleber",
+          "foto": "imagens/pilotos/kleber.jpg",
+          "pontos": 10,
           "penalizacoes": 0
         },
         {
           "posicao": 11,
-          "nome": "R. Gladiador",
-          "foto": "imagens/pilotos/r.-gladiador.jpg",
-          "pontos": 0,
+          "nome": "Emerson Santana",
+          "foto": "imagens/pilotos/emerson-santana.jpg",
+          "pontos": 8,
           "penalizacoes": 0
         },
         {
           "posicao": 12,
-          "nome": "P. Henrique",
-          "foto": "imagens/pilotos/p.-henrique.jpg",
-          "pontos": 0,
+          "nome": "Fabio Lafon",
+          "foto": "imagens/pilotos/fabio-lafon.jpg",
+          "pontos": 6,
           "penalizacoes": 0
         },
         {
           "posicao": 13,
-          "nome": "R Panaro",
-          "foto": "imagens/pilotos/r-panaro.jpg",
-          "pontos": 0,
+          "nome": "R. Panaro",
+          "foto": "imagens/pilotos/r.-panaro.jpg",
+          "pontos": 4,
           "penalizacoes": 0
         },
         {
           "posicao": 14,
-          "nome": "Ailson Sales",
-          "foto": "imagens/pilotos/ailson-sales.jpg",
-          "pontos": 0,
+          "nome": "Dav Henrique",
+          "foto": "imagens/pilotos/dav-henrique.jpg",
+          "pontos": 2,
           "penalizacoes": 0
         },
         {
           "posicao": 15,
-          "nome": "Eduardo Quintas",
-          "foto": "imagens/pilotos/eduardo-quintas.jpg",
+          "nome": "Pablo Souza",
+          "foto": "imagens/pilotos/pablo-souza.jpg",
+          "pontos": 1,
+          "penalizacoes": 0
+        },
+        {
+          "posicao": 16,
+          "nome": "Felipe Beserra",
+          "foto": "imagens/pilotos/felipe-beserra.jpg",
           "pontos": 0,
           "penalizacoes": 0
         },
         {
           "posicao": 16,
-          "nome": "Dav Henrique",
-          "foto": "imagens/pilotos/dav-henrique.jpg",
+          "nome": "Alex Brisant",
+          "foto": "imagens/pilotos/alex-brisant.jpg",
           "pontos": 0,
           "penalizacoes": 0
         },
         {
-          "posicao": 17,
-          "nome": "Kleber",
-          "foto": "imagens/pilotos/kleber.jpg",
+          "posicao": 18,
+          "nome": "Jose Cicero",
+          "foto": "imagens/pilotos/jose-cicero.jpg",
+          "pontos": 0,
+          "penalizacoes": 0
+        },
+        {
+          "posicao": 18,
+          "nome": "Lucas Souza",
+          "foto": "imagens/pilotos/lucas-souza.jpg",
+          "pontos": 0,
+          "penalizacoes": 0
+        },
+        {
+          "posicao": 18,
+          "nome": "Ailson Sales",
+          "foto": "imagens/pilotos/ailson-sales.jpg",
           "pontos": 0,
           "penalizacoes": 0
         },
@@ -325,16 +346,9 @@
           "penalizacoes": 0
         },
         {
-          "posicao": 19,
-          "nome": "Pablo Souza",
-          "foto": "imagens/pilotos/pablo-souza.jpg",
-          "pontos": 0,
-          "penalizacoes": 0
-        },
-        {
-          "posicao": 20,
-          "nome": "Deverson",
-          "foto": "imagens/pilotos/deverson.jpg",
+          "posicao": 18,
+          "nome": "Gab. Felipe",
+          "foto": "imagens/pilotos/gab.-felipe.jpg",
           "pontos": 0,
           "penalizacoes": 0
         }
@@ -412,67 +426,67 @@
   "duplas_c": [
     {
       "posicao": 1,
-      "dupla": "A. Brisant / J.Cicero",
-      "pontos": 0,
+      "dupla": "R. Gladiador / Paulao Henrique",
+      "pontos": 65,
       "penalizacoes": 0
     },
     {
       "posicao": 2,
-      "dupla": "Emerson / Lucas Souza",
-      "pontos": 0,
+      "dupla": "Fel Beserra / Raf Antunes",
+      "pontos": 25,
       "penalizacoes": 0
     },
     {
       "posicao": 3,
-      "dupla": "F Bezerra / R Antunes",
-      "pontos": 0,
+      "dupla": "Ailson Sales / Edu Quintas",
+      "pontos": 22,
       "penalizacoes": 0
     },
     {
       "posicao": 4,
-      "dupla": "Gab Felipe / Pablo Dias",
-      "pontos": 0,
+      "dupla": "Pablo Souza / Deverson",
+      "pontos": 21,
       "penalizacoes": 0
     },
     {
       "posicao": 5,
-      "dupla": "Vit Martins / Fab Lafon",
-      "pontos": 0,
+      "dupla": "R. Panaro / R. Otoline",
+      "pontos": 20,
       "penalizacoes": 0
     },
     {
       "posicao": 6,
-      "dupla": "R. Gladiador / P. Henrique",
-      "pontos": 0,
+      "dupla": "Vitor Martins / Fabio Lafon",
+      "pontos": 18,
       "penalizacoes": 0
     },
     {
       "posicao": 7,
-      "dupla": "R Panaro /",
-      "pontos": 0,
+      "dupla": "Mario Cesar / Joel Felipe",
+      "pontos": 18,
       "penalizacoes": 0
     },
     {
       "posicao": 8,
-      "dupla": "Ailson Sales / Eduardo Quintas",
-      "pontos": 0,
+      "dupla": "Gab. Felipe / Pablo Dias",
+      "pontos": 14,
       "penalizacoes": 0
     },
     {
       "posicao": 9,
       "dupla": "Dav Henrique / Kleber",
-      "pontos": 0,
+      "pontos": 12,
       "penalizacoes": 0
     },
     {
       "posicao": 10,
-      "dupla": "Mario Cesar /",
-      "pontos": 0,
+      "dupla": "Emerson / Lucas Souza",
+      "pontos": 8,
       "penalizacoes": 0
     },
     {
       "posicao": 11,
-      "dupla": "Pablo Souza / Deverson",
+      "dupla": "Alex Brisant / Jose Cicero",
       "pontos": 0,
       "penalizacoes": 0
     }
