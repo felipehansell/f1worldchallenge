@@ -2,15 +2,15 @@
   "liga": "F1 World Challenge",
   "temporada": 28,
   "jogo": "F1 25",
-  "ultima_atualizacao": "02/07/2026",
-  "round_atual": 1,
+  "ultima_atualizacao": "03/07/2026",
+  "round_atual": 2,
   "total_rounds": 10,
-  "proxima_etapa": "Silverstone",
-  "proxima_etapa_data": "1 e 2 de Julho",
+  "proxima_etapa": "Qatar",
+  "proxima_etapa_data": "8 e 9 de Julho",
   "videos": [
     {
-      "id": "MUd7xI-n6HU",
-      "titulo": "Vem aí: Temporada 28",
+      "id": "RkDvEypaRRw",
+      "titulo": "LIVE: A F1 quer saber: E a bateria? Tá como??",
       "data": ""
     },
     {
@@ -152,7 +152,7 @@
         {
           "posicao": 7,
           "nome": "M. Albuquerque",
-          "foto": "imagens/pilotos/m.albuquerque.jpg",
+          "foto": "imagens/pilotos/m.-albuquerque.jpg",
           "pontos": 3,
           "penalizacoes": 0
         },
