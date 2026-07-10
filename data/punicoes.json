@@ -15,12 +15,17 @@
     },
     {
       "piloto": "Fernando Foppa",
-      "total_incidentes": 1,
+      "total_incidentes": 2,
       "ocorrencias": [
         {
           "data": "01/07/2026",
           "incidente": "GP da Grã-Bretanha: Colisão com o carro de Lucas Medeiros jogando-o para fora da pista sem danos ao adversário.",
           "penalidade": "Advertência Verbal"
+        },
+        {
+          "data": "8/7/2026",
+          "incidente": "AV no GP do Qatar (Segundo) -3 pts. Acidente com Bruninho",
+          "penalidade": "-3 pontos"
         }
       ]
     },
