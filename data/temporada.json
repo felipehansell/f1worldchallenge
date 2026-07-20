@@ -39,62 +39,55 @@
         },
         {
           "posicao": 2,
-          "nome": "Marco Magiolo",
-          "foto": "imagens/pilotos/marco-magiolo.jpg",
-          "pontos": 23,
-          "penalizacoes": 0
-        },
-        {
-          "posicao": 3,
           "nome": "Felipe Hansell",
           "foto": "imagens/pilotos/felipe-hansell.jpg",
           "pontos": 20,
           "penalizacoes": 0
         },
         {
-          "posicao": 4,
+          "posicao": 3,
           "nome": "Daniel Sylva",
           "foto": "imagens/pilotos/daniel-sylva.jpg",
           "pontos": 17,
           "penalizacoes": 0
         },
         {
-          "posicao": 5,
+          "posicao": 4,
           "nome": "Hebert Felipe",
           "foto": "imagens/pilotos/hebert-felipe.jpg",
           "pontos": 13,
           "penalizacoes": 0
         },
         {
-          "posicao": 6,
+          "posicao": 5,
           "nome": "Rafael Lavacar",
           "foto": "imagens/pilotos/rafael-lavacar.jpg",
           "pontos": 13,
           "penalizacoes": 0
         },
         {
-          "posicao": 7,
+          "posicao": 6,
           "nome": "Carlos Eduardo",
           "foto": "imagens/pilotos/carlos-eduardo.jpg",
           "pontos": 11,
           "penalizacoes": 0
         },
         {
-          "posicao": 8,
+          "posicao": 7,
           "nome": "Fernando Foppa",
           "foto": "imagens/pilotos/fernando-foppa.jpg",
           "pontos": 9,
           "penalizacoes": -3
         },
         {
-          "posicao": 9,
+          "posicao": 8,
           "nome": "Thiago Campola",
           "foto": "imagens/pilotos/thiago-campola.jpg",
           "pontos": 7,
           "penalizacoes": 0
         },
         {
-          "posicao": 10,
+          "posicao": 9,
           "nome": "Wilsinho Tozzi",
           "foto": "imagens/pilotos/wilsinho-tozzi.jpg",
           "pontos": 0,
@@ -342,7 +335,7 @@
     },
     {
       "posicao": 3,
-      "dupla": "Marco Magiolo / Rafael Lavacar",
+      "dupla": "/ Rafael Lavacar",
       "pontos": 36,
       "penalizacoes": 0
     },
