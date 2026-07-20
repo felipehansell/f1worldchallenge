@@ -39,6 +39,17 @@
           "penalidade": "Advertência Verbal"
         }
       ]
+    },
+    {
+      "piloto": "Hebert Felipe",
+      "total_incidentes": 1,
+      "ocorrencias": [
+        {
+          "data": "15/07/2026",
+          "incidente": "AV no GP da Belgica, acidente com Carlos Eduardo",
+          "penalidade": "Advertência Verbal"
+        }
+      ]
     }
   ]
 }
